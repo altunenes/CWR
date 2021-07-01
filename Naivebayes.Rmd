@@ -2,7 +2,9 @@
 title: "Bayesian Decision Theory"
 author: "enes altun"
 date: "6/30/2021"
-output: html_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
