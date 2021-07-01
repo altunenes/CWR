@@ -1,0 +1,130 @@
+---
+title: "Bayesian Decision Theory"
+author: "enes altun"
+date: "6/30/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Naive Bayes Classification
+
+Simply, bayesian theory is a process of reviewing other possibilities. For example, suppose we want to go to the outside. In this scenario, If we see the dark clouds in the sky after the first step into the outside, we "probably" go back and take the umbrella after reviewing for the probability of rain. So in this case, the previously assigned low probability for rain situation has been revised and a much higher probability value has been assigned to the rain probability with the appearance of clouds. In conclusion, we went to take the umbrella.
+
+Naive Bayes Classifier is a method for the making classification in Bayes Theorem. It basically calculate the all probablities and it classifies by the high probablitiy values. Suppose we have a dataset called X; and we don't know the X's classification. Suppose X={X1,X2,X3,...Xn} and suppose this data has C1,C2....Cm number of class. Now the formula for the determining of classification is
+
+$$P(C\X)= P(X\Ci).P(Ci)\P(X) $$
+
+Now let's show this classifier as the code. First, I would like to create a datasets where included nothing by number values. Suppose we are trying to build a dataset of environmental conditions that can determine whether an animal will survive or not.
+
+```{r}
+
+#for weather
+df<-data.frame(
+  
+  Summary=sample(c("sunny","rainy","other"),size = 1000,replace = T)
+)
+
+# Let's make our data realistic.
+
+for (i in which(df$Summary=="sunny")) {
+
+    df$Temperature[i]<-"hot"
+
+}
+
+for (i in which(df$Summary=="rainy")) {
+
+    df$Temperature[i]<-"cold"
+
+}
+
+for (i in which(df$Summary=="other")) {
+
+    df$Temperature[i]<-"mild"
+
+}
+
+
+
+
+
+```
+
+```{r}
+#other independent variables
+df$wind<-sample(c("strong","weak"),size=1000,replace = T)
+df$predators<-sample(c("high","low"),size=1000,replace = T)
+
+```
+
+```{r}
+#dependent variable
+df$live<-sample(c("yes","no"),size=1000,replace = T)
+```
+
+We need those libraries for the further analysis
+
+```{r}
+library(caret)
+library(e1071)
+library(caTools)
+
+```
+
+We could use those functions in order to split our data set for test and train data set.
+
+```{r}
+sample<-sample.split(df,SplitRatio = 0.75)
+train<-subset(df,sample==TRUE)
+test<-subset(df,sample==FALSE)
+```
+
+Note: We could have done this task without using any function.But note that, your dataset must be randomized and not arranged or sorted by any variable.
+
+After this, now we can build our model. We will use e1071 library for this task. I assigned the "live" value as the dependent variable and all other columns will be the independent variable.
+
+```{r}
+model<-naiveBayes(live~.,data=train)
+model
+```
+
+Above, each feature or variable's conditional probability is calculated individually by the model. The apriori probabilities are also produced, which show how our data is distributed. As we can see, the apriori probability of the animal's survival is %51. And another section of our model is "Conditional probabilities" which give us probabilities of animal surviving by depending on other variables; for example, if there is a the high density of predators our animal's chance of living is %50.
+
+Now we can use our model and data for the prediction. In this way, we can test our model' prediction accuracy.
+
+```{r}
+pred<-predict(model,test)
+
+```
+
+```{r}
+table(pred)
+table(test$live)
+```
+
+In above, It is seen that 256 records in the prediction, are estimated as "Yes" and 144 as "No". On the other hand, in test data, 196 records are in the "yes" and 204 records are in the "no" class.
+
+```{r}
+#confusion matrix
+table(test$live,pred)
+```
+
+Now we can calculate our model's accuracy. The result has shown that our model prediction accuracy is %50 in other words, our model classification percent is 50.
+
+```{r}
+
+acc<-((75+127)/(75+129+127+69))
+acc
+
+```
+
+Model evaluation with function:
+
+Below, we can see the accuracy which we already calculated in traditional ways. In addition, there is a Kappa Value which returns the ratio of similarity between predicted and actual values. We want high values near to 1 as much as possible but since we generate our data in random conditions, the low value of kappa not surprising.
+
+```{r}
+confusionMatrix(as.factor(test$live),pred)
+```
