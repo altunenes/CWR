@@ -171,12 +171,12 @@ pre code {
 </div>
 
 
-<div id="naive-bayes-classification" class="section level2">
-<h2>Naive Bayes Classification</h2>
+<div id="naive-bayes-classifier" class="section level2">
+<h2>Naive Bayes classifier</h2>
 <p>Simply, bayesian theory is a process of reviewing other possibilities. For example, suppose we want to go to the outside. In this scenario, If we see the dark clouds in the sky after the first step into the outside, we “probably” go back and take the umbrella after reviewing for the probability of rain. So in this case, the previously assigned low probability for rain situation has been revised and a much higher probability value has been assigned to the rain probability with the appearance of clouds. In conclusion, we went to take the umbrella.</p>
-<p>Naive Bayes Classifier is a method for the making classification in Bayes Theorem. It basically calculate the all probablities and it classifies by the high probablitiy values. Suppose we have a dataset called X; and we don’t know the X’s classification. Suppose X={X1,X2,X3,…Xn} and suppose this data has C1,C2….Cm number of class. Now the formula for the determining of classification is</p>
-<p><span class="math display">\[P(C\X)= P(X\Ci).P(Ci)\P(X) \]</span></p>
-<p>Now let’s show this classifier as the code. First, I would like to create a datasets where included nothing by number values. Suppose we are trying to build a dataset of environmental conditions that can determine whether an animal will survive or not.</p>
+<p>Naive Bayes Classifier is a method for the making classification in Bayes Theorem. It basically calculate the all probabilities and it classifies by the high probability values. Suppose we have a data set which called X; and we don’t know the X’s classification. Suppose X={X1,X2,X3,…Xn} and suppose this data has number of class: C1,C2….Cm . Now the mathematical formula for the determining of classification is</p>
+<p><span class="math display">\[P(C/X)= P(X/Ci).P(Ci)/P(X) \]</span></p>
+<p>Now let’s show this classifier as the code. First, I would like to create a data set where included nothing but random values. Suppose we are trying to build a data set of environmental conditions that can determine whether an animal will survive or not. In this case, our “live” variable which has included “yes” or “no” values will be our dependent variable all other variables will be eventually independent variables. You can change those variable names or given values it depends on your imagination. For now, let’s continue.</p>
 <pre class="r"><code>#for weather
 df&lt;-data.frame(
   
@@ -229,36 +229,36 @@ model</code></pre>
 ## 
 ## A-priori probabilities:
 ## Y
-##   no  yes 
-## 0.52 0.48 
+##        no       yes 
+## 0.5333333 0.4666667 
 ## 
 ## Conditional probabilities:
 ##      Summary
 ## Y         other     rainy     sunny
-##   no  0.3173077 0.2788462 0.4038462
-##   yes 0.3576389 0.3263889 0.3159722
+##   no  0.3125000 0.3281250 0.3593750
+##   yes 0.3142857 0.3500000 0.3357143
 ## 
 ##      Temperature
 ## Y          cold       hot      mild
-##   no  0.2788462 0.4038462 0.3173077
-##   yes 0.3263889 0.3159722 0.3576389
+##   no  0.3281250 0.3593750 0.3125000
+##   yes 0.3500000 0.3357143 0.3142857
 ## 
 ##      wind
 ## Y        strong      weak
-##   no  0.4903846 0.5096154
-##   yes 0.4861111 0.5138889
+##   no  0.4968750 0.5031250
+##   yes 0.5071429 0.4928571
 ## 
 ##      predators
 ## Y          high       low
-##   no  0.5256410 0.4743590
-##   yes 0.5034722 0.4965278</code></pre>
+##   no  0.5125000 0.4875000
+##   yes 0.5107143 0.4892857</code></pre>
 <p>Above, each feature or variable’s conditional probability is calculated individually by the model. The apriori probabilities are also produced, which show how our data is distributed. As we can see, the apriori probability of the animal’s survival is %51. And another section of our model is “Conditional probabilities” which give us probabilities of animal surviving by depending on other variables; for example, if there is a the high density of predators our animal’s chance of living is %50.</p>
 <p>Now we can use our model and data for the prediction. In this way, we can test our model’ prediction accuracy.</p>
 <pre class="r"><code>pred&lt;-predict(model,test)</code></pre>
 <pre class="r"><code>table(pred)</code></pre>
 <pre><code>## pred
 ##  no yes 
-## 138 262</code></pre>
+## 328  72</code></pre>
 <pre class="r"><code>table(test$live)</code></pre>
 <pre><code>## 
 ##  no yes 
@@ -268,8 +268,8 @@ model</code></pre>
 table(test$live,pred)</code></pre>
 <pre><code>##      pred
 ##        no yes
-##   no   81 124
-##   yes  57 138</code></pre>
+##   no  164  41
+##   yes 164  31</code></pre>
 <p>Now we can calculate our model’s accuracy. The result has shown that our model prediction accuracy is %50 in other words, our model classification percent is 50.</p>
 <pre class="r"><code>acc&lt;-((75+127)/(75+129+127+69))
 acc</code></pre>
@@ -281,28 +281,28 @@ acc</code></pre>
 ## 
 ##           Reference
 ## Prediction  no yes
-##        no   81 124
-##        yes  57 138
-##                                          
-##                Accuracy : 0.5475         
-##                  95% CI : (0.4973, 0.597)
-##     No Information Rate : 0.655          
-##     P-Value [Acc &gt; NIR] : 1              
-##                                          
-##                   Kappa : 0.102          
-##                                          
-##  Mcnemar&#39;s Test P-Value : 9.308e-07      
-##                                          
-##             Sensitivity : 0.5870         
-##             Specificity : 0.5267         
-##          Pos Pred Value : 0.3951         
-##          Neg Pred Value : 0.7077         
-##              Prevalence : 0.3450         
-##          Detection Rate : 0.2025         
-##    Detection Prevalence : 0.5125         
-##       Balanced Accuracy : 0.5568         
-##                                          
-##        &#39;Positive&#39; Class : no             
+##        no  164  41
+##        yes 164  31
+##                                           
+##                Accuracy : 0.4875          
+##                  95% CI : (0.4375, 0.5377)
+##     No Information Rate : 0.82            
+##     P-Value [Acc &gt; NIR] : 1               
+##                                           
+##                   Kappa : -0.0417         
+##                                           
+##  Mcnemar&#39;s Test P-Value : &lt;2e-16          
+##                                           
+##             Sensitivity : 0.5000          
+##             Specificity : 0.4306          
+##          Pos Pred Value : 0.8000          
+##          Neg Pred Value : 0.1590          
+##              Prevalence : 0.8200          
+##          Detection Rate : 0.4100          
+##    Detection Prevalence : 0.5125          
+##       Balanced Accuracy : 0.4653          
+##                                           
+##        &#39;Positive&#39; Class : no              
 ## </code></pre>
 </div>
 

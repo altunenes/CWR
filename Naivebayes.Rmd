@@ -9,15 +9,16 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Naive Bayes Classification
+## Naive Bayes classifier
 
 Simply, bayesian theory is a process of reviewing other possibilities. For example, suppose we want to go to the outside. In this scenario, If we see the dark clouds in the sky after the first step into the outside, we "probably" go back and take the umbrella after reviewing for the probability of rain. So in this case, the previously assigned low probability for rain situation has been revised and a much higher probability value has been assigned to the rain probability with the appearance of clouds. In conclusion, we went to take the umbrella.
 
-Naive Bayes Classifier is a method for the making classification in Bayes Theorem. It basically calculate the all probablities and it classifies by the high probablitiy values. Suppose we have a dataset called X; and we don't know the X's classification. Suppose X={X1,X2,X3,...Xn} and suppose this data has C1,C2....Cm number of class. Now the formula for the determining of classification is
+Naive Bayes Classifier is a method for the making classification in Bayes Theorem. It basically calculate the all probabilities and it classifies by the high probability values. Suppose we have a data set which called X; and we don't know the X's classification. Suppose X={X1,X2,X3,...Xn} and suppose this data has number of class: C1,C2....Cm . Now the mathematical formula for the determining of classification is
 
-$$P(C\X)= P(X\Ci).P(Ci)\P(X) $$
+$$P(C/X)= P(X/Ci).P(Ci)/P(X) $$
 
-Now let's show this classifier as the code. First, I would like to create a datasets where included nothing by number values. Suppose we are trying to build a dataset of environmental conditions that can determine whether an animal will survive or not.
+
+Now let's show this classifier as the code. First, I would like to create a data set where included nothing but random values. Suppose we are trying to build a data set of environmental conditions that can determine whether an animal will survive or not. In this case, our "live" variable which has included "yes" or "no" values will be our dependent variable all other variables will be eventually independent variables.  You can change those variable names or given values it depends on your imagination. For now, let's continue.
 
 ```{r}
 
