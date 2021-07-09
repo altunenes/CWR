@@ -8,3 +8,5 @@ Hearthstone data exploring: https://emportent.github.io/CWR/hearthstonee
 
 https://emportent.github.io/CWR/Naivebayes
 
+2- KNN 
+https://emportent.github.io/CWR/knn
