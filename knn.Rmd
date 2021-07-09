@@ -1,0 +1,172 @@
+---
+title: "application of k-nearest neighbors"
+author: "enes altun"
+date: "7/8/2021"
+output: html_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Abstract
+
+The K-means algorithm is one of the most well-known group analysis techniques. Because the sum of squared deviations from centroid equals the sum of pairwise squared Euclidean distances divided by the number of points, K-Means is implicitly based on pairwise Euclidean distances between data points. The squared Euclidean distance is the default distance metric, however additional distance measurements can be utilized as well for example minkowski, manhattan etc. R is using Euclidean distance in default. The general approach with this algorithm is to assign observations with similar "characteristics" to the same class. If you more interested behind math of this algorithm I suggest you to read [this](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html).
+
+The advantages of the K-means algorithm over other algorithms led to its selection: easy to implement, works with large databases, guarantees convergence, quick centroids initialization, and adapts to new samples with ease.
+
+But what about KNN which stands for K nearest algoritm? Remember that, while K-means is using for "clustering" problems KNN is using for the classification problems. *K-means* clustering **is an unsupervised** clustering approach, whereas *KNN* is a **supervised learning algorithm** used for **classification**.
+
+Some authors described the knn as a "lazy" algorithm, but in the meantime, they have described it as very successful overcoming in real world problems [@deng2016]. In comparison to KNN, Bayesian, decision tree, and random forest, these classification algorithms' learning success is dependent on manual parameter tweaking @bian2020.
+
+Since I have no expertise behind the math of this algorithm I don't want to go further so I will prefer to explain it by code and explain you step by step.
+
+We will use the iris data set which is widely known. In this data set, we have three different species (setosa,, Versicolor and virginica). With the other features that have been given by the iris data set, we will try to classify these three different species correctly.
+
+Now let's start with the first step. If you are not familiar with this dataset, let's look quickly at all column names and their' variable types:
+
+```{r}
+
+head(iris,n=3)
+```
+
+We looked to first three row of each column. We will use those length and width values. But since we looked to only 3 rows in each column, we don't clearly see how many unique variables that we have in species column. Now let's look at it:
+
+```{r}
+library(tidyverse)
+iris %>% select(Species)%>%distinct()
+
+```
+
+We have 3 unique variables in Species column. But how many species we have for each?
+
+```{r}
+iris%>%group_by(Species)%>%count()
+```
+
+Ok, we have equal numbers of setosa, versicolor and virginica. Now you may ask -as I do- how many samples required for conducting a k-means analysis. Unfortunately there is no single agreement about sample size.
+
+# Scaling:
+
+Someone may think that we don't need such a scaling process for this dataset but from what I learned before I really would like to say that standardization of data is an important step of data preprocessing. According to this paper [Bottou, 1994](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.3258&rep=rep1&type=pdf) (just jump into the conclusion section), preprocessing data for the clustering analysis improve the model. And I must mention that we are not going to run a "clustering" analysis we are working with a "classification problem".
+
+So I will show you a three method for the scaling process, you could take one of those.
+
+1- You could create a data frame and add variables into one by one like bellow:
+
+```{r}
+# for create a data frame and scale columns one by one...
+newdatascaled<-data.frame(sp.l=(iris$Sepal.Length-mean(iris$Sepal.Length))/sd(iris$Sepal.Length)
+#,sp.wi= $$$same process above$$$
+  # andso on...
+)
+```
+
+2- Or you could do this with caret package:
+
+```{r}
+library(caret)
+test<-iris
+scaled_iris<-preProcess(test,method = c("center","scale"))
+```
+
+3- Or you could do this with my cool function: (recommended)
+
+```{r}
+#my favorite way:
+
+coolfunction <- function(x) {
+  (x-mean(x))/sd(x)}
+#Removing chr column to avoid errors
+iris2<-iris[,-which(names(iris)=="Species")]
+iris2<-apply(iris2, 2, FUN =coolfunction)
+#apply returned a matrix so I converted it into the data frame, and in the last step, I added the Species.
+iris2<-as.data.frame(iris2)
+iris2$Species<-iris$Species
+```
+
+Now let's look at our "normalized" values:
+
+```{r}
+library(kableExtra)
+head(iris2,n=3)%>%kable(digits = 3,format = "pandoc")
+
+```
+
+# Sampling
+
+So our data set is ready and we will use "iris2". Next step will be sampling process. We need to do this since k-means suffers from over-fitting problem. I gave you 3 methods again, choice free, I will use the first method.
+
+```{r}
+library(caTools)
+set.seed(123)
+sample<-sample.split(iris2,SplitRatio = 0.4)
+train<-subset(iris2,sample==T)
+test<-subset(iris2,sample==F)
+
+# set.seed(123)
+# trainindex<-sample(1:nrow(iris2),size=0.4*nrow(iris2))
+# train3<-iris2[trainindex,]
+# test3<-iris2[-trainindex,]
+
+# set.seed(123)
+# sample2<-createDataPartition(iris2$Species,p=0.4,list = F,times = 1)
+# train2<-iris2[sample2,]
+# test2<-iris2[-sample2,]
+```
+
+In next step we need the cross validation values. I choose 10 for number of repeats however, a recent article recommend that we should use it as 100 ( see: [@fränti2019]). With number 10, we are going to use a 10-fold cross validation. With this process we could determine the best k values.
+
+```{r}
+fit_control<-trainControl(method = "repeatedcv",number = 10,
+                                   repeats=10)
+set.seed(123)
+model<-caret::train(Species~.,data=train,method="knn",trControl=fit_control,tuneGrid=expand.grid(k=1:20))
+
+model
+```
+
+```{r}
+plot(model)
+```
+
+OK what we did above with the "train" function: First we give our group variable which is the Species and all other columns into the function (\~.). With data=train we pointed our train dataset; next, with "method=knn", we have chosen the k-mean algorithm, with "trControl=fit_control" we give our cross-validation information, and lastly with "tuneGrid=expand.grid(k=1:20)" we will extract the best k values.
+
+In the bellow of this function, we see our model. From this model, we have 3 col names: k, accuracy, and Kappa. K is our neighbors; Accuracies showing classification success and Kappa values showing test interrater reliability.
+
+According to this explanation, we could select k as 1 or 2. If we select k=2; our accuracy will be %96 with %94 kappa value. According to Cohen, Kappa \> .9 indicates that model is almost perfect than expected by chance.
+
+So I've chosen the k value as 2. Now we are in the last step. We will train our model with the selected k value which is 2. For this analysis, we will use the "knn" function from the class package. You don't need to install it since it comes with the core R, but you have to import it.
+
+We will give the "knn" function arguments. Train and test indicate that our train and test data. "cl" needs class information and the lastly k is our total number of neighbors. With the confusion matrix from the caret package, we will print out the error matrix and accuracy rates.
+
+```{r}
+# With slicing [,1:4]; we don't want to species column
+library(class)
+set.seed(4)
+modelknn<-knn(train=train[,1:4],test = test[,1:4],cl=train$Species,k=2)
+confusionMatrix(test$Species,modelknn)
+```
+
+At the above, error matrix has shown that while values that belong to the setosa and Versicolor classes have assigned correctly with %100 rates however there is 4 observation in Virginia wrongly classified in the Versicolor class. Lastly, accuracy and kappa values are pretty high as we wanted.
+
+# Visualization of Knn
+
+```{r}
+
+library(plyr)
+
+plot.df = data.frame(test[,1:4], predicted = modelknn)
+plot.df1 = data.frame(x = plot.df$Sepal.Length, 
+                      y = plot.df$Sepal.Width, 
+                      predicted = plot.df$predicted)
+
+find_hull = function(df) df[chull(df$x, df$y), ]
+boundary = ddply(plot.df1, .variables = "predicted", .fun = find_hull)
+
+ggplot(plot.df, aes(Sepal.Length, Sepal.Width, color = predicted, fill = predicted)) + 
+  geom_point(size = 5) + 
+  geom_polygon(data = boundary, aes(x,y), alpha = 0.5)
+
+```
