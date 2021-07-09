@@ -16,7 +16,7 @@ The K-means algorithm is one of the most well-known group analysis techniques. B
 
 The advantages of the K-means algorithm over other algorithms led to its selection: easy to implement, works with large databases, guarantees convergence, quick centroids initialization, and adapts to new samples with ease.
 
-But what about KNN which stands for K nearest algoritm? Remember that, while K-means is using for "clustering" problems KNN is using for the classification problems. *K-means* clustering **is an unsupervised** clustering approach, whereas *KNN* is a **supervised learning algorithm** used for **classification**.
+But what about KNN which stands for K nearest algorithm? Remember that, while K-means is using for "clustering" problems KNN is using for the classification problems. *K-means* clustering **is an unsupervised** clustering approach, whereas *KNN* is a **supervised learning algorithm** used for **classification**.
 
 Some authors described the knn as a "lazy" algorithm, but in the meantime, they have described it as very successful overcoming in real world problems [@deng2016]. In comparison to KNN, Bayesian, decision tree, and random forest, these classification algorithms' learning success is dependent on manual parameter tweaking @bian2020.
 
@@ -135,7 +135,7 @@ OK what we did above with the "train" function: First we give our group variable
 
 In the bellow of this function, we see our model. From this model, we have 3 col names: k, accuracy, and Kappa. K is our neighbors; Accuracies showing classification success and Kappa values showing test interrater reliability.
 
-According to this explanation, we could select k as 1 or 2. If we select k=2; our accuracy will be %96 with %94 kappa value. According to Cohen, Kappa \> .9 indicates that model is almost perfect than expected by chance.
+According to this explanation, we could select k as 1 or 2. If we select k=2; our accuracy will be %96 with %94 kappa value. According to Cohen, Kappa \> .9 indicates that the model is almost perfect than expected by chance.
 
 So I've chosen the k value as 2. Now we are in the last step. We will train our model with the selected k value which is 2. For this analysis, we will use the "knn" function from the class package. You don't need to install it since it comes with the core R, but you have to import it.
 
