@@ -273,7 +273,7 @@ library(tidyverse)</code></pre>
 <p>In the above, as you can see our range is between 18 to 36. While Matt Dixon has designed 36 cards, Jakub Kasper has contributed the 18 card design.(if you count artist numbers, there are 11 artists since Dave and Jakup has the same amount of cards)</p>
 <pre class="r"><code>artists_10&lt;-hearthstone_standard_cards%&gt;%group_by(artistName)%&gt;%mutate(freq=n())%&gt;%ungroup()%&gt;%
   filter(freq&gt;17)%&gt;%select(-freq)</code></pre>
-<p>After this basic filtering, now we can do some analysis. Our first question is “are there any connection between the mana costs and its’ card designers” more clearliy does are there any particular pattern for Artists that contribute the card desing depend on card’ mana cost.</p>
+<p>After this basic filtering, now we can do some analysis. Our first question is “are there any connection between the mana costs and its’ card designers” more clearly: Is there any particular pattern for Artists that contribute to the card design depends on the card’s mana cost?</p>
 <pre class="r"><code>artistmana&lt;-artists_10%&gt;%select(artistName,manaCost)%&gt;%group_by(artistName)%&gt;%
   summarise(n=n(),mean_mana=mean(manaCost))%&gt;%arrange(desc(n,mean_mana))</code></pre>
 <pre class="r"><code>artistmana%&gt;%kable(digits = 1,format = &quot;pandoc&quot;,caption=&quot;Top 10 Artists&quot;)</code></pre>
@@ -342,13 +342,9 @@ library(tidyverse)</code></pre>
 <td align="right">18</td>
 <td align="right">3.2</td>
 </tr>
-<tr class="even">
-<td align="left">As we can see above, the</td>
-<td align="right">mean</td>
-<td align="right">values are close to each other in general. But given this dataset, it looks like Alex Horley is much more attended to designed in the high mana cost cards. We could have created an ANOVA model the compare those values in order to test the significance. However, as you can see our sample size is too low. For that reason, I just conducted a simple t-test for showing you how this process may works. As you can see below, it’s statistically not significant.</td>
-</tr>
 </tbody>
 </table>
+<p>As we can see above, the mean values are close to each other in general. But given this dataset, it looks like Alex Horley is much more attended to designed in the high mana cost cards. We could have created an ANOVA model the compare those values in order to test the significance. However, as you can see our sample size is too low. For that reason, I just conducted a simple t-test for showing you how this process may works. As you can see below, it’s statistically not significant.</p>
 <pre class="r"><code>t.test(artists_10$manaCost[artists_10$artistName==&quot;Matt Dixon&quot;],artists_10$manaCost[artists_10$artistName==&quot;Ivan Fomin&quot;])</code></pre>
 <pre><code>## 
 ##  Welch Two Sample t-test
@@ -548,7 +544,7 @@ res.aov</code></pre>
 ##  replicates)
 ## 
 ## data:  heroes$artistName == &quot;Alex Horley Orlandelli&quot; and heroes$classId
-## X-squared = 12.977, df = NA, p-value = 0.2334</code></pre>
+## X-squared = 12.977, df = NA, p-value = 0.2099</code></pre>
 <p>Due to the small cell sizes, all estimates will be inaccurate. It could be better to just use logistic regression or naive Bayes. But for now, it’s not a good idea to conduct such analyzing methods with this dataset. (I conducted for predicting artist names through the card rarities. But trust me, accuracy and Kappa values were too low even after the model fitting implementations)</p>
 </div>
 

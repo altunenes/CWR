@@ -54,7 +54,7 @@ artists_10<-hearthstone_standard_cards%>%group_by(artistName)%>%mutate(freq=n())
   filter(freq>17)%>%select(-freq)
 ```
 
-After this basic filtering, now we can do some analysis. Our first question is "are there any connection between the mana costs and its' card designers" more clearliy does are there any particular pattern for Artists that contribute the card desing depend on card' mana cost.
+After this basic filtering, now we can do some analysis. Our first question is "are there any connection between the mana costs and its' card designers" more clearly: Is there any particular pattern for Artists that contribute to the card design depends on the card's mana cost?
 
 ```{r}
 artistmana<-artists_10%>%select(artistName,manaCost)%>%group_by(artistName)%>%
@@ -65,24 +65,20 @@ artistmana<-artists_10%>%select(artistName,manaCost)%>%group_by(artistName)%>%
 ```{r}
 artistmana%>%kable(digits = 1,format = "pandoc",caption="Top 10 Artists")
 ```
-As we can see above, the mean values are close to each other in general. But given this dataset, it looks like Alex Horley is much more attended to designed in the high mana cost cards. We could have created an ANOVA model the compare those values in order to test the significance. However, as you can see our sample size is too low. For that reason, I just conducted a simple t-test for showing you how this process may works. As you can see below, it's statistically not significant.
 
+As we can see above, the mean values are close to each other in general. But given this dataset, it looks like Alex Horley is much more attended to designed in the high mana cost cards. We could have created an ANOVA model the compare those values in order to test the significance. However, as you can see our sample size is too low. For that reason, I just conducted a simple t-test for showing you how this process may works. As you can see below, it's statistically not significant.
 
 ```{r}
 t.test(artists_10$manaCost[artists_10$artistName=="Matt Dixon"],artists_10$manaCost[artists_10$artistName=="Ivan Fomin"])
 ```
 
-
-Okay, what about the minion attacks and health powers? Since Alex Horley is more involved to design high mana cost cards it's not a surprise to see the mean of attacks and hps are high for that artist. In contrast, Arthur Bozonnet is more likely to designed cards that low minion attacks and hp since he is designed the lesser mana cost cards. 
-
+Okay, what about the minion attacks and health powers? Since Alex Horley is more involved to design high mana cost cards it's not a surprise to see the mean of attacks and hps are high for that artist. In contrast, Arthur Bozonnet is more likely to designed cards that low minion attacks and hp since he is designed the lesser mana cost cards.
 
 ```{r}
 artists_10%>%select(artistName,cardTypeId,attack,health)%>%group_by(artistName)%>%filter(cardTypeId=="4")%>% summarise(MeanAttack=mean(attack),meanHP=mean(health))%>%kable(digits = 1,format = "pandoc",caption="Top 10 Artists")
 ```
 
-
-In sum, attacks or health more likely to depend on the mana cost. Note that, in hearthstone, there are minions that have high attack power or high healths even with the low mana cost. 
-
+In sum, attacks or health more likely to depend on the mana cost. Note that, in hearthstone, there are minions that have high attack power or high healths even with the low mana cost.
 
 Now, let's look at card rarities. In Hearthstone, there is 5 type of cards: free cards which are given by freely in-game and others which is the card types that you can only earn them with opening packs or gaining some achievements in-game. Our question is "is there a connection between the card rarity and its designers?" in other words (It's hard to describe in one phrase lol) is there an artist who is involved to design more in the legendary types of cards or common etc.
 
@@ -98,17 +94,16 @@ rarity$rarityId<-gsub("5","legendary",rarity$rarityId)
 
 
 ```
+
 ```{r}
 table(rarity)%>%kable(digits = 1,format = "pandoc",caption="Card Types by Artists")
 ```
-
 
 ```{r}
 ggplot(rarity,aes(artistName,..count..))+geom_bar(aes(fill=rarityId),position="dodge")
 ```
 
 Legendary cards which are the most unique cards and the most important-gamechanger cards in the game are designed more by Alex Horley. Now let's look for the class cards. In Hearthstone, there are 10 heroes which have unique hero power and special cards. Now let's examine if artists involved more likely to design cards for the specific hero or not.
-
 
 ```{r}
 heroes<-artists_10%>%select(artistName,classId)
@@ -123,14 +118,10 @@ ggplot(heroes,aes(artistName,..count..))+geom_bar(aes(fill=classId),position="do
 
 Above we can clearly see that Alex Horley the person who designed the largest amount of legendary cards is also contributed more likely to neutral cards which can be used with any hero. But note that, we can see the all artists are involved more in designing neutral class cards. We could do different chi-squared tests to look at probabilistic results. But for now, I will conduct only for Alex Horleywho designed the largest number of "legendary" cards. chi-squared results show that there are no significance results.
 
-
 ```{r}
 res.aov <- chisq.test(heroes$artistName=="Alex Horley Orlandelli",heroes$classId, simulate.p.value = TRUE)
 res.aov
 
 ```
 
-Due to the small cell sizes, all estimates will be inaccurate. It could be better to just use logistic regression or naive Bayes.  But for now, it's not a good idea to conduct such analyzing methods with this dataset. (I conducted for predicting artist names through the card rarities. But trust me, accuracy and Kappa values were too low even after the model fitting implementations)
- 
-
-
+Due to the small cell sizes, all estimates will be inaccurate. It could be better to just use logistic regression or naive Bayes. But for now, it's not a good idea to conduct such analyzing methods with this dataset. (I conducted for predicting artist names through the card rarities. But trust me, accuracy and Kappa values were too low even after the model fitting implementations)
