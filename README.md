@@ -1,3 +1,5 @@
+[![Jekyll site CI](https://github.com/emportent/CWR/actions/workflows/jekyll.yml/badge.svg)](https://github.com/emportent/CWR/actions/workflows/jekyll.yml)
+
 # CWR
 Classification Algorithms with R
 
