@@ -6,16 +6,16 @@ Classification Algorithms with R
 
 
 1- Naive Bayes: 
-
 https://altunenes.github.io/CWR/Naivebayes
+
 
 2- KNN 
 https://altunenes.github.io/CWR/knn
 
-3-
+3-Drugs with KNN
 https://altunenes.github.io/CWR/KNN_drugs
 
 
-4-SWM
+4-prediction of Pain with SWM 
 https://altunenes.github.io/CWR/SVM
 
