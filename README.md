@@ -7,8 +7,15 @@ Classification Algorithms with R
 
 1- Naive Bayes: 
 
-https://emportent.github.io/CWR/Naivebayes
+https://altunenes.github.io/CWR/Naivebayes
 
 2- KNN 
-https://emportent.github.io/CWR/knn
+https://altunenes.github.io/CWR/knn
+
+3-
+https://altunenes.github.io/CWR/KNN_drugs
+
+
+4-SWM
+https://altunenes.github.io/CWR/SVM
 
