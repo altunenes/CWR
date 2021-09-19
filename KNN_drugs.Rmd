@@ -1,0 +1,140 @@
+---
+title: "KNN Application"
+author: "enes altun"
+date: "9/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## KNN APPLICATION FOR DRUG CLASSIFICATION
+
+You can download data from here: <https://www.kaggle.com/prathamtripathi/drug-classification>
+
+```{r}
+library(tidyverse)
+df <- read_csv("drug200.csv")
+
+```
+
+```{r pressure, echo=FALSE}
+
+```
+
+```{r}
+# looking for NAs
+apply(is.na(df), 2, sum)
+```
+
+**Visualization of target variable** :
+
+```{r}
+t <- table(df$Drug)
+t <- as.data.frame(t)
+colnames(t) <- c("Drug","count")
+ggplot(t, aes(x=Drug, y=count, fill=Drug)) +
+geom_bar(stat="identity", color="black") +
+theme_minimal() +
+geom_text(aes(label=count), vjust=-0.6, size=6) +
+scale_fill_brewer(palette="Set1")
+```
+
+Remember, KNN is calculated by the Euclidean distance between points. So the calculation requiries numbers:
+
+```{r}
+df$Drug<-as.factor(df$Drug)
+df$Sex<-as.factor(df$Sex)
+df$Cholesterol<-as.numeric(as_factor(df$Cholesterol))
+df$BP<-as.numeric(as_factor(df$BP))
+
+```
+
+```{r}
+df$Sex<-as.numeric(df$Sex)
+
+```
+
+Euclidean distance is *a little sensitive*, so we need to normalize the values of each variable to the range 0:1.
+
+```{r}
+normalize <- function(x) {
+    return((x - min(x)) / (max(x) - min(x)))
+}
+df[,-c(6)]<-apply(df[,-c(6)],2,normalize)
+```
+
+```{r}
+#  splitting with caTools
+library(caTools)
+set.seed(123)
+df<-as.data.frame(df)
+sample<-sample.split(df,SplitRatio = 0.85)
+train<-subset(df,sample==T)
+test<-subset(df,sample==F)
+```
+
+```{r}
+library(kableExtra)
+kable(test)
+```
+
+Sanitiy check: we've normalized our numeric features so certain features don't dominate the euclidian distance, and we've coded our categorical features as dummy variables so that they can be included in our distance calculations. Then we split our data for the model evaluation.
+
+In next step we need the cross validation values. I choose 100 for number of repeats however,because a recent article recommend that we should use it as 100 (see: ([Fränti and Sieranoja 2019)](https://www.sciencedirect.com/science/article/pii/S0031320319301608?via%3Dihub)). With number 100, we are going to use a 100-fold cross validation. With this process we could determine the best k values.
+
+```{r}
+library(rpart)
+library(caret)
+```
+
+```{r}
+fit_control<-trainControl(method = "repeatedcv",number = 100,
+                                   repeats=100)
+set.seed(123)
+model<-caret::train(Drug~.,data=train,method="knn",trControl=fit_control,tuneGrid=expand.grid(k=1:20))
+
+model
+```
+
+\
+
+```{r}
+plot(model)
+
+```
+
+```{r}
+library(class)
+set.seed(4)
+modelknn<-knn(train=train[,1:5],test = test[,1:5],cl=train$Drug,k=1)
+confusionMatrix(test$Drug,modelknn)
+```
+
+Our predictive accuracy is 81.82 percent, as we see above. This is pretty good performance, considering that simplicity of knn.
+
+In sum, The k-nearest neighbors classification approach is rather simple to understand and implement. Yet it is very effective as we can see. The training phase is very fast and KNN makes no assumptions about the underlying data distribution so we could use it in various problems. But of course there are some weakness also. First thing that comes the my mind is selecting K is often arbitrary. Without scaling, k-NN cannot handle nominal or outlier data. And it can't work with missing data.
+
+# **Visualization of Knn**
+
+```{r}
+library(plyr)
+
+```
+
+```{r}
+plot.df = data.frame(test[,1:5], predicted = modelknn)
+plot.df1 = data.frame(x = plot.df$Na_to_K, 
+                      y = plot.df$Age, 
+                      predicted = plot.df$predicted)
+
+find_hull = function(df) df[chull(df$x, df$y), ]
+boundary = ddply(plot.df1, .variables = "predicted", .fun = find_hull)
+
+ggplot(plot.df, aes(Na_to_K, Age, color = predicted, fill = predicted)) + 
+  geom_point(size = 5) + 
+  geom_polygon(data = boundary, aes(x,y), alpha = 0.5)
+```
+
+\

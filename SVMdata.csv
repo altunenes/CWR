@@ -1,0 +1,1268 @@
+Group;Sex;Age;Patients number per hour;Arrival mode;Injury;Chief_complain;Mental;Pain;NRS_pain;SBP;DBP;HR;RR;BT;Saturation;KTAS_RN;Diagnosis in ED;Disposition;KTAS_expert;Error_group;Length of stay_min;KTAS duration_min;mistriage
+2;2;71;3;3;2;right ocular pain;1;1;2;160;100;84;18;36.6;100;2;Corneal abrasion;1;4;2;86;5,00;1
+1;1;56;12;3;2;right forearm burn;1;1;2;137;75;60;20;36.5;;4;Burn of hand, firts degree dorsum;1;5;4;64;3,95;1
+2;1;68;8;2;2;arm pain, Lt;1;1;2;130;80;102;20;36.6;98;4;Fracture of surgical neck of humerus, closed;2;5;4;862;1,00;1
+1;2;71;8;1;1;ascites tapping;1;1;3;139;94;88;20;36.5;;4;Alcoholic liver cirrhosis with ascites;1;5;6;108;9,83;1
+1;2;58;4;3;1;distension, abd;1;1;3;91;67;93;18;36.5;;4;Ascites;1;5;8;109;6,60;1
+2;1;54;6;4;1;fever;1;1;3;140;90;94;20;38.1;98;3;Fever, unspecified;2;4;1;9246;2,00;1
+2;2;49;11;3;1;With chest discomfort;1;1;3;110;70;70;20;36.2;98;2;Angina pectoris, unspecified;1;3;2;400;3,00;1
+1;2;78;14;3;1;pain, chest;1;1;3;169;86;80;20;36;;2;Acute coronary syndrome;1;3;2;247;10,23;1
+1;2;32;10;3;1;LBP - Low back pain;1;1;3;140;75;91;20;36.6;;4;Herniated disc disease of lumbar spine with radiculopathy;1;5;4;59;3,23;1
+2;1;38;6;3;1;Eczema, Eyelid;1;1;3;130;80;80;20;36.3;97;4;Ocular pain;1;5;4;185;4,00;1
+1;2;43;3;3;1;acute epigastric pain;1;1;3;148;104;72;16;36.5;;3;Acute gastritis;1;4;4;176;7,53;1
+1;2;45;3;3;1;pain, leg;1;1;3;141;81;86;18;36.6;;4;Gout site unspecified;1;5;4;45;7,15;1
+2;1;53;10;3;1;epigastric pain;1;1;3;120;80;106;20;36.2;98;3;Infectious or septic colitis;1;4;4;8067;5,00;1
+1;2;55;9;3;1;abd pain;1;1;3;121;78;80;20;36.4;;2;Acute peritonitis;2;4;4;217;8,00;1
+1;2;58;4;3;1;headache;1;1;3;135;82;106;20;37.6;;3;Infective endocarditis;2;4;4;1318;9,88;1
+2;1;65;12;4;1;headache;1;1;3;140;100;80;20;36.0;98;3;Subarachnoid haemorrhage, unspecified;2;4;4;153;3,00;1
+1;2;69;11;2;1;??;1;1;4;121;76;85;20;37.4;;3;Acute gastroenteritis;1;4;1;363;10,53;1
+2;2;53;12;2;2;Open Wound;1;1;4;130;80;100;20;36.4;97;2;Open wound of other parts of head, face;2;3;2;613;4,00;1
+2;1;20;10;3;1;RUQ pain;1;1;4;100;60;90;20;36.4;98;2;Hepatitis NOS;1;3;4;745;4,00;1
+1;2;38;3;2;1;Gingival swelling;1;1;4;133;93;109;16;36.5;;3;Odontogenic infection;1;4;4;349;12,45;1
+2;1;79;3;4;2;chin pain;1;1;4;110;70;80;20;36.2;98;3;Closed fracture of humerus, NOS;2;4;4;8199;3,00;1
+1;2;20;12;3;2;Finger Injury;1;1;5;140;62;68;20;36.5;;3;Dislocation of finger;1;4;2;105;10,23;1
+1;1;24;4;3;1;skin rash;1;1;5;110;66;125;20;37;;2;Anaphylaxis;1;3;2;118;9,48;1
+2;2;59;8;4;1;Rt. side motor weakness;1;1;5;140;80;88;20;36.5;97;2;Intracranial haemorrhage (nontraumatic), unspecified;2;3;2;143;4,00;1
+1;2;77;6;2;1;Lt. hip joint pain;1;1;5;124;72;94;16;37.1;;3;Fracture of femur, intertrochanter closed;5;4;2;599;5,50;1
+1;2;37;6;2;2;face laceration;2;1;5;118;79;76;20;36.8;;3;Acute intoxication of alcohol;1;4;4;553;8,78;1
+2;1;62;2;3;1;throat pain;1;1;6;140;90;98;22;36.8;98;2;Acute epiglottitis without obstruction;2;3;4;1242;4,00;1
+2;2;74;12;4;2;chest wall pain right;1;1;8;80;50;98;22;36.1;98;1;Multiple fracture of involving three ribs,Closed;2;2;1;207;4,00;1
+1;2;44;5;3;1;pain, arm;1;1;9;140;90;101;18;36;;3;Complex regional pain syndrome, type I multiple site;1;4;4;65;8,17;1
+1;2;49;3;2;1;Seizure Like Activity;1;0;#BOÞ!;180;82;101;18;37.4;;2;Seizure;1;3;5;304;5,30;1
+1;2;32;10;3;1;post seizure;1;0;#BOÞ!;124;81;101;18;36.7;;2;Fracture of mandible open;2;3;1;321;7,42;1
+1;1;65;12;6;1;vomiting;1;0;#BOÞ!;125;82;74;20;36.1;;3;Vomiting;1;4;1;183;12,48;1
+1;1;74;8;3;1;palpitation;1;1;#BOÞ!;91;74;145;18;36.8;;2;Paroxysmal supraventricular tachycardia;1;3;1;95;8,10;1
+1;2;16;7;2;1;syncope;1;0;#BOÞ!;162;75;75;20;36;;2;Syncope;1;3;2;113;3,82;1
+1;1;19;11;2;1;??;1;0;#BOÞ!;116;77;64;16;36.9;;2;Acute gastritis;1;4;2;108;14,60;1
+2;1;27;3;3;1;hematochezia;1;0;#BOÞ!;120;80;84;20;36.8;97;2;Gastrointestinal haemorrhage, unspecified;1;3;2;487;2,00;1
+1;1;30;4;2;2;injury, finger;1;0;#BOÞ!;152;76;91;16;36.3;;3;Laceration of finger with nail damage;2;4;2;473;6,87;1
+1;1;37;6;3;1;syncope;1;0;#BOÞ!;164;79;66;20;36.5;;2;Syncope;1;4;2;135;17,07;1
+1;2;47;10;2;2;??;1;0;#BOÞ!;141;95;76;18;36.6;;3;Laceration of oral cavity;1;4;2;576;13,43;1
+1;1;48;8;3;1;hyperventilation;1;0;#BOÞ!;196;104;98;20;37.2;;3;Panic attack;1;4;2;82;6,57;1
+1;1;87;9;2;1;involuntary movt.;1;0;#BOÞ!;140;62;79;20;36.2;;3;Abnormal involuntary movement;1;4;2;172;6,00;1
+1;1;21;9;3;1;Urticarial rash;1;0;#BOÞ!;144;97;117;20;36.2;;4;Acute urticaria;1;5;4;46;4,82;1
+2;2;34;4;3;1;Foreign body sensation in neck;1;0;#BOÞ!;120;70;106;20;36.6;98;4;Chronic sore throat;1;5;4;144;1,00;1
+1;2;36;6;3;1;throat pain;1;0;#BOÞ!;148;90;90;20;36.9;;4;Acute pharyngitis;1;5;4;297;4,15;1
+1;2;52;9;2;2;swelling, facial;1;0;#BOÞ!;150;109;111;18;36.5;;4;Fracture of nasal bone closed;1;5;4;436;3,93;1
+1;2;56;7;2;1;post seizure;1;0;#BOÞ!;140;65;111;16;36.9;;2;Alcohol withdrawal seizure;2;3;5;1273;10,40;1
+1;2;70;1;2;1;dyspnea;1;0;#BOÞ!;116;76;90;20;36.7;;2;Lobar pneumonia;2;3;5;753;5,32;1
+2;1;81;7;4;1;mental change;2;0;#BOÞ!;110;70;68;20;36.4;98;1;Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery;2;2;5;30;3,00;1
+2;2;65;5;3;1;fever;1;0;#BOÞ!;130;80;110;20;36.7;98;2;Liver transplant status;2;3;6;8667;5,00;1
+2;2;89;8;4;1;melena;1;0;#BOÞ!;100;60;74;20;36.2;95;2;Acute with haemorrhage, duodenal ulcer;7;3;7;8397;4,00;1
+2;1;37;5;4;1;Abdominal pain (finding);1;1;3;120;80;101;20;36.8;98;3;Maternal care for cervical incompetence, 22 weeks or more pregnant ~ less than 34 weeks pregnant;2;4;4;76;2,00;1
+2;1;39;17;3;1;both leg pain;1;1;3;130;80;93;20;36.3;99;4;Rhabdomyolysis, lower leg;1;5;4;589;2,00;1
+2;1;81;5;4;2;Left leg pain;1;1;4;200;160;80;20;36.0;98;3;Closed, fracture of shaft of femur;5;4;4;185;3,00;1
+2;2;29;3;3;1;knee pain;1;1;6;110;70;88;20;36.4;98;3;Pain in limb, knee joint;1;4;4;34;2,00;1
+2;2;64;7;4;2;H-Headache;1;0;#BOÞ!;150;90;85;20;36;95;1;Traumatic subdural hemorrhage without open intracranial wound;2;2;1;232;3,00;1
+1;1;30;12;1;2;needle stick injury;1;1;1;113;71;76;20;36.5;;5;Needlestick injury;1;3;2;24;4,07;2
+2;2;72;6;3;1;Left chest pain;1;1;2;110;70;92;20;36.7;96;3;Unstable angina;1;2;2;10141;4,00;2
+1;1;68;7;3;1;palpitation;1;1;2;119;60;93;16;36.8;;4;Palpitation;1;3;8;133;5,85;2
+1;2;59;3;3;1;fever;1;1;3;156;97;126;22;38;;3;Liver abscess;2;2;1;513;4,12;2
+1;1;83;6;2;1;abd pain;3;1;3;165;80;93;20;37;;4;Functional gastrointestinal disorder;1;2;5;334;5,50;2
+1;1;59;7;3;1;fever;1;1;3;132;65;85;20;38.3;;4;Fever;1;3;1;164;7,15;2
+2;1;70;8;2;1;dyspnea;2;1;3;??;??;96;22;36.3;78;2;Dyspnoea;6;1;1;593;2,00;2
+1;2;23;8;3;1;vomiting;1;1;3;199;93;80;20;37.1;;4;Acute gastroenteritis;1;3;2;178;9,05;2
+1;2;25;10;3;2;lip laceration;1;1;3;138;71;76;20;36;;5;Laceration of oral cavity;1;4;2;33;10,18;2
+2;1;45;10;3;1;ant. chest pain;1;1;3;110;80;101;20;36.3;100;3;Ischaemic chest pain;1;2;2;223;4,00;2
+1;1;70;10;3;1;?? ??;1;1;3;176;103;73;16;36.8;;5;Hyperventilation;1;4;4;161;4,97;2
+2;1;26;5;4;1;right lower quadrant abdominal pain;1;1;3;120;80;84;20;36.6;98;4;Benign neoplasm of ovary, right;1;3;7;7864;4,00;2
+2;1;83;6;4;1;right hemiparesis;1;1;3;160;100;83;20;36.3;99;3;Cerebral infarction due to thrombosis of middle cerebral artery;2;2;8;516;5,00;2
+1;2;72;4;3;1;leg pain, Lt.;1;1;4;165;101;117;16;36.8;;5;Herniated disc disease of lumbar spine;1;4;2;117;6,65;2
+1;2;77;4;3;1;left wrist swelling;1;1;4;144;86;81;16;36.8;;5;Rheumatoid arthritis of wrist;1;4;4;96;9,08;2
+2;1;22;6;3;1;watery diarrhea;1;1;4;110;70;84;20;36.5;99;4;Acute watery diarrhoea;1;3;2;9191;2,00;2
+1;1;25;10;3;1;abd pain;1;1;4;170;89;87;20;37.1;;4;Colitis;1;3;2;151;11,17;2
+1;1;44;6;3;1;chest pain rt;1;1;4;116;72;70;20;36;;4;Atypical chest pain;1;3;2;403;5,02;2
+1;1;53;9;3;1;epigastric pain;1;1;4;156;85;75;20;36.3;;4;Epigastric pain;1;3;2;132;4,13;2
+2;1;70;3;2;1;epigastric pain;1;1;4;100;60;90;20;36.0;98;4;Infectious or septic colitis;1;3;2;714;4,00;2
+2;1;82;5;3;1;V - vomiting;1;1;4;110;60;72;20;36.0;97;5;Nause with vomiting;2;3;3;1312;4,00;2
+2;1;20;1;2;1;HA - Headache;1;1;4;100;70;84;20;37.6;98;4;Headache;2;3;4;1220;2,00;2
+2;1;22;12;3;2;both eye pain;1;1;4;110;70;74;20;36.4;98;5;Keratoconjunctivitis due to Acanthamoeba (H19.2*);1;3;4;697775;3,00;2
+2;2;29;5;3;1;leg pain left;1;1;4;110;70;110;20;36.4;98;5;Complex regional pain syndrome type II of lower limb;1;4;4;264;1,00;2
+1;2;33;15;3;1;tooth pain;1;1;4;162;107;62;20;36.2;;5;Toothache;1;4;4;60;2,85;2
+1;1;39;10;3;1;acute epigastric pain;1;1;4;118;71;90;18;36.5;;4;Functional gastrointestinal disturbance;1;3;4;118;6,77;2
+2;2;56;13;4;1;upper abdominal pain;1;1;4;140;90;76;20;36.4;98;4;Acute pancreatitis, unspecified;2;3;4;9703;4,00;2
+1;1;58;12;2;1;Edema, Cheek;1;1;4;169;111;93;20;37.5;;5;Parotitis;1;4;4;174;15,13;2
+2;2;61;4;3;1;headache;1;1;4;120;70;76;20;36.5;99;4;Headache;1;3;4;414;2,00;2
+2;1;65;5;3;1;epigastric pain;1;1;4;100;60;92;20;36.4;96;4;Epigastric pain;1;3;4;344;2,00;2
+2;1;74;4;3;1;epigastric pain;1;1;4;140;100;60;18;36.2;97;4;Unspecified abdominal pain;1;3;4;231;2,00;2
+2;1;75;11;3;1;fever;1;1;4;150;80;64;20;36.5;97;4;Unspecified abdominal pain;1;3;4;211;4,00;2
+1;2;27;1;3;2;pain, low back;1;1;4;136;77;73;18;36.7;;4;Sprain of cervical spine;1;3;9;26;5,63;2
+2;2;44;3;2;2;Low Back Pain, Undetermined;1;1;4;110;70;78;20;36.9;99;4;Low back pain, site unspecified;1;3;9;39;2,00;2
+1;1;29;5;3;1;pain, low back;1;1;5;120;87;81;18;36.8;;4;Acute pyelonephritis;1;3;2;21;12,05;2
+2;1;59;10;3;1;hematuria;1;1;5;130;80;90;20;36.6;98;5;Gross hematuria;1;3;2;333;1,00;2
+1;2;77;4;2;1;pain, back;1;1;5;138;80;87;18;36.8;;4;Non-ST elevation myocardial infarction;3;3;2;599;4,87;2
+2;2;59;12;4;2;both wrist pain;1;1;5;100;60;64;18;36.6;100;4;Chronic alcoholism;4;2;3;9420;3,00;2
+2;2;18;4;3;1;testis pain;1;1;5;130;80;70;20;36.6;99;5;Torsion of testis;1;3;4;857;5,00;2
+2;1;22;1;3;1;right upper abdominal pain;1;1;5;100;60;80;20;36.2;98;4;Female pelvic inflammatory disease, unspecified;1;3;4;698;3,00;2
+2;2;42;7;3;1;Generalized abdominal pain;1;1;5;120;70;108;22;36.4;99;4;Unspecified abdominal pain;1;3;4;7900;3,00;2
+1;2;53;5;3;1;pain, low back;1;1;5;141;97;64;18;36.8;;4;Low back pain lumbar region;1;3;4;86;14,07;2
+2;1;62;1;2;1;abd pain;1;1;5;130;90;92;22;38.2;98;4;Urinary tract infection, site not specified;1;3;4;7980;3,00;2
+1;1;66;6;3;1;pain, abdominal;1;1;5;141;74;76;18;36.5;;4;Urinary tract infection;1;3;4;400;7,02;2
+1;1;76;14;3;1;Pain, Hip;1;1;5;194;104;105;20;37.9;;5;Pelvic pain;2;4;4;401;12,17;2
+2;2;78;7;3;1;acute epigastric pain;1;1;5;120;80;60;20;36.3;99;4;Upper abdominal pain, unspecified;7;3;4;9527;2,00;2
+2;1;81;5;4;1;Abd. pain;1;1;5;140;90;88;20;37.1;97;4;Calculus of bile duct with cholangitis, With obstruction;2;3;4;9798;2,00;2
+1;1;78;10;1;2;Elbow Injury;1;1;5;150;86;102;16;37.2;;4;Fracture of humerus, supracondyle closed;2;3;7;215;9,83;2
+1;2;32;9;1;1;fever;1;1;5;122;73;109;20;39.8;;3;Acute pyelonephritis;2;2;9;526;3,53;2
+2;1;52;8;1;1;Rt. flank pain;1;1;6;110;60;75;20;36.5;98;4;Acute pyelonephritis;1;3;2;376;4,00;2
+2;2;22;3;2;2;H-Headache;1;1;6;110;70;80;20;36;97;4;Closed multiple fracture of thoracic spine;5;3;4;760;4,00;2
+2;1;33;8;1;1;headache;1;1;6;100;60;92;20;36.4;98;4;Tension-type headache;1;3;4;306;2,00;2
+2;1;44;10;3;1;LLQ pain;1;1;6;110;60;85;20;36.8;98;4;Female pelvic inflammatory disease, unspecified;1;3;4;497;4,00;2
+2;1;56;10;1;1;rt flank pain;1;1;6;120;80;74;20;36.2;99;4;Ureteric stone;1;3;4;382;2,00;2
+2;1;58;5;3;2;occipital area headache;1;1;6;150;100;88;20;36.3;98;4;Superficial injury of other parts of head, contusion;1;3;4;45;3,00;2
+2;2;68;10;3;1;Lt flank pain;1;1;6;160;80;66;20;36.2;99;4;Unspecified abdominal pain;1;3;4;262;3,00;2
+2;1;79;9;4;1;RLQ pain;1;1;6;130;80;80;22;36.8;96;4;Unspecified abdominal pain;1;3;4;9020;2,00;2
+2;1;85;8;3;1;Lt flank pain;1;1;6;110;60;86;20;36.0;98;4;Urinary tract infection, site not specified;1;3;4;8861;5,00;2
+1;2;73;7;3;1;both leg pain;1;1;7;214;93;81;16;37.1;;4;Cellulitis;1;3;2;445;6,58;2
+1;1;73;4;6;1;ocular pain, Lt.;1;1;7;135;101;103;18;36.2;;4;Pupillary block glaucoma;1;3;4;0;7,00;2
+2;2;19;7;4;2;Open Wound;1;1;7;80;50;110;22;36.0;98;3;Multiple contusion NOS;2;2;7;8124;2,00;2
+1;1;24;8;3;1;leg pain left;1;1;8;178;105;119;20;37.2;;4;Complex regional pain syndrome, type I lower leg;1;3;4;257;5,33;2
+1;2;32;5;3;1;headache;1;1;8;108;80;76;18;36.2;;3;Headache;4;2;4;60;3,58;2
+1;1;81;3;1;2;Arm Injury;1;1;8;135;66;58;16;36.1;;4;Fracture of radius head closed;1;3;4;208;8,15;2
+1;2;54;7;3;1;HA;1;1;10;152;96;50;16;36.7;;3;Headache;1;2;4;77;8,60;2
+1;2;84;10;2;1;vomiting;2;0;#BOÞ!;138;70;54;20;36.1;;4;Acute gastroenteritis;1;3;2;226;8,13;2
+1;2;48;5;2;1;dyspnea;1;0;#BOÞ!;??;??;??;??;??;;2;Dyspnea;1;1;1;272;4,10;2
+1;1;50;9;3;1;Blood Pressure, Low;3;0;#BOÞ!;50;33;37;28;??;;2;Colitis;3;1;1;496;6,40;2
+1;1;50;9;3;1;Blood Pressure, Low;3;0;#BOÞ!;50;33;37;28;??;;2;Hypotension;3;1;1;496;6,40;2
+1;1;84;12;2;1;syncope;1;0;#BOÞ!;145;73;77;18;37.4;;4;Compression fracture of lumbar spine L1, closed;1;3;5;0;9,00;2
+1;2;79;6;1;1;general weakness;1;0;#BOÞ!;214;95;66;20;37.2;;3;Dizziness;1;2;6;0;10,00;2
+1;1;28;9;3;1;dyspnea;1;0;#BOÞ!;142;84;68;20;36.6;;4;Chronic urticaria;1;3;1;228;11,38;2
+1;2;60;6;2;1;general weakness;1;0;#BOÞ!;210;114;97;18;37.4;;4;Alcohol addiction;1;3;1;297;5,58;2
+2;1;62;5;4;1;fever;1;0;#BOÞ!;100;60;80;20;38.3;99;4;Fever, unspecified;2;3;1;9312;2,00;2
+1;2;67;9;3;1;fever & chill;1;0;#BOÞ!;143;70;130;20;38.1;;4;Fever;1;2;1;267;3,60;2
+2;1;75;7;4;1;fever;1;0;#BOÞ!;100;60;92;20;38.0;96;3;Fever, unspecified;5;2;1;8996;3,00;2
+2;2;80;6;4;1;dyspnea;1;0;#BOÞ!;140;90;32;20;36.7;97;3;Bradycardia, unspecified;2;2;1;9791;2,00;2
+2;2;82;6;4;1;dyspnea;1;0;#BOÞ!;150;100;116;26;37.0;68;2;Bacterial pneumonia, unspecified;2;1;1;9270;2,00;2
+1;1;90;9;2;1;acute dyspnea;1;1;#BOÞ!;65;45;100;30;36;;2;Colon cancer, sigmoid;5;1;1;126;9,58;2
+2;1;92;9;3;1;dyspnea;1;0;#BOÞ!;150;90;110;26;36.5;88;3;Other specified chronic obstructive pulmonary disease, unspecified;2;2;1;699091;4,00;2
+1;1;34;5;2;1;general weakness;1;0;#BOÞ!;129;94;120;18;36.5;;5;Necrotizing pancreatitis;2;3;2;749;5,30;2
+1;2;57;6;1;1;vomiting;1;0;#BOÞ!;123;78;82;20;36.2;;4;Acute gastroenteritis;1;3;2;208;6,08;2
+1;1;60;12;3;1;weakness;1;0;#BOÞ!;158;79;93;20;36.1;;5;Presyncope;1;4;2;143;11,03;2
+2;2;70;1;3;1;diffuse chest discomfort;1;0;#BOÞ!;100;60;60;20;36.0;98;3;Unstable angina;2;2;2;11319;4,00;2
+1;2;71;9;3;1;dizziness;1;0;#BOÞ!;187;98;84;20;36.5;;4;Dizziness;1;3;2;83;4,88;2
+2;2;73;8;3;1;dyspnea;1;0;#BOÞ!;140;80;86;24;36.4;89;3;;1;2;2;518;2,00;2
+2;1;74;8;1;1;dizziness;1;0;#BOÞ!;140;100;58;20;36.1;99;4;Acute renal failure, unspecified;2;3;2;475;4,00;2
+2;2;77;4;3;1;D - Diarrhea;1;0;#BOÞ!;160;100;108;20;36.5;97;5;Illness NOS;1;4;2;366;5,00;2
+1;2;78;10;2;1;general weakness;1;0;#BOÞ!;194;90;93;20;36.9;;5;Diabetic neuropathy polyneuropathy;1;4;2;129;6,08;2
+2;1;79;10;3;1;dizziness;1;0;#BOÞ!;120;80;80;20;36.4;99;4;Dizziness and giddiness;1;3;2;405;3,00;2
+1;1;88;10;3;1;low Hb;1;0;#BOÞ!;96;59;100;20;36;;4;Stomach cancer advanced;1;3;2;483;16,38;2
+1;1;36;12;5;2;Suicidal Attempt;1;0;#BOÞ!;143;78;98;20;36.9;;3;Suicide tendency;1;2;3;1330;8,02;2
+2;1;45;3;3;1;chest palpitation;1;0;#BOÞ!;120;80;80;20;36;98;4;Panic attack;1;3;3;386;3,00;2
+2;2;57;7;3;1;general weakness;1;0;#BOÞ!;120;80;74;20;36.3;97;5;Unspecified abdominal pain;1;3;3;278;3,00;2
+2;2;77;6;4;1;AVF site bleeding;2;0;#BOÞ!;110;70;80;20;36.0;95;4;Chronic kidney disease, unspecified;7;2;3;8592;4,00;2
+1;2;77;4;3;1;mental change;3;0;#BOÞ!;??;??;??;??;??;;2;End stage kidney disease on dialysis;2;1;4;323;13,90;2
+2;2;49;7;4;1;dyspnea;2;0;#BOÞ!;110;70;65;20;36.3;97;3;Hydrocephalus, unspecified;2;2;5;9697;2,00;2
+2;2;63;9;4;1;mental change;3;0;#BOÞ!;110;70;140;24;36.2;92;3;Encephalopathy, unspecified;5;2;5;8188;4,00;2
+2;2;65;7;2;2;mental change;3;0;#BOÞ!;70;??;100;20;36.0;94;2;Traumatic subdural hemorrhage without open intracranial wound;5;1;5;150;2,00;2
+2;2;74;8;3;1;acute delirium;1;0;#BOÞ!;100;60;75;20;36.5;98;4;Encephalopathy, unspecified;2;3;5;9954;4,00;2
+1;1;78;6;2;1;Motor weakness;4;0;#BOÞ!;??;??;??;??;??;;2;Dysarthria;2;1;5;234;9,35;2
+1;1;35;9;3;1;fever;1;0;#BOÞ!;123;73;98;20;38.2;;4;Fever;1;2;6;242;4,32;2
+1;1;61;8;1;1;fever;1;0;#BOÞ!;102;81;109;20;39.4;;3;Community-acquired pneumonia;1;2;6;182;5,88;2
+1;1;72;10;1;1;Catheter removal;1;0;#BOÞ!;161;69;86;18;36.5;;5;Percutaneous catheter problem;1;4;6;270;13,15;2
+2;2;75;5;4;1;dyspnea;1;0;#BOÞ!;100;60;64;20;36.2;95;4;Heart failure, unspecified;2;3;6;1019;2,00;2
+2;2;57;7;4;1;Generalized abdominal pain;1;0;#BOÞ!;90;60;128;22;36;99;3;Acidosis NOS;2;2;7;187;2,00;2
+1;1;77;5;4;1;melena;3;0;#BOÞ!;??;??;??;24;37.4;;2;Hematochezia;3;1;7;351;4,42;2
+2;1;78;6;3;1;hematemesis;1;0;#BOÞ!;80;40;100;20;36.4;98;3;Gastrointestinal haemorrhage, unspecified;2;2;7;10918;4,00;2
+2;1;78;8;4;1;oliguria;1;0;#BOÞ!;80;40;80;20;36.4;98;3;Chronic kidney disease, unspecified;2;2;7;477;2,00;2
+2;1;80;7;4;1;dyspnea;3;0;#BOÞ!;100;60;100;??;36.6;??;2;Dyspnoea;5;1;7;20098;3,00;2
+2;2;19;7;4;1;both leg  motor weakness;1;0;#BOÞ!;130;100;88;20;36.7;98;4;Hypokalaemic periodic paralysis(familial);2;3;8;804;5,00;2
+1;2;49;3;2;2;Drug Intoxication;3;0;#BOÞ!;105;71;97;18;37;;3;Drug intoxication;4;2;8;347;6,63;2
+2;1;56;9;2;1;Amnesia;1;0;#BOÞ!;100;60;90;20;36.4;98;4;Transient global amnesia;1;2;8;8703;3,00;2
+1;2;63;8;3;1;limb paresthesia;1;0;#BOÞ!;164;92;79;16;36.7;;4;Acute pain;1;3;8;33;7,15;2
+2;1;79;11;4;1;right hemiparesis;1;0;#BOÞ!;160;100;64;20;36.5;94;3;Intracerebral haemorrhage in basal ganglia;2;2;8;244;3,00;2
+1;1;27;5;1;1;fever;1;0;#BOÞ!;124;83;109;20;38.8;;3;Acute pharyngotonsillitis;1;2;9;213;6,00;2
+1;1;27;14;3;1;fever;1;0;#BOÞ!;140;94;105;20;39.5;;3;Acute pyelonephritis;2;2;9;94;9,67;2
+2;2;65;13;3;1;AVF malfunction;1;0;#BOÞ!;130;100;86;20;36.5;97;5;Chronic kidney disease, unspecified;2;4;9;701;4,00;2
+2;2;27;7;3;1;post neck pain;1;1;6;130;80;82;20;37.2;98;4;Cellulitis, unspecified;2;3;4;9689;4,00;2
+2;2;53;9;3;1;generalized urticaria;1;0;#BOÞ!;120;80;92;20;36.1;94;5;Allergic urticaria;1;3;2;606;2,00;2
+2;1;30;6;3;1;headache;1;1;4;120;70;95;20;36.5;100;4;Headache;1;3;4;291;3,00;2
+2;1;59;6;3;1;left facial numbness;1;1;5;120;80;80;20;36.4;100;5;Cellulitis of external ear;5;4;2;10301;4,00;2
+2;1;30;12;3;1;upper abdominal pain;1;1;5;120;80;74;20;36.3;98;4;Observation for suspected malignant neoplasm;2;3;9;490;2,00;2
+2;2;32;2;3;1;Rt. flank pain;1;1;7;110;60;70;22;36.0;98;4;Ureteric stone;1;3;4;267;2,00;2
+2;2;52;12;3;1;arm pain, Rt;1;1;8;140;100;78;20;36.5;99;5;Complex regional pain syndrome type II;1;4;4;406;4,00;2
+2;2;43;17;3;1;erection, penile;1;0;#BOÞ!;??;??;??;??;??;??;5;Priapism;1;2;2;594;5,00;2
+2;2;58;3;2;1;melena;2;0;#BOÞ!;90;50;74;20;36.2;99;3;Gastrointestinal haemorrhage, unspecified;2;2;5;780;4,00;2
+2;2;65;10;2;1;dysarthria;2;0;#BOÞ!;160;90;84;20;37.2;99;4;Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery;2;3;5;572;4,00;2
+2;1;30;6;4;1;PPROM;1;0;#BOÞ!;120;80;98;20;36.5;98;4;Preterm labour without delivery, 22 weeks or more and less than 34weeks pregnant;2;3;6;74;1,00;2
+2;2;58;8;3;1;dyspnea;1;0;#BOÞ!;130;80;36;20;36.2;97;3;Atrioventricular block, complete;2;2;6;10052;3,00;2
+2;2;75;12;3;1;Facial Palsy;1;0;#BOÞ!;100;60;70;20;36.5;98;4;Facial palsy;1;3;8;510;5,00;2
+1;2;55;11;1;1;Urticarial rash;1;1;1;196;102;72;20;37;;5;Allergic urticaria;1;5;0 ;122;9,65;0 
+1;2;56;6;3;2;FB in eye;1;1;2;190;110;58;18;36.3;;5;Foreign body in eye;1;5;0 ;49;6,65;0 
+1;1;79;6;2;1;abdomen discomfort;1;1;2;151;77;118;18;36.9;;4;Functional gastrointestinal disorder;1;4;0 ;122;8,92;0 
+1;1;79;15;3;2;?? ??? ??;1;1;2;137;76;77;20;36.3;;5;Dislocation of jaw;1;5;0 ;12;2,78;0 
+1;1;78;6;2;1;??;1;1;2;??;??;??;16;35.9;;2;Chest pain;1;2;0 ;222;6,48;0 
+2;2;16;6;3;2;Open Wound;1;1;2;110;70;78;20;36.2;99;4;Open wound of other parts of head, face;1;4;0 ;118;3,00;0 
+1;1;18;5;3;1;hand tingling sense;1;1;2;194;101;79;18;36.8;;5;Injury of finger;1;5;0 ;112;5,10;0 
+2;2;20;2;1;1;Dislocation of Jaw;1;1;2;130;90;82;20;36.4;98;4;Dislocation of jaw;1;4;0 ;4;2,00;0 
+2;1;21;12;3;2;Foreign body sensation in throat;1;1;2;120;80;66;20;36.3;99;4;Chronic sore throat;1;4;0 ;138;2,00;0 
+2;2;22;1;3;1;Rt. Chest pain;1;1;2;110;80;84;20;36.6;98;2;Other chest pain;1;2;0 ;8420;3,00;0 
+1;2;23;8;3;1;chest wall pain left;1;1;2;143;78;79;20;37.2;;5;Pneumothorax;2;5;0 ;190;14,52;0 
+1;1;29;3;3;2;head trauma;1;1;2;151;95;80;18;36.6;;4;Head trauma;1;4;0 ;46;3,22;0 
+1;2;34;6;3;1;HA;1;1;2;142;87;75;16;36.5;;4;Superficial injury of head contusion;1;4;0 ;28;8,78;0 
+2;1;46;3;2;1;F/C-fever/chills;1;1;2;120;80;104;20;38.2;98;4;Cellulitis of leg;2;4;0 ;1101;2,00;0 
+2;2;46;17;3;2;blurred vision;1;1;2;110;70;80;20;36.8;98;4;Hyphaema;1;4;0 ;258;4,00;0 
+1;2;46;6;3;2;scalp lac.;1;1;2;142;94;103;16;35.7;;4;Laceration of scalp;1;4;0 ;80;4,42;0 
+2;2;49;6;3;1;Rt side numbness;1;1;2;140;80;68;20;36.5;98;3;Cerebrovascular accident NOS;1;3;0 ;7779;4,00;0 
+2;2;52;4;4;1;epigastric pain;1;1;2;130;90;78;22;36;99;4;Obstructive ileus NOS;1;4;0 ;516;4,00;0 
+1;1;52;6;3;1;vaginal bleeding;1;1;2;134;81;78;20;36.8;;2;Carcinoma in situ of cervix;1;2;0 ;119;8,38;0 
+1;1;54;8;3;1;vomiting;1;1;2;124;73;79;18;36.5;;4;Acute gastroenteritis;1;4;0 ;182;4,07;0 
+2;2;54;17;3;2;Flank pain, Rt.;1;1;2;130;90;80;20;36.4;99;3;Contusion of front wall of thorax;2;3;0 ;305;4,00;0 
+2;1;54;7;1;1;low abdominal pain;1;1;2;100;60;74;18;36.4;99;4;Liver transplant status;1;4;0 ;9036;3,00;0 
+2;1;55;4;2;1;ant. chest pain;1;1;2;150;100;78;22;36.4;96;2;Unstable angina;1;2;0 ;497;3,00;0 
+1;2;57;10;3;1;Ankle Injury;1;1;2;119;74;68;16;36.7;;5;Sprain of ankle;1;5;0 ;115;13,92;0 
+2;2;61;10;3;1;pain, periumbilical;1;1;2;130;80;98;22;37.2;99;4;Acute cholecystitis;1;4;0 ;679;3,00;0 
+2;1;61;2;3;1;abdominal pain, Rt;1;1;2;130;80;74;20;37.6;98;4;Renal and perinephric abscess;2;4;0 ;555;4,00;0 
+1;2;62;8;3;2;Arm Injury;1;1;2;129;68;74;16;36.6;;5;Fracture of clavicle closed;1;5;0 ;89;9,27;0 
+2;1;69;17;3;1;Abd. pain;1;1;2;120;70;60;20;36.4;98;4;Unspecified abdominal pain;2;4;0 ;698;5,00;0 
+1;1;69;9;1;1;Discomfort, Chest;1;1;2;106;70;73;20;36.6;;2;Acute coronary syndrome;2;2;0 ;233;10,23;0 
+2;2;79;5;2;2;mental change;4;1;2;160;90;88;??;36.4;99;1;Traumatic subdural hemorrhage without open intracranial wound;2;1;0 ;101;5,00;0 
+1;2;64;6;3;1;pain, flank;1;1;3;150;87;79;18;36.5;;4;Ureter stone;1;4;0 ;172;3,43;0 
+1;2;33;5;3;1;Urticarial rash;1;1;3;149;92;101;20;36;;5;Urticaria;1;5;0 ;57;2,98;0 
+1;1;75;6;2;1;pain, chest;1;1;3;141;77;45;18;36;;2;Chest pain;5;2;0 ;50;4,15;0 
+1;1;74;2;3;1;abd pain;1;1;3;189;100;79;18;36.3;;4;Symptomatic gallbladder stone without obstruction;2;4;0 ;561;4,82;0 
+1;1;57;5;3;1;pain, low back;1;1;3;197;109;74;18;36.8;;4;Low back pain sacral and sacrococcygeal region;1;4;0 ;106;7,82;0 
+1;1;58;5;3;1;pain, chest;1;1;3;150;93;73;18;36.8;;2;Chest pain;1;2;0 ;239;5,27;0 
+1;2;82;12;2;2;LBP - Low back pain;1;1;3;155;84;71;20;37;;4;Injury of lower back;1;4;0 ;162;9,07;0 
+1;1;64;13;3;1;fever;1;1;3;180;103;100;20;37.5;;4;Fever;1;4;0 ;361;4,18;0 
+1;1;72;5;3;1;for A/tapping;1;1;3;131;54;69;16;37.4;;4;Liver cirrhosis Child-Pugh A;1;4;0 ;133;5,70;0 
+1;1;45;6;3;1;Discomfort, Chest;1;1;3;131;73;70;20;36.7;;4;Sprain and strain of rib;1;4;0 ;159;9,22;0 
+1;2;49;12;3;1;?? ??;1;1;3;133;101;121;20;36;;4;Epigastric pain;1;4;0 ;123;10,05;0 
+1;1;59;7;2;1;??? ??;2;1;3;120;76;100;20;36;;4;Constipation;1;4;0 ;340;3,40;0 
+1;2;66;3;2;1;HA;1;1;3;150;80;86;16;37.3;;4;Headache;1;4;0 ;32;3,32;0 
+1;2;75;11;3;1;headache;1;1;3;168;87;65;20;36.8;;3;Headache;1;3;0 ;105;7,87;0 
+1;1;35;9;3;1;acute epigastric pain;1;1;3;141;83;58;16;36.2;;4;Acute gastritis;1;4;0 ;78;10,70;0 
+1;2;16;8;3;1;throat pain;1;1;3;161;97;90;20;39.3;;4;Acute pharyngotonsillitis;2;4;0 ;326;13,77;0 
+2;1;17;5;3;1;H-Headache;1;1;3;100;60;76;20;36.3;99;4;Non-insulin-dependent diabetes of the young, with nonketotic hyperglycemic-hyperosmolar coma(NKHHC);2;4;0 ;9736;2,00;0 
+1;2;18;13;3;1;ocular pain;1;1;3;120;75;89;18;36.2;;4;Acute conjunctivitis;1;4;0 ;37;11,92;0 
+1;2;18;8;3;1;PTx - Pneumothorax;1;1;3;125;66;75;20;36.5;;4;Pneumothorax;1;4;0 ;132;10,25;0 
+1;1;18;4;3;1;abd pain;1;1;3;136;90;98;20;37;;4;Abdomen pain, generalized;1;4;0 ;180;3,32;0 
+2;2;18;6;3;1;Abd. pain;1;1;3;110;70;80;20;36.8;98;4;Hirschsprung's disease;1;4;0 ;8535;3,00;0 
+2;1;19;3;3;1;lower abdominal pain;1;1;3;110;70;104;22;37.5;99;4;Regional colitis, unspecified;1;4;0 ;373;1,00;0 
+1;1;20;5;3;1;abd pain;1;1;3;120;70;105;18;36.3;;4;Acute gastroenteritis;1;4;0 ;144;8,00;0 
+1;2;20;7;3;1;left knee swelling;1;1;3;166;77;85;18;36.8;;4;Cellulitis;1;4;0 ;222;5,92;0 
+1;2;20;15;3;1;sorethroat;1;1;3;126;75;83;20;37.2;;4;Peritonsillar abscess;2;4;0 ;285;6,88;0 
+1;2;21;8;2;2;laceration, chin;1;1;3;115;82;115;18;36.2;;4;Laceration of face;1;4;0 ;552;6,62;0 
+1;1;22;7;2;1;abd pain;1;1;3;96;71;79;20;37;;4;Acute gastritis;1;4;0 ;156;8,00;0 
+1;1;22;5;3;1;acute epigastric pain;1;1;3;128;75;111;18;36.2;;4;Acute gastroenteritis;1;4;0 ;67;7,75;0 
+1;1;22;12;3;1;Vaginal Bleeding;1;1;3;114;79;119;20;37.1;;3;Vaginal bleeding;2;3;0 ;370;12,43;0 
+1;1;22;7;3;2;Burn, arm;1;1;3;153;80;106;20;36.7;;4;Burn, first degree;1;4;0 ;27;5,27;0 
+1;1;22;10;1;1;abd pain;1;1;3;140;92;109;20;37.2;;4;Colitis;2;4;0 ;276;11,78;0 
+1;1;23;7;3;1;epigastric pain;1;1;3;115;70;95;18;36.7;;4;Acute gastroenteritis;1;4;0 ;78;14,88;0 
+1;1;23;5;3;1;dysuria;1;1;3;139;67;95;20;36;;5;Acute cystitis;1;5;0 ;249;6,70;0 
+1;2;23;6;2;1;pain, chest;1;1;3;141;63;64;20;36;;2;Chest pain;1;2;0 ;194;3,72;0 
+1;1;24;7;3;1;Gingival bleeding;1;1;3;136;84;86;20;36.5;;4;Gingival disease;1;4;0 ;24;5,30;0 
+1;1;24;8;3;1;anal bleeding;1;1;3;148;69;87;20;37.2;;4;Colitis;1;4;0 ;139;9,10;0 
+1;2;25;2;3;1;pain, chest;1;1;3;160;94;114;20;37.1;;3;Chest pain;1;3;0 ;126;5,25;0 
+1;2;25;10;3;1;swelling, neck;1;1;3;134;69;68;16;36.9;;4;Acute pharyngotonsillitis;1;4;0 ;28;10,25;0 
+1;2;25;9;3;1;headache;1;1;3;152;96;74;20;36;;4;Headache;1;4;0 ;97;5,22;0 
+1;2;26;8;3;2;FB in pharynx;1;1;3;117;71;80;20;36;;4;Foreign body in throat food;1;4;0 ;91;5,92;0 
+1;2;26;5;3;1;abdomen pain;1;1;3;101;66;67;20;36;;4;Constipation;1;4;0 ;79;13,33;0 
+1;2;26;12;3;2;injury, finger;1;1;3;159;83;74;20;36.5;;4;Laceration of finger without nail damage;1;4;0 ;67;10,02;0 
+1;1;26;7;3;1;abd pain;1;1;3;121;76;74;16;36;;4;Acute gastroenteritis;1;4;0 ;210;16,28;0 
+2;2;26;6;3;1;chest discomfort left;1;1;3;120;80;72;20;36.6;98;2;Other chest pain;1;2;0 ;405;3,00;0 
+2;2;27;3;2;1;LLQ pain;1;1;3;130;80;92;20;36.5;97;4;Unspecified abdominal pain;1;4;0 ;493;2,00;0 
+1;1;27;9;3;1;vomiting;1;1;3;115;74;85;16;36.7;;4;Vomiting;1;4;0 ;96;3,88;0 
+1;2;27;8;2;2;Knee Injury;1;1;3;136;79;94;16;36.2;;5;Multiple abrasion;1;5;0 ;99;6,47;0 
+1;1;27;2;2;2;LBP - Low back pain;1;1;3;149;90;95;20;36;;4;Fracture of coccyx closed;1;4;0 ;47;3,18;0 
+1;1;27;7;3;1;headache;1;1;3;119;95;75;18;36.5;;4;Headache;1;4;0 ;149;3,75;0 
+1;2;27;9;3;2;facial injury;1;1;3;117;65;82;20;36.2;;4;Fracture of orbital wall closed;1;4;0 ;129;7,98;0 
+1;2;27;13;3;1;epigastric pain;1;1;3;145;78;73;20;36.2;;4;Acute gastroenteritis;1;4;0 ;129;9,38;0 
+1;2;28;6;2;2;eyebrow laceration;2;1;3;148;92;106;20;36.7;;4;Laceration of face;1;4;0 ;207;3,22;0 
+1;1;28;11;3;1;abd pain;1;1;3;120;72;90;20;37.3;;4;Acute appendicitis;2;4;0 ;311;3,98;0 
+1;2;28;10;3;2;pain, foot;1;1;3;149;99;85;20;36.5;;4;Contusion of foot;1;4;0 ;61;8,78;0 
+2;2;29;8;3;2;blurred vision;1;1;3;100;60;86;20;36.3;99;4;Corneal abrasion;1;4;0 ;264;2,00;0 
+1;2;29;6;3;1;pain, chest;1;1;3;134;81;82;20;36.5;;4;Atypical chest pain;1;4;0 ;117;3,93;0 
+1;2;29;10;3;1;vomiting;1;1;3;138;88;97;20;36;;4;Acute gastroenteritis;1;4;0 ;102;10,10;0 
+1;1;29;9;4;2;vaginal spotting;1;1;3;131;63;82;20;37;;3;Injury of uterus (S376) without open wound, concussion injuries;1;3;0 ;171;4,08;0 
+1;2;29;10;3;1;abdomen pain;1;1;3;138;91;68;20;36;;4;Acute gastroenteritis;1;4;0 ;64;9,63;0 
+2;2;29;1;3;2;Open Wound;1;1;3;100;60;80;20;36.0;98;4;Open wound of other parts of head, face;1;4;0 ;402;4,00;0 
+1;2;30;7;3;1;anxiety;1;1;3;156;99;80;18;36.6;;4;Anxiety disorder;1;4;0 ;84;4,67;0 
+1;2;30;10;3;1;?? ???;1;1;3;199;112;111;20;36.9;;4;Nausea;1;4;0 ;61;4,55;0 
+1;1;31;11;3;1;myalgia;1;1;3;136;72;106;20;37.3;;5;Acute tonsillitis not specified as recurrent;1;5;0 ;173;5,32;0 
+1;1;31;9;3;1;headache;1;1;3;105;77;67;20;37.1;;4;Acute gastroenteritis;1;4;0 ;110;9,65;0 
+1;2;31;9;1;1;headache;1;1;3;125;83;64;16;36.6;;4;Headache;1;4;0 ;118;14,45;0 
+2;1;32;7;4;1;right monoparesis;1;1;3;110;70;64;20;36.9;99;3;Intracerebral haemorrhage in hemisphere, subcortical;2;3;0 ;600;3,00;0 
+2;1;32;3;3;1;throat pain;1;1;3;100;60;98;20;36.1;98;4;Chronic sore throat;1;4;0 ;405;4,00;0 
+2;2;33;15;3;1;pain, periumbilical;1;1;3;100;70;74;20;36.1;99;4;Other Crohn’s disease, unspecified;2;4;0 ;1004;3,00;0 
+1;1;33;11;3;1;pain, low back;1;1;3;109;77;79;16;36;;4;Back pain;1;4;0 ;68;11,38;0 
+1;2;33;6;1;1;Rt abd pain;1;1;3;121;86;80;16;36.2;;4;Acute gastroenteritis;1;4;0 ;138;4,52;0 
+1;2;33;8;3;1;RLQ abd. pain;1;1;3;114;82;94;20;36.7;;4;Acute appendicitis;2;4;0 ;179;9,13;0 
+1;2;33;6;3;2;Lt flank pain;1;1;3;178;122;85;20;36.5;;4;Fracture of rib other, closed;1;4;0 ;191;5,25;0 
+2;2;34;8;3;1;With chest discomfort;1;1;3;120;80;68;20;36.4;99;2;Other chest pain;1;2;0 ;606;2,00;0 
+2;2;34;3;3;2;ocular pain, Rt.;1;1;3;130;80;80;20;36;97;5;Corneal abrasion;1;5;0 ;126;3,00;0 
+1;2;34;15;3;2;left eyelid laceration;1;1;3;178;102;72;20;36.5;;4;Laceration of face;1;4;0 ;139;12,40;0 
+2;1;35;7;3;1;Chest pain NOS (finding);1;1;3;100;70;83;20;37;97;2;Obstructive hypertrophic cardiomyopathy;2;2;0 ;420;3,00;0 
+2;1;35;10;3;1;ocular pain, Lt.;1;1;3;110;70;74;20;36.6;98;4;Epidemic keratoconjunctivitis;1;4;0 ;272;2,00;0 
+1;2;35;10;3;1;sorethroat;1;1;3;151;97;73;20;36.6;;4;Acute laryngitis;1;4;0 ;133;9,53;0 
+1;1;35;7;3;1;epigastric pain;1;1;3;136;79;74;20;36.7;;4;Acute gastroenteritis;1;4;0 ;69;6,12;0 
+1;1;35;7;3;1;Midmenstrual pain;1;1;3;131;79;60;16;36;;4;Dysmenorrhea;1;4;0 ;23;5,10;0 
+2;2;35;7;3;1;fever;1;1;3;120;80;100;20;36.5;99;4;Ureteric stone;2;4;0 ;722;4,00;0 
+2;1;36;8;3;1;diffuse abdominal pain;1;1;3;110;70;76;20;36.5;98;4;Upper abdominal pain, unspecified;1;4;0 ;7963;2,00;0 
+1;1;36;10;3;2;Eye Injury;1;1;3;113;76;59;20;36.5;;4;Subconjunctival hemorrhage;1;4;0 ;52;5,17;0 
+2;1;36;7;3;1;headache;1;1;3;100;60;80;20;36.4;98;4;Headache;5;4;0 ;854;2,00;0 
+2;2;37;7;4;1;LOC - Loss of consciousness;1;1;3;140;80;105;20;36.8;98;3;Syncope;1;3;0 ;9989;5,00;0 
+1;2;38;9;3;1;Lt flank pain;1;1;3;128;87;102;20;36.5;;4;Acute gastroenteritis;1;4;0 ;134;4,88;0 
+2;2;39;5;3;1;ant. chest pain;1;1;3;140;100;76;18;36.1;99;2;Unstable angina;1;2;0 ;389;4,00;0 
+1;1;39;9;3;1;cough;1;1;3;157;109;86;22;36.8;;3;Cough;1;3;0 ;51;12,27;0 
+1;1;39;3;3;1;abd pain;1;1;3;114;77;77;16;37.4;;4;Epigastric pain;1;4;0 ;183;4,15;0 
+1;2;40;8;3;1;painful skin lesion;1;1;3;161;101;76;18;36.2;;4;Herpes zoster;1;4;0 ;62;3,65;0 
+2;2;40;15;3;1;ant. chest pain;1;1;3;120;80;82;20;36.1;100;3;Pericardial effusion (noninflammatory);2;3;0 ;848;4,00;0 
+1;1;40;11;1;1;Rt abd pain;1;1;3;101;79;86;16;36.2;;4;Herpes zoster;1;4;0 ;23;7,13;0 
+1;2;40;10;3;1;upper abdominal pain;1;1;3;138;82;86;20;36.3;;4;Acute gastritis;1;4;0 ;156;6,40;0 
+2;1;40;15;3;1;H-Headache;1;1;3;120;80;62;20;36.2;99;4;Headache;1;4;0 ;397;5,00;0 
+2;2;40;3;3;1;Leg pain, NOS;1;1;3;110;80;80;20;36.4;??;5;Complex regional pain syndrome type II;1;5;0 ;60;2,00;0 
+2;2;41;8;3;1;leg pain;1;1;3;120;80;88;20;36.6;98;5;Complex regional pain syndrome type II;1;5;0 ;20;3,00;0 
+1;1;41;5;3;1;RLQ pain;1;1;3;144;96;97;18;37;;4;Ureter stone;1;4;0 ;145;4,12;0 
+2;2;41;11;3;1;abd pain;1;1;3;110;70;73;20;36.2;98;4;Malignant neoplasm of body of stomach, early;2;4;0 ;944;3,00;0 
+2;1;41;3;3;2;Open Wound;1;1;3;130;90;88;20;36.6;98;4;Open wound of head, part unspecified;1;4;0 ;125;4,00;0 
+2;1;42;3;3;2;Open Wound;1;1;3;120;70;70;18;36.4;98;4;Open wound of other parts of head, face;1;4;0 ;86;5,00;0 
+1;1;42;10;3;1;bleeding, knee;1;1;3;129;83;70;20;36.8;;3;Hemangioma of knee;1;3;0 ;61;9,13;0 
+1;2;43;9;2;1;headache;1;1;3;148;90;108;20;36.9;;4;Headache;1;4;0 ;34;8,87;0 
+1;1;43;9;3;1;Rt. flank pain;1;1;3;123;72;75;20;36.4;;4;Ureter stone;1;4;0 ;46;5,70;0 
+2;1;43;8;3;1;Rt. flank pain;1;1;3;120;80;98;20;36.8;99;4;Acute pyelonephritis;2;4;0 ;10806;2,00;0 
+2;1;43;10;3;2;Open Wound;1;1;3;130;90;72;20;36.5;99;4;Open wound of other parts of head, face;1;4;0 ;263;2,00;0 
+2;1;44;2;2;1;LLQ pain;1;1;3;100;60;76;18;36.4;95;4;Leiomyoma of uterus, unspecified;1;4;0 ;9296;2,00;0 
+1;1;44;3;3;1;HA;1;1;3;136;97;91;16;37;;4;Headache;1;4;0 ;193;8,68;0 
+2;2;44;9;3;1;dyspnea;1;1;3;130;80;102;20;37.1;98;3;Acute HIV infection syndrome;1;3;0 ;9891;3,00;0 
+2;2;44;10;3;1;Pain, Ankle;1;1;3;120;80;80;20;36.0;98;5;Gout, unspecified, ankle joint;1;5;0 ;76;3,00;0 
+2;1;44;8;3;1;Abd. pain;1;1;3;120;80;72;20;36.9;98;3;Unspecified abdominal pain;1;3;0 ;8996;4,00;0 
+1;1;46;13;3;1;abdomen pain;1;1;3;140;75;68;20;36;;4;Acute gastroenteritis;1;4;0 ;227;17,25;0 
+2;2;46;1;4;1;chest palpitation;1;1;3;100;60;86;20;36.8;98;2;Palpitations;1;2;0 ;596;1,00;0 
+1;2;47;6;3;1;pain, neck;1;1;3;182;119;70;20;36.5;;4;Injury of neck;1;4;0 ;95;3,52;0 
+2;2;47;9;3;2;ocular pain, Rt.;1;1;3;110;70;80;20;36.8;98;4;Corneal abrasion;1;4;0 ;167;3,00;0 
+2;2;48;7;3;1;Foreign Body Sense;1;1;3;120;70;100;20;36.4;96;4;Chronic sore throat;1;4;0 ;7767;3,00;0 
+2;1;48;4;3;1;abd pain;1;1;3;120;80;76;20;36.3;98;4;Acute appendicitis, other and unspecified;7;4;0 ;489;3,00;0 
+2;2;48;5;2;2;Open Wound;1;1;3;130;80;110;20;36.6;97;3;Open wound of other parts of head, face;2;3;0 ;1013;4,00;0 
+2;1;48;4;3;1;Abd. pain;1;1;3;110;70;80;20;36.3;98;4;Unspecified abdominal pain;1;4;0 ;342;1,00;0 
+2;2;48;9;4;1;mental change;1;1;3;100;60;100;20;36.;90;2;Hypo-osmolality and hyponatraemia;2;2;0 ;9672;4,00;0 
+2;1;49;2;3;2;Open Wound;1;1;3;120;80;74;20;36.2;98;4;Open wound of other parts of head, face;1;4;0 ;134;2,00;0 
+2;1;49;8;3;1;HA - Headache;1;1;3;150;90;62;20;36.0;98;4;Headache;1;4;0 ;332;3,00;0 
+2;2;49;5;4;1;ant. chest pain;1;1;3;110;80;84;20;36.6;98;2;Ischaemic chest pain;2;2;0 ;7876;4,00;0 
+1;1;50;5;2;1;whirling type vertigo;1;1;3;138;98;68;20;36;;3;Anxiety disorder;1;3;0 ;190;9,43;0 
+1;1;50;8;3;1;rt flank pain;1;1;3;145;92;65;20;36.6;;4;Kidney and ureter stone;1;4;0 ;177;5,12;0 
+1;2;50;4;3;1;rt. side neck pain;1;1;3;144;89;74;20;36;;4;Herniated disc disease of cervical spine;1;4;0 ;16;3,13;0 
+2;1;51;6;3;1;H-Headache;1;1;3;150;100;98;20;36.4;98;4;Headache;1;4;0 ;292;2,00;0 
+2;2;51;4;2;1;diffuse abdominal pain;1;1;3;150;100;98;20;36.4;97;4;Unspecified abdominal pain;4;4;0 ;361;3,00;0 
+2;2;51;10;3;1;fever;1;1;3;120;80;66;20;36.6;98;4;Abscess of liver;2;4;0 ;262;2,00;0 
+2;2;51;8;3;2;Open Wound;1;1;3;110;70;88;20;36.7;98;4;Open wound of other parts of head, face;1;4;0 ;177;3,00;0 
+2;2;52;6;3;1;RUQ pain;1;1;3;110;70;100;20;37.0;98;4;Unspecified abdominal pain;2;4;0 ;10653;4,00;0 
+2;1;53;5;3;1;ant. chest pain;1;1;3;110;70;72;20;36.1;99;2;Other chest pain;4;2;0 ;714;4,00;0 
+2;2;53;8;3;1;arm pain;1;1;3;130;90;88;20;36.3;98;5;Complex regional pain syndrome type II;1;5;0 ;972;3,00;0 
+1;2;53;4;3;2;finger laceration wound;1;1;3;182;101;80;18;36;;4;Laceration of finger without nail damage;1;4;0 ;80;15,77;0 
+1;2;55;2;3;2;head trauma;1;1;3;119;78;74;20;36.7;;4;Injury of head, closed;1;4;0 ;72;4,15;0 
+1;2;55;15;2;1;pain on Knee;2;1;3;111;69;101;20;36.5;;5;Alcohol abuse;4;5;0 ;63;12,48;0 
+1;2;55;3;3;1;abd pain;1;1;3;152;96;71;20;37;;4;Acute gastroenteritis;1;4;0 ;50;9,65;0 
+2;2;56;9;3;1;Left chest pain;1;1;3;150;90;68;20;36.4;99;2;Ischaemic chest pain;2;2;0 ;9098;5,00;0 
+2;2;56;10;4;1;Epigastric discomfort(+);1;1;3;120;80;78;20;36.2;97;4;Epigastric pain;1;4;0 ;385;1,00;0 
+1;2;56;10;2;1;both leg pain;2;1;3;??;??;??;??;??;;5;Knee pain;1;5;0 ;545;3,87;0 
+1;2;56;7;3;1;abd pain;1;1;3;155;89;81;20;36.3;;4;Cholangitis;2;4;0 ;803;3,40;0 
+2;2;56;8;3;1;abd. Distension;1;1;3;110;70;94;20;36.2;98;4;Hepatocellular carcinoma;1;4;0 ;696;5,00;0 
+1;2;57;3;3;1;epigastric pain;1;1;3;111;57;56;18;36.2;;4;Acute gastroenteritis;1;4;0 ;137;3,65;0 
+1;2;57;7;3;1;for medication;1;1;3;133;74;98;20;36;;5;Small cell lung cancer left;1;5;0 ;17;6,92;0 
+2;2;57;12;3;2;ocular pain, Rt.;1;1;3;110;70;84;20;36.0;97;4;Corneal abrasion;1;4;0 ;124;2,00;0 
+2;2;57;10;3;1;Lt flank pain;1;1;3;120;80;96;20;36.5;99;4;Acute pancreatitis, unspecified;5;4;0 ;9463;3,00;0 
+2;1;57;7;2;1;ant. chest pain;1;1;3;140;90;70;20;36.3;99;2;Varient angina;2;2;0 ;9345;3,00;0 
+2;1;57;6;2;1;headache;1;1;3;180;100;68;22;36.2;98;4;Headache;1;4;0 ;759;1,00;0 
+2;2;58;5;4;1;Lt hemiparesis;1;1;3;150;100;55;20;36.0;98;2;Cerebral infarction due to thrombosis of middle cerebral artery;2;2;0 ;208;2,00;0 
+2;2;58;7;3;1;ant. chest pain;1;1;3;140;100;70;20;36.0;98;2;Myocardial infarction with non-ST elevation;2;2;0 ;10342;3,00;0 
+2;2;58;7;3;2;Open Wound;1;1;3;110;70;60;20;36.3;94;4;Open wound of other parts of head, face;1;4;0 ;287;2,00;0 
+2;2;58;11;3;1;abdominal pain, Rt;1;1;3;160;100;98;20;36.5;97;4;Acute pancreatitis, unspecified;2;4;0 ;10336;3,00;0 
+2;1;58;10;3;1;Left chest pain;1;1;3;120;80;96;20;36.5;98;2;Other chest pain;1;2;0 ;793;2,00;0 
+2;2;58;5;3;1;ant. chest pain;1;1;3;160;100;80;20;36.0;98;2;Unstable angina;1;2;0 ;443;3,00;0 
+1;1;59;2;3;1;pain, flank;1;1;3;128;78;69;18;36.5;;4;Ureter stone;1;4;0 ;63;7,25;0 
+1;1;59;5;3;1;LLQ pain;1;1;3;142;89;135;20;36.8;;3;Constipation;1;3;0 ;76;7,00;0 
+1;2;59;4;3;1;abd pain;1;1;3;163;83;71;20;36.2;;4;Spasm;1;4;0 ;71;2,97;0 
+2;2;60;7;3;1;upper abdominal pain;1;1;3;100;60;60;20;36.5;99;4;Obstructive ileus NOS;5;4;0 ;8571;5,00;0 
+2;1;60;5;3;2;Open Wound;1;1;3;120;80;80;20;36.8;98;4;Open wound of other parts of head, face;1;4;0 ;7979;3,00;0 
+1;2;60;9;3;1;headache;1;1;3;167;86;60;20;36.8;;4;Granuloma;1;4;0 ;69;4,02;0 
+2;1;60;9;3;2;left eye pain;1;1;3;120;80;88;20;36.6;97;4;Corneal abrasion;1;4;0 ;185;3,00;0 
+2;2;60;5;3;1;Rt hemiparesis;1;1;3;150;100;88;20;36.0;98;3;Cerebral infarction due to thrombosis of basilar artery;2;3;0 ;325;4,00;0 
+2;1;61;12;3;2;ant. chest pain;1;1;3;100;60;84;20;36.4;98;4;Contusion of front wall of thorax;1;4;0 ;119;2,00;0 
+1;1;61;5;3;1;????;1;1;3;90;53;109;16;37;;5;Rash;2;5;0 ;291;6,92;0 
+2;1;62;3;3;1;ant. chest pain;1;1;3;150;90;100;20;37.4;98;2;Pneumonia, unspecified;1;2;0 ;607;5,00;0 
+2;2;62;4;3;1;dyspnea;1;1;3;110;70;67;20;36.0;96;2;Atrial fibrillation and atrial flutter, unspecified;2;2;0 ;1124;4,00;0 
+2;2;63;4;3;1;abdominal pain, Rt;1;1;3;110;70;78;20;36.3;98;4;Gallstone(impacted) of gallbladder with cholecystitis (chronic), With obstruction;1;4;0 ;8593;3,00;0 
+1;1;63;12;3;2;head trauma;1;1;3;105;58;62;20;36.3;;4;Head trauma;1;4;0 ;104;4,83;0 
+2;1;64;7;2;1;ant. chest pain;1;1;3;130;90;78;20;36.3;97;2;Varient angina;2;2;0 ;888;3,00;0 
+2;1;65;5;2;1;dizziness;1;1;3;150;80;61;20;36.4;97;3;Atrial fibrillation and atrial flutter, unspecified;1;3;0 ;389;2,00;0 
+2;1;65;9;3;1;Abd. pain;1;1;3;130;100;78;20;36.4;96;4;Unspecified abdominal pain;5;4;0 ;10015;4,00;0 
+2;1;66;8;2;1;ant. chest pain;1;1;3;110;70;84;20;36.4;99;2;Ischaemic chest pain;2;2;0 ;580;1,00;0 
+1;2;66;9;3;1;VOIDING PAIN;1;1;3;129;82;64;20;36.6;;4;Acute urinary retension;1;4;0 ;16;6,85;0 
+1;1;66;6;3;1;???;1;1;3;127;63;97;20;37.5;;4;Acute gastroenteritis;1;4;0 ;155;8,38;0 
+2;2;66;8;3;1;LOC - Loss of consciousness;1;1;3;130;80;80;20;36.5;97;3;Dizziness and giddiness;1;3;0 ;598;4,00;0 
+2;2;66;7;3;1;ant. chest pain;1;1;3;120;80;63;20;36.0;97;2;Other chest pain;1;2;0 ;625;5,00;0 
+2;1;67;12;3;1;RLQ pain;1;1;3;120;80;88;20;36.3;97;4;Acute appendicitis, other and unspecified;7;4;0 ;624;2,00;0 
+2;2;68;5;2;1;LOC;1;1;3;110;70;62;22;36.0;95;2;Syncope;1;2;0 ;570;2,00;0 
+1;2;68;5;3;1;pain, chest;1;1;3;140;98;96;20;36;;2;Chest pain;1;2;0 ;174;8,92;0 
+1;1;69;13;2;1;Pain, Eye;1;1;3;150;72;78;20;36.1;;4;Absolute glaucoma;1;4;0 ;77;4,52;0 
+2;1;69;6;2;1;dizziness;1;1;3;170;100;80;20;36.2;99;3;Dizziness and giddiness;1;3;0 ;285;2,00;0 
+1;2;70;6;2;1;left thigh swelling;1;1;3;138;70;78;20;37;;3;Cellulitis;1;3;0 ;264;9,93;0 
+1;1;70;5;3;1;abd pain;1;1;3;126;70;86;20;36.5;;4;Acute gastroenteritis;1;4;0 ;432;5,60;0 
+2;1;70;3;3;1;diarrhea;1;1;3;140;100;80;20;36.2;98;4;Acute watery diarrhoea;1;4;0 ;228;4,00;0 
+2;1;71;4;1;1;ant. chest pain;1;1;3;160;90;74;20;36.7;98;2;Ischaemic chest pain;1;2;0 ;535;3,00;0 
+1;2;71;11;3;1;??? ? ???;1;1;3;149;80;94;20;36.8;;4;Benign prostatic hyperplasia with obstruction;1;4;0 ;158;3,73;0 
+2;2;71;7;3;1;abd pain;1;1;3;170;100;80;20;36.0;98;4;Observation for suspected malignant neoplasm;1;4;0 ;782;5,00;0 
+2;1;71;6;4;1;ant. chest pain;1;1;3;100;60;54;20;36.5;96;2;Atrial fibrillation and atrial flutter, unspecified;1;2;0 ;403;1,00;0 
+2;2;72;15;4;1;ant. chest pain;1;1;3;150;80;66;20;36.2;95;2;Acute myocardial infarction, unspecified;2;2;0 ;286;2,00;0 
+2;1;72;6;3;1;diffuse chest discomfort;1;1;3;100;60;99;22;36.0;99;2;Pericardial effusion (noninflammatory);5;2;0 ;483;4,00;0 
+2;1;72;9;4;1;dyspnea;1;1;3;100;60;106;20;36.1;93;2;Ischaemic chest pain;7;2;0 ;222;3,00;0 
+1;1;72;11;3;1;epigastric pain;1;1;3;125;66;97;20;36;;4;Epigastric pain;1;4;0 ;147;9,77;0 
+2;1;72;7;3;1;general weakness;1;1;3;140;100;51;20;36.0;100;2;Atrioventricular block, second degree;2;2;0 ;782;3,00;0 
+2;2;73;5;3;1;abdomen pain;1;1;3;110;70;64;20;36.2;97;4;Acute abdomen;1;4;0 ;980;3,00;0 
+2;2;73;7;3;1;Abd. pain;1;1;3;110;70;73;20;36.4;98;4;Ileus, unspecified;2;4;0 ;10098;5,00;0 
+2;1;74;12;2;2;Lower Back Pain;1;1;3;140;80;96;20;36.2;97;4;Vertebra compression fracture, NOS, Lumbar region;5;4;0 ;643;4,00;0 
+1;2;74;13;3;1;backache;1;1;3;121;80;101;16;36.9;;4;Herniated disc disease of lumbar spine with radiculopathy;1;4;0 ;102;7,73;0 
+2;1;74;8;4;1;abd pain;1;1;3;90;60;110;20;36.8;91;3;Unspecified abdominal pain;2;3;0 ;10781;1,00;0 
+2;2;74;10;3;2;left forearm pain;1;1;3;100;60;72;18;36.6;97;5;Fracture of lower end of radius with dorsal angulation, closed;2;5;0 ;297;3,00;0 
+2;1;75;12;2;2;post neck pain;1;1;3;100;60;72;18;36.6;96;4;Superficial injury of head, part unspecified, contusion;1;4;0 ;184;3,00;0 
+1;2;75;8;2;1;fever;1;1;3;158;59;76;20;39.5;;3;Fever;2;3;0 ;1101;6,02;0 
+1;1;75;4;3;1;abd pain;1;1;3;142;85;109;16;36.6;;4;Acute abdomen;1;4;0 ;142;10,80;0 
+2;2;75;8;4;1;both leg cellulitis;1;1;3;120;80;60;20;36.3;97;4;Cellulitis of lower limb;2;4;0 ;700427;2,00;0 
+2;1;76;10;3;1;RLQ abdominal pain;1;1;3;110;70;80;20;36.0;98;4;Ureteric stone;1;4;0 ;299;2,00;0 
+2;2;76;5;2;1;left side motor weakness;1;1;3;140;100;100;20;36.6;98;2;Intracerebral haemorrhage in thalamus;5;2;0 ;7834;2,00;0 
+1;2;76;9;3;1;headache;1;1;3;147;89;86;20;37;;4;Headache;1;4;0 ;192;9,48;0 
+2;1;76;7;3;1;Abd. pain;1;1;3;120;80;98;20;36.3;97;4;Chronic viral hepatitis C;1;4;0 ;645;3,00;0 
+2;2;76;12;2;1;dyspnea;1;1;3;110;70;61;20;36.4;98;2;Heart failure, unspecified;2;2;0 ;700536;5,00;0 
+2;2;77;5;3;1;Lt flank pain;1;1;3;120;80;67;20;36.3;93;4;Unspecified abdominal pain;1;4;0 ;231;4,00;0 
+2;1;77;7;4;1;Low abd discomfort;1;1;3;110;70;89;20;36.7;96;4;Abscess of abdominopelvic;7;4;0 ;836;4,00;0 
+2;1;77;2;3;1;fever;1;1;3;120;80;69;20;36.5;96;4;Infective arthritis NOS, pelvic region and thigh;2;4;0 ;205;3,00;0 
+2;1;78;10;3;1;RUQ pain;1;1;3;120;80;80;20;36.0;97;4;Choledocholithiasis with cholangitis, With obstruction;2;4;0 ;9981;2,00;0 
+1;2;78;8;2;1;alcohol smell;1;1;3;??;??;??;??;??;;4;Acute intoxication of alcohol;1;4;0 ;393;7,05;0 
+2;1;78;2;3;1;diffuse chest discomfort;1;1;3;150;100;82;20;36.8;95;3;Unstable angina;1;3;0 ;9989;2,00;0 
+2;1;79;12;3;1;ant. chest pain;1;1;3;110;70;80;20;36.4;98;2;Unstable angina;2;2;0 ;396;3,00;0 
+2;1;79;10;3;1;RUQ pain;1;1;3;110;70;90;20;36.2;98;4;Empyema of gallbladder, without calculus;7;4;0 ;563;4,00;0 
+2;2;79;5;3;1;abdomen pain;1;1;3;130;80;60;20;36.4;97;4;Ileus, unspecified;2;4;0 ;10214;4,00;0 
+1;1;79;7;3;1;abd pain;1;1;3;159;95;76;20;36.6;;4;Cholangitis;2;4;0 ;608;9,62;0 
+2;1;80;4;3;1;Left chest pain;1;1;3;100;60;68;20;36.8;96;2;Unstable angina;1;2;0 ;464;4,00;0 
+2;2;80;10;3;1;dyspnea;1;1;3;120;80;118;20;36.0;76;2;Acute and subacute infective endocarditis;2;2;0 ;9984;4,00;0 
+1;1;80;13;3;1;abdomen pain;1;1;3;142;80;106;20;37;;4;Acute gastroenteritis;1;4;0 ;192;5,23;0 
+1;2;80;8;3;1;Voiding Failure;1;1;3;153;75;99;20;37.2;;4;Percutaneous catheter problem;1;4;0 ;39;10,28;0 
+2;2;81;4;3;1;dyspnea;1;1;3;100;60;95;20;36.0;94;3;Paroxysmal atrial fibrillation;2;3;0 ;10519;4,00;0 
+2;1;81;7;4;1;left motor weakness;1;1;3;130;100;65;20;36.6;95;3;Cerebral infarction due to unspecified occlusion or stenosis of posterior cerebral artery;2;3;0 ;411;3,00;0 
+2;1;82;5;2;1;both eyelid swelling;1;1;3;140;100;64;20;36.3;96;3;Hypo-osmolality and hyponatraemia;2;3;0 ;10210;4,00;0 
+2;1;83;9;4;1;ant. chest pain;1;1;3;140;90;72;22;36.1;93;2;Ischaemic chest pain;2;2;0 ;607;5,00;0 
+2;1;83;13;3;1;Abd. pain;1;1;3;160;100;102;20;36.5;97;4;Choledocholithiasis with cholecystitis (with cholangitis), Without mention of obstruction;2;4;0 ;781;4,00;0 
+2;1;84;6;3;1;cough;1;1;3;110;80;92;20;36.9;97;3;Cough;2;3;0 ;509;4,00;0 
+2;1;86;7;4;1;dizziness;1;1;3;120;80;80;20;36.7;95;3;Dizziness and giddiness;1;3;0 ;915;2,00;0 
+2;2;86;2;4;1;Rt hemiparesis;1;1;3;140;80;80;20;36.4;98;2;Cerebrovascular accident NOS;2;2;0 ;834;2,00;0 
+2;2;86;5;4;1;ant. chest pain;1;1;3;110;70;66;20;36.3;90;2;Myocardial infarction with non-ST elevation;2;2;0 ;11177;4,00;0 
+1;1;87;9;2;1;fever;1;1;3;126;79;90;22;36.7;;4;Viral infection;1;4;0 ;201;5,32;0 
+2;2;88;11;4;1;ant. chest pain;1;1;3;110;70;104;24;36.6;97;2;Ischaemic chest pain;2;2;0 ;559;4,00;0 
+2;1;94;5;3;1;abdominal pain, LUQ;1;1;3;170;100;68;20;36.1;99;4;Unspecified abdominal pain;1;4;0 ;283;2,00;0 
+1;2;52;11;2;1;distended abdomen;1;1;4;155;88;105;20;37.8;;3;Alcoholic liver disease;2;3;0 ;1400;16,32;0 
+1;2;56;6;2;1;ascites tapping;1;1;4;102;90;100;20;36;;4;Alcoholic liver cirrhosis with ascites;1;4;0 ;223;8,17;0 
+1;1;77;13;3;1;pain, chest;1;1;4;115;88;100;16;36.8;;4;Acute bronchitis;1;4;0 ;236;5,82;0 
+1;1;70;15;3;1;discomfort, chest;1;1;4;154;99;90;20;36.1;;2;Atypical chest pain;1;2;0 ;213;4,68;0 
+1;2;81;8;2;1;pain, chest;1;1;4;152;70;60;20;36;;2;Chest pain;1;2;0 ;86;4,45;0 
+1;1;85;10;3;1;palpitation;1;1;4;118;69;148;20;37.3;;3;Atrial flutter;2;3;0 ;296;7,23;0 
+2;2;16;4;3;2;Open Wound;1;1;4;120;70;82;20;36.6;98;4;Open wound of other parts of head, face;1;4;0 ;818;2,00;0 
+1;2;16;15;3;2;Ankle Injury;1;1;4;114;61;80;20;37.5;;4;Injury of ankle;1;4;0 ;197;11,68;0 
+1;1;18;7;3;2;right forearm laceration;1;1;4;120;84;88;18;36.8;;4;Laceration of forearm;1;4;0 ;36;3,85;0 
+1;1;19;7;3;2;Ankle Injury;1;1;4;154;70;75;20;36;;4;Injury of ankle;1;4;0 ;73;4,20;0 
+2;1;22;6;3;1;H-Headache;1;1;4;110;70;72;20;36.4;98;4;Infectious or septic colitis;1;4;0 ;8513;4,00;0 
+2;2;22;7;3;2;Open Wound;1;1;4;110;70;100;20;36.5;99;4;Open wound of other parts of head, face;1;4;0 ;414;1,00;0 
+1;2;22;5;3;2;mandibular pain;1;1;4;160;73;117;18;36;;4;Injury of mandible;1;4;0 ;156;4,37;0 
+1;1;23;5;3;2;Toe injury;1;1;4;119;56;75;20;36.5;;4;Fracture of foot closed;1;4;0 ;57;4,73;0 
+1;1;23;7;2;2;both leg pain;1;1;4;115;70;79;20;37.2;;4;Rhabdomyolysis;2;4;0 ;210;4,07;0 
+2;2;24;6;3;1;Convulsion;1;1;4;120;80;88;20;36.4;97;3;Open wound of other parts of head, face;1;3;0 ;697999;3,00;0 
+1;1;24;12;3;1;abd pain;1;1;4;118;64;71;20;36.7;;3;Pelvic inflammatory disease, female;1;3;0 ;178;6,58;0 
+1;2;24;5;3;1;otalgia, Rt.;1;1;4;138;68;89;18;36.3;;4;Otalgia;1;4;0 ;40;3,75;0 
+1;2;24;12;3;1;pain, chest;1;1;4;112;76;88;20;36.4;;3;Sprain and strain of rib;1;3;0 ;161;8,90;0 
+1;2;24;5;3;1;otalgia, Lt.;1;1;4;137;68;62;18;36.7;;4;Acute otitis media, unspecified unilateral or unspecified;1;4;0 ;27;12,60;0 
+2;2;24;12;3;2;nausea;1;1;4;120;80;80;20;36.0;98;2;Toxic effect of unspecified substance;2;2;0 ;698879;5,00;0 
+2;1;25;3;3;2;Open Wound;1;1;4;120;80;88;20;36.6;98;4;Open wound of other parts of head, face;1;4;0 ;296;2,00;0 
+1;1;25;12;3;2;Ankle Injury;1;1;4;118;66;76;20;36.5;;4;Injury of ankle;1;4;0 ;107;14,37;0 
+1;1;25;4;2;1;abd pain;1;1;4;109;63;62;18;36.7;;3;Primary dysmenorrhea;1;3;0 ;104;3,73;0 
+1;2;25;9;3;2;Pain, Hand;1;1;4;137;110;89;20;36.9;;4;Multiple fracture of metacarpal bone closed;2;4;0 ;386;4,08;0 
+2;2;26;3;3;2;Open Wound;1;1;4;120;70;80;20;36.7;99;4;Open wound of other parts of head, face;1;4;0 ;258;1,00;0 
+2;2;27;6;3;1;abd pain;1;1;4;110;70;106;20;36.5;98;3;Crohn’s disease, unspecified, unspecified;2;3;0 ;926;5,00;0 
+1;1;27;3;2;2;facial injury;1;1;4;156;93;126;18;36.8;;4;Open wound of eyelid and periocular area;1;4;0 ;93;5,22;0 
+1;2;28;11;1;1;abd pain;1;1;4;156;89;80;16;36.4;;3;Diverticulitis of large intestine without bleeding;2;3;0 ;306;5,35;0 
+1;2;30;5;2;2;facial injury;1;1;4;179;103;61;18;36.4;;4;Multiple abrasion;1;4;0 ;64;4,73;0 
+2;2;30;10;4;1;headache;1;1;4;140;80;76;20;36.3;99;3;Subarachnoid haemorrhage, unspecified;7;3;0 ;211;3,00;0 
+1;1;32;9;3;2;Arm Injury;1;1;4;143;92;85;20;36;;4;Injury of arm;1;4;0 ;83;4,72;0 
+1;1;33;12;3;2;Foot Injury;1;1;4;112;72;56;20;36.9;;4;Cellulitis of foot;1;4;0 ;24;7,33;0 
+1;1;34;10;3;1;cough;1;1;4;148;82;85;20;36.2;;3;Upper respiratory infection;1;3;0 ;266;6,02;0 
+1;2;34;6;2;1;abd pain;1;1;4;154;95;98;18;37.2;;3;Acute gastroenteritis;1;3;0 ;150;4,75;0 
+2;2;37;6;3;2;ocular pain, Rt.;1;1;4;140;90;68;20;36.4;98;4;Corneal abrasion;1;4;0 ;116;1,00;0 
+1;2;37;6;3;2;ankle pain;1;1;4;149;72;94;18;36.7;;4;Fracture of medial malleolus closed;1;4;0 ;157;3,88;0 
+1;2;37;4;3;1;Toe redness;1;1;4;149;89;103;20;36.8;;4;Leg skin defect;2;4;0 ;364;9,30;0 
+1;1;37;6;3;1;abd pain;1;1;4;108;71;106;20;38.7;;3;Acute abdomen;7;3;0 ;232;7,82;0 
+2;1;37;3;4;1;epigastric pain;1;1;4;90;60;86;20;36;98;2;Dehydration;5;2;0 ;1023;4,00;0 
+1;2;38;2;3;1;ear pain lt;1;1;4;133;88;57;20;36;;4;Otalgia;1;4;0 ;19;3,37;0 
+1;2;39;6;3;1;toothache;1;1;4;176;106;74;18;36.8;;4;Toothache;1;4;0 ;52;2,43;0 
+2;2;40;8;3;1;Throat Pain;1;1;4;100;60;72;20;36.6;98;3;Retropharyngeal and parapharyngeal abscess;7;3;0 ;293;5,00;0 
+2;2;43;6;3;2;Open Wound;1;1;4;130;80;88;20;36.1;96;4;Open wound of other parts of wrist and hand;1;4;0 ;115;3,00;0 
+2;2;43;6;3;1;ant. chest pain;1;1;4;140;90;62;20;36.0;99;2;Ischaemic chest pain;2;2;0 ;10304;4,00;0 
+1;1;43;6;3;2;injury, finger;1;1;4;191;94;88;20;36.5;;4;Injury of finger;1;4;0 ;210;3,32;0 
+2;2;44;8;4;1;general weakness;1;1;4;140;80;50;20;36.0;98;3;Guillain-Barre syndrome;2;3;0 ;187;3,00;0 
+2;2;44;10;1;2;Open Wound;1;1;4;150;90;88;20;36.4;98;4;Traumatic hyphaema;1;4;0 ;216;4,00;0 
+2;2;44;5;1;1;facial painful swelling;1;1;4;110;70;110;20;37.2;98;4;Cellulitis of nose(septum);7;4;0 ;422;4,00;0 
+2;2;46;7;4;1;dizziness;1;1;4;100;60;52;20;36.8;96;2;Atrial fibrillation and atrial flutter, unspecified;2;2;0 ;9618;5,00;0 
+1;1;46;5;3;1;pain, chest;1;1;4;153;67;67;18;36.5;;3;Gastroesophageal reflux disease;1;3;0 ;96;6,98;0 
+2;1;47;8;3;1;otalgia, Lt.;1;1;4;100;60;60;20;36.4;98;4;Otalgia;1;4;0 ;198;5,00;0 
+1;1;47;6;2;2;facial injury;1;1;4;93;55;78;18;36.5;;4;Injury of face;1;4;0 ;132;5,65;0 
+2;2;47;7;3;1;headache;1;1;4;160;80;62;20;36.4;97;3;Other chest pain;1;3;0 ;697887;5,00;0 
+2;2;48;10;4;2;left leg pain;1;1;4;100;60;76;20;36.3;98;4;Fracture of trochanteric section of femur, unspecified, closed;2;4;0 ;354;3,00;0 
+2;2;48;9;2;1;diffuse abdominal pain;1;1;4;110;70;110;20;36.4;97;3;Hepatocellular carcinoma;2;3;0 ;29073;2,00;0 
+2;2;48;3;3;1;ant. chest pain;1;1;4;140;90;56;20;36.6;100;2;Ischaemic chest pain;2;2;0 ;11697;2,00;0 
+2;2;50;8;4;1;abd pain;1;1;4;120;70;78;18;36.4;98;3;Cholecystitis with cholelithiasis NOS, With obstruction;7;3;0 ;435;2,00;0 
+2;2;51;5;3;1;Left leg pain;1;1;4;120;70;76;20;36.1;98;4;Pain in limb, hip (joint);1;4;0 ;113;1,00;0 
+2;1;51;3;3;2;ocular pain;1;1;4;120;80;72;20;36.4;98;4;Fracture of medial wall of orbit, closed;1;4;0 ;370;2,00;0 
+2;1;52;6;3;2;toe pain;1;1;4;110;70;80;20;36.8;98;4;Contusion of toe(s), NOS;1;4;0 ;92;4,00;0 
+2;2;53;6;2;1;Left chest pain;1;1;4;120;80;96;20;36.9;97;2;Brugada syndrome;2;2;0 ;229;4,00;0 
+1;2;53;13;1;1;Rt abd pain;1;1;4;115;95;103;18;36.3;;4;Gallbladder cancer;1;4;0 ;272;7,77;0 
+1;1;53;10;3;2;pain, foot;1;1;4;163;77;62;18;36.8;;4;Injury of foot;1;4;0 ;30;3,23;0 
+1;1;56;6;3;1;epigastric pain;1;1;4;132;72;70;20;36.6;;3;Acute gastritis;1;3;0 ;226;4,13;0 
+1;2;56;3;3;1;RLQ abd. pain;1;1;4;163;94;83;16;37;;3;Acute appendicitis;5;3;0 ;159;5,75;0 
+2;2;57;9;3;2;Open Wound;1;1;4;120;80;78;18;36.4;99;4;Open wound of other parts of head, face;1;4;0 ;212;3,00;0 
+2;1;57;8;2;1;Left chest pain;1;1;4;120;80;76;20;36.5;99;2;Varient angina;1;2;0 ;383;3,00;0 
+1;1;57;5;3;1;Discomfort, Chest;1;1;4;151;77;79;20;36.9;;3;Depression;1;3;0 ;163;6,35;0 
+1;1;57;9;3;2;facial injury;1;1;4;158;97;62;20;36.7;;4;Laceration of oral cavity;1;4;0 ;113;5,52;0 
+2;2;58;10;2;1;ant. chest pain;1;1;4;140;90;60;20;36.0;99;2;Ischaemic chest pain;2;2;0 ;9619;2,00;0 
+1;1;59;8;1;1;left eye swelling;1;1;4;138;76;94;18;36.3;;4;Cellulitis;1;4;0 ;51;7,02;0 
+1;1;59;4;3;1;pain, abdominal;1;1;4;98;70;75;16;36.3;;3;Colitis;1;3;0 ;346;5,48;0 
+1;2;60;7;2;1;abd pain;1;1;4;162;96;94;20;36.8;;3;Acute gastroenteritis;1;3;0 ;291;9,20;0 
+1;1;60;1;3;2;wrist pain, Lt;1;1;4;141;65;70;18;36.6;;4;Fracture of distal radius closed;1;4;0 ;278;3,12;0 
+1;2;60;5;2;1;epigastric pain;1;1;4;157;109;73;16;36.7;;3;Epigastric pain;1;3;0 ;148;9,18;0 
+1;1;60;10;3;1;abd pain;1;1;4;198;117;137;18;36.6;;3;Urinary retension;1;3;0 ;280;8,33;0 
+2;2;61;8;2;2;Open Wound;1;1;4;130;80;88;20;36.6;97;3;Multiple fracture of unspecified ribs,Closed;2;3;0 ;8605;4,00;0 
+2;2;63;3;4;1;ant. chest pain;1;1;4;140;100;62;20;36.2;99;2;Ischaemic chest pain;2;2;0 ;21492;2,00;0 
+2;2;63;9;3;1;Left chest pain;1;1;4;140;90;98;24;36.;99;2;Unstable angina;1;2;0 ;421;4,00;0 
+1;1;64;9;3;1;low abdominal pain;1;1;4;129;87;75;20;36.8;;3;Chronic gastritis;1;3;0 ;217;14,20;0 
+2;2;64;5;4;1;Lt. side weakness;1;1;4;160;100;78;18;36.0;100;2;Cerebral infarction due to thrombosis of posterior cerebral artery;1;2;0 ;7708;3,00;0 
+2;2;64;9;3;2;finger pain;1;1;4;140;90;66;20;36.4;97;4;Open wound of finger(s) without damage to nail;1;4;0 ;453;4,00;0 
+1;1;65;9;3;1;hypertension;1;1;4;204;109;65;16;36.3;;3;Hypertension;1;3;0 ;166;9,18;0 
+2;1;65;11;2;1;ant. chest pain;1;1;4;110;70;52;20;36.0;98;2;Supraventricular tachycardia;1;2;0 ;457;4,00;0 
+2;1;66;10;3;1;Rt. flank pain;1;1;4;120;80;51;20;36.5;98;3;Ureteric stone;1;3;0 ;426;5,00;0 
+1;2;66;10;2;2;Head Injury;2;1;4;149;94;78;20;36.3;;3;Acute intoxication of alcohol;1;3;0 ;475;8,65;0 
+2;1;66;12;3;1;right upper abdominal pain;1;1;4;110;70;95;20;36.3;99;3;Unspecified abdominal pain;2;3;0 ;632;3,00;0 
+1;1;68;13;2;1;Rt abd pain;1;1;4;124;72;71;20;36.1;;4;Acute appendicitis;2;4;0 ;410;4,07;0 
+1;1;68;6;3;2;shoulder pain, Lt;1;1;4;131;52;94;20;36;;4;Injury of arm;1;4;0 ;68;5,42;0 
+1;2;69;8;3;2;right leg injury;1;1;4;145;84;77;16;36.8;;4;Multiple abrasion;1;4;0 ;22;5,00;0 
+2;1;72;5;2;1;Abd. pain;1;1;4;120;60;63;20;36.4;96;3;Acute renal failure, unspecified;2;3;0 ;977;2,00;0 
+1;1;73;9;1;1;????;1;1;4;148;72;70;16;36.3;;4;Herpes zoster;1;4;0 ;35;7,70;0 
+1;1;75;5;3;1;leg swelling, Lt.;1;1;4;143;70;101;16;37.5;;4;Lymphedema, lower limb;1;4;0 ;271;6,18;0 
+2;1;75;8;4;1;abdominal pain, periumbilical area;1;1;4;110;70;80;20;37.3;96;3;Intussusception;7;3;0 ;389;2,00;0 
+2;2;75;6;3;1;ocular pain, Lt.;1;1;4;130;80;66;20;36.3;97;4;Corneal abrasion;1;4;0 ;89;1,00;0 
+2;1;75;6;4;1;Abd. pain;1;1;4;110;70;86;20;36.9;97;3;Acute cholecystitis;2;3;0 ;930;3,00;0 
+2;1;76;3;3;1;diarrhea;1;1;4;100;60;78;20;36.6;100;4;Acute watery diarrhoea;1;4;0 ;690;4,00;0 
+2;2;77;8;4;2;hip pain Lt.;1;1;4;150;100;88;20;36.2;97;4;Fracture of trochanteric section of femur, unspecified, closed;2;4;0 ;227;3,00;0 
+2;1;78;3;2;2;both ocular pain;1;1;4;150;90;72;20;36.2;98;4;Punctate keratatitis;1;4;0 ;137;2,00;0 
+2;1;81;5;3;2;wrist pain, Rt;1;1;4;120;80;76;20;36.0;96;4;Fracture of lower end of radius, unspecified, closed;2;4;0 ;581;3,00;0 
+2;1;81;6;4;1;Abd. pain;1;1;4;100;60;110;22;37.1;93;3;Cholangitis NOS;2;3;0 ;10100;2,00;0 
+2;1;82;2;2;1;dyspnea;1;1;4;140;90;64;22;36.4;96;2;Asthma, unspecified;2;2;0 ;1101;2,00;0 
+1;2;82;8;3;1;abd pain;1;1;4;134;83;95;16;36.8;;3;Acute gastroenteritis;1;3;0 ;464;3,98;0 
+2;2;88;7;2;2;Head pain;1;1;4;140;90;78;20;36.2;98;4;Open wound of head, part unspecified;4;4;0 ;7992;2,00;0 
+2;1;89;3;2;1;Left chest pain;1;1;4;100;60;48;20;36.0;95;2;Other chest pain;1;2;0 ;148;2,00;0 
+1;2;48;7;4;1;abd pain;1;1;5;166;88;103;16;37.9;;3;Acute pancreatitis;2;3;0 ;339;5,87;0 
+1;2;64;7;3;1;dizziness;1;1;5;164;96;86;16;36.5;;3;Dizziness;1;3;0 ;201;9,30;0 
+1;2;65;8;3;1;leg swelling, Lt.;1;1;5;118;73;74;16;36.9;;4;Cellulitis;2;4;0 ;418;5,45;0 
+1;1;68;5;3;1;vomiting;1;1;5;167;80;74;18;36.7;;3;Acute gastroenteritis;1;3;0 ;142;6,00;0 
+1;2;48;10;2;1;abd pain;1;1;5;131;92;111;20;37.6;;3;Hypokalemia;4;3;0 ;402;11,85;0 
+1;2;72;4;1;1;pain, chest;1;1;5;145;83;73;20;37;;2;Chest pain;1;2;0 ;0;6,00;0 
+1;1;74;14;3;1;leg pain, Rt.;1;1;5;177;101;78;20;37.7;;4;Deep vein thrombosis;2;4;0 ;541;11,68;0 
+1;2;85;9;2;2;Femur Lesion;1;1;5;195;90;87;20;36;;4;Fracture of femur closed;1;4;0 ;194;5,65;0 
+2;1;16;4;3;2;ocular pain, Lt.;1;1;5;100;60;76;20;36.6;98;4;Contusion of eyelid and periocular area;1;4;0 ;184;2,00;0 
+1;1;17;8;3;1;abd pain;1;1;5;141;75;84;16;37;;3;Abdominal pain;1;3;0 ;168;8,25;0 
+1;2;18;12;1;1;abd pain;1;1;5;107;64;109;20;38.4;;3;Abdominal pain;1;3;0 ;0;6,00;0 
+1;2;19;15;3;1;abd pain;1;1;5;113;58;101;20;37.2;;3;Acute abdomen;2;3;0 ;198;7,40;0 
+1;2;19;6;3;1;abd pain;1;1;5;143;74;109;18;36.7;;3;Acute gastroenteritis;1;3;0 ;299;3,37;0 
+1;2;21;14;3;1;HA;1;1;5;138;82;67;16;36.9;;3;Headache;1;3;0 ;208;13,17;0 
+2;1;22;4;3;2;Eye Foreign Body;1;1;5;100;60;80;20;36;97;4;Punctate keratatitis;1;4;0 ;238;2,00;0 
+1;2;22;2;3;1;abd pain;1;1;5;132;68;111;18;38.1;;3;Acute gastroenteritis;1;3;0 ;93;5,65;0 
+1;2;22;11;3;2;Hand Injury;1;1;5;171;77;96;20;36.5;;4;Injury of hand;1;4;0 ;208;15,48;0 
+1;1;22;9;2;2;headache;1;1;5;106;69;71;16;36.5;;3;Multiple abrasion;1;3;0 ;148;6,87;0 
+1;2;23;5;3;1;pain, abdominal;1;1;5;183;105;129;18;37.2;;3;Acute gastritis;1;3;0 ;143;2,92;0 
+1;1;23;5;3;1;pain, abdominal;1;1;5;102;72;76;18;37.2;;3;Acute gastroenteritis;1;3;0 ;84;6,95;0 
+1;2;24;5;3;2;finger lac.;1;1;5;128;62;94;18;36.9;;4;Laceration of finger without nail damage;1;4;0 ;27;8,25;0 
+2;2;24;8;3;1;chest discomfort left;1;1;5;160;100;98;20;36.5;98;2;Ischaemic chest pain;1;2;0 ;588;4,00;0 
+1;2;25;9;3;1;RLQ pain;1;1;5;152;88;90;20;36;;3;Diverticulitis of large intestine without bleeding;1;3;0 ;137;5,43;0 
+1;2;26;5;3;2;right shoulder pain;1;1;5;160;88;68;16;36.8;;4;Fracture of clavicle, shaft closed;1;4;0 ;227;10,27;0 
+1;1;26;15;3;1;epigastric pain;1;1;5;134;97;97;20;36.2;;3;Somatization disorder;1;3;0 ;122;6,77;0 
+1;2;27;10;3;1;abd pain;1;1;5;144;81;70;20;36.1;;3;Acute gastroenteritis;1;3;0 ;103;6,97;0 
+1;1;27;9;3;2;foot swelling;1;1;5;129;67;80;20;36.5;;4;Injury of ankle;1;4;0 ;84;11,68;0 
+1;2;27;10;2;1;abd pain;1;1;5;152;85;98;16;37.5;;3;Acute pancreatitis;2;3;0 ;1439;3,07;0 
+1;1;28;10;3;2;Finger Injury;1;1;5;138;87;82;20;36.5;;4;Laceration of finger without nail damage;1;4;0 ;49;10,15;0 
+1;1;28;6;3;1;pain, abdominal;1;1;5;115;71;90;16;36.5;;3;Acute gastroenteritis;1;3;0 ;147;4,52;0 
+1;2;29;12;1;2;Wrist Injury;1;1;5;159;82;87;16;36.5;;4;Injury of wrist;1;4;0 ;96;4,27;0 
+1;2;30;10;3;1;myalgia;1;1;5;136;63;94;18;37.2;;4;Viral infection;1;4;0 ;155;7,23;0 
+2;2;31;8;3;2;Open Wound;1;1;5;170;90;112;22;36.4;99;4;Open wound of head, part unspecified;1;4;0 ;8108;2,00;0 
+1;1;31;6;3;1;abd pain;1;1;5;111;67;78;20;36.5;;3;Acute gastroenteritis;1;3;0 ;167;3,22;0 
+1;1;31;3;3;1;abd pain;1;1;5;91;54;98;18;36.9;;3;Acute gastroenteritis;1;3;0 ;180;6,08;0 
+1;1;31;11;3;1;abd pain;1;1;5;114;79;67;20;36.7;;3;Acute gastroenteritis;1;3;0 ;178;7,28;0 
+1;1;33;8;3;1;skin rash;1;1;5;121;82;75;16;37.2;;4;Acute urticaria;1;4;0 ;166;8,28;0 
+1;2;33;3;3;2;abd pain;1;1;5;119;63;97;16;37;;3;Contusion of abdominal wall;1;3;0 ;242;6,53;0 
+1;1;33;7;3;1;sorethroat;1;1;5;144;87;62;20;37.1;;3;Acute pharyngotonsillitis;1;3;0 ;310;11,57;0 
+2;1;34;2;3;1;Abdominal pain (finding);1;1;5;100;60;90;20;36.0;98;3;Gastroenteritis and colitis of unspecified origin;2;3;0 ;704;2,00;0 
+1;2;34;14;3;1;fever;1;1;5;144;71;91;16;37.8;;3;Fever;2;3;0 ;238;11,77;0 
+1;2;34;9;1;2;head injury;1;1;5;145;84;65;16;36.6;;3;Head trauma;1;3;0 ;73;5,42;0 
+1;2;35;5;3;2;elbow painful swelling;1;1;5;164;111;94;18;36.7;;4;Cellulitis;1;4;0 ;47;4,58;0 
+1;1;35;4;3;1;headache;1;1;5;131;83;86;16;36;;3;Headache;1;3;0 ;143;5,28;0 
+1;2;36;3;3;1;abd pain;1;1;5;135;86;79;18;36.8;;3;Acute gastroenteritis;1;3;0 ;321;2,72;0 
+1;2;37;11;1;1;pain, chest wall, Rt;1;1;5;129;65;70;18;37.2;;3;Sprain and strain of thorax;1;3;0 ;247;8,22;0 
+1;2;39;3;3;1;pain, flank;1;1;5;163;100;78;18;36.9;;3;Ureter stone;1;3;0 ;112;3,05;0 
+1;2;42;7;2;2;Pain, Hip;1;1;5;145;71;80;18;36;;4;Fracture of femur shaft closed;1;4;0 ;106;7,00;0 
+2;2;43;11;3;1;diffuse abdominal pain;1;1;5;140;90;87;20;36.0;96;3;Other acute pancreatitis;2;3;0 ;403;3,00;0 
+2;1;43;8;2;2;elbow painful swelling lt.;1;1;5;140;100;108;20;36.4;98;4;Contusion of elbow;1;4;0 ;174;3,00;0 
+1;2;44;5;3;2;ankle pain;1;1;5;139;80;97;18;36.3;;4;Injury of ankle and foot;1;4;0 ;51;4,23;0 
+1;1;45;4;3;1;LBP - Low back pain;1;1;5;146;88;75;20;36;;4;Sprain of lumbar spine;1;4;0 ;80;17,33;0 
+2;2;47;5;3;2;Open Wound;1;1;5;130;80;93;20;36.3;98;4;Superficial injury of head, part unspecified, contusion;1;4;0 ;83;2,00;0 
+1;2;47;13;2;2;backache;1;1;5;116;60;57;16;36.8;;3;Herniated disc disease of lumbar spine with radiculopathy;2;3;0 ;238;6,82;0 
+2;2;47;12;3;2;Open Wound;1;1;5;110;60;92;20;36.6;98;4;Open wound of finger(s), NOS;1;4;0 ;127;2,00;0 
+2;2;48;5;2;1;right chest pain;1;1;5;120;80;64;20;36.3;99;2;Unstable angina;1;2;0 ;8449;4,00;0 
+1;1;49;12;3;2;Ankle Injury;1;1;5;140;86;95;20;36.5;;4;Sprain of ankle;1;4;0 ;684;8,03;0 
+1;2;50;9;3;1;epigastric pain;1;1;5;121;69;86;16;37.1;;3;Ampulla of vater cancer;1;3;0 ;285;12,13;0 
+1;2;50;7;3;2;Foot Injury;1;1;5;137;81;68;20;36.5;;4;Fracture of calcaneus closed;1;4;0 ;128;6,88;0 
+1;1;50;9;3;2;injury, ankle;1;1;5;166;80;61;20;37;;4;Fracture of lower leg closed;1;4;0 ;182;7,32;0 
+1;1;50;9;3;2;injury, ankle;1;1;5;166;80;61;20;37;;4;Pilon fracture closed;1;4;0 ;182;7,32;0 
+2;2;51;11;4;1;ant. chest pain;1;1;5;120;80;78;18;36.4;99;2;Unstable angina;1;2;0 ;7937;4,00;0 
+2;1;51;5;3;1;headache;1;1;5;110;70;80;20;36.0;98;3;Migraine, unspecified;1;3;0 ;7985;2,00;0 
+2;2;51;3;3;1;abd pain;1;1;5;110;70;86;20;36.4;100;3;Other and unspecified cirrhosis of liver, Child-Pugh C;2;3;0 ;10799;4,00;0 
+1;2;53;9;1;2;FB in eye;1;1;5;149;107;74;18;36.2;;4;Foreign body in eye;1;4;0 ;47;3,80;0 
+1;2;54;5;3;1;abdomen pain;1;1;5;137;77;129;20;37.8;;3;Liver abscess;2;3;0 ;478;17,23;0 
+1;2;54;5;3;1;abdomen pain;1;1;5;137;77;129;20;37.8;;3;Metastatic cancer to the liver;2;3;0 ;478;17,23;0 
+1;2;54;5;2;1;dizziness;1;1;5;143;70;115;18;36;;3;Stroke;4;3;0 ;333;6,25;0 
+1;1;54;3;2;1;abd pain;1;1;5;190;92;69;20;36.6;;3;Abdominal pain;1;3;0 ;417;4,15;0 
+1;2;54;3;3;1;Chin swelling;1;1;5;194;84;112;20;37.1;;4;Periodontal abscess;2;4;0 ;0;4,00;0 
+2;1;54;6;3;1;abd pain;1;1;5;120;80;100;20;36.3;97;3;Gastrointestinal haemorrhage, unspecified;2;3;0 ;699878;4,00;0 
+1;1;57;7;3;1;epigastric pain;1;1;5;140;87;68;20;36.4;;3;Acute gastroenteritis;1;3;0 ;105;4,00;0 
+2;1;58;7;4;2;Open Wound;1;1;5;110;70;100;20;37.2;97;4;Localized swelling, mass and lump, neck;2;4;0 ;9014;4,00;0 
+1;1;58;11;1;1;pain, chest;1;1;5;169;89;57;18;36.3;;2;Palpitation;1;2;0 ;173;11,47;0 
+1;1;58;7;2;1;abdomen pain;1;1;5;95;62;50;18;37.3;;3;Acute gastroenteritis;2;3;0 ;0;13,00;0 
+2;1;60;6;1;2;Rt. flank pain;1;1;5;140;90;80;20;36.6;98;4;Contusion of flank;1;4;0 ;280;2,00;0 
+2;2;60;4;4;1;RUQ pain;1;1;5;140;100;104;20;38.1;97;3;Cholangitis;2;3;0 ;2014;1,00;0 
+1;1;60;4;3;1;abd pain;1;1;5;140;84;102;20;36.7;;3;Ureter stone;1;3;0 ;158;8,20;0 
+1;2;60;10;3;2;Pain, ?nus;1;1;5;159;94;74;20;36.5;;3;Urinoma;1;3;0 ;265;5,57;0 
+2;1;61;6;2;2;burn, face;1;1;5;140;90;72;20;36.3;97;4;Burn of first degree of head and neck, multiple sites head, face, and neck;1;4;0 ;8034;3,00;0 
+1;1;61;8;3;2;Lt. hip joint pain;1;1;5;146;80;101;16;36.7;;4;Contusion of hip;1;4;0 ;51;6,62;0 
+1;1;62;11;3;1;abd pain;1;1;5;107;58;83;20;36.8;;3;Acute gastroenteritis;1;3;0 ;121;10,93;0 
+1;2;62;9;3;1;pain, abdominal;1;1;5;136;90;93;16;36.6;;3;Abdominal pain;1;3;0 ;360;7,57;0 
+2;2;62;7;3;1;Lt flank pain;1;1;5;160;90;101;20;36.7;98;3;Chronic kidney disease, unspecified;2;3;0 ;9706;3,00;0 
+1;1;63;1;3;1;abd pain;1;1;5;141;76;79;18;36.7;;3;Fecal impaction;1;3;0 ;79;2,85;0 
+1;2;64;4;3;1;left leg pain;1;1;5;154;101;101;16;36.4;;5;Chondromalacia patellae;1;5;0 ;117;8,07;0 
+1;2;65;6;2;1;abd pain;1;1;5;135;79;57;18;36.6;;3;Urinary stone;1;3;0 ;312;4,18;0 
+1;2;66;7;3;1;voiding difficulty;1;1;5;136;84;89;20;36;;4;Acute urinary retension;1;4;0 ;41;5,38;0 
+1;1;67;5;3;1;myalgia;1;1;5;134;89;93;20;36.8;;3;Common cold;1;3;0 ;122;4,58;0 
+1;1;67;8;3;1;abd pain;1;1;5;196;94;101;20;37;;3;Constipation;1;3;0 ;152;16,22;0 
+2;1;67;4;3;1;ant. chest pain;1;1;5;140;90;85;20;36.2;95;3;Other chest pain;1;3;0 ;255;3,00;0 
+1;1;68;5;2;2;Ankle Injury;1;1;5;171;72;74;16;37.1;;4;Fracture of ankle closed;2;4;0 ;250;7,18;0 
+1;2;68;7;3;1;pain, abdominal;1;1;5;107;73;102;16;36.3;;3;Hepatic failure without coma;3;3;0 ;1127;7,23;0 
+1;1;68;10;3;1;abd pain;1;1;5;149;79;60;20;36.6;;3;Acute gastroenteritis;1;3;0 ;230;5,22;0 
+2;2;68;10;4;2;headache;1;1;5;120;80;88;22;36.4;98;3;Multiple contusion NOS;2;3;0 ;399;3,00;0 
+2;1;68;2;2;1;abd pain;1;1;5;130;90;96;20;36.2;98;4;Ileus, unspecified;2;4;0 ;10723;3,00;0 
+2;2;71;5;3;1;Left chest pain;1;1;5;150;90;108;24;36.7;99;2;Ischaemic chest pain;2;2;0 ;535;5,00;0 
+1;1;72;5;2;1;leg pain;1;1;5;165;78;64;16;36.8;;4;Transient ischemia attack;2;4;0 ;354;3,88;0 
+1;1;72;8;3;1;Urticarial rash;1;1;5;197;84;100;18;36.9;;4;Angioedema;1;4;0 ;120;5,12;0 
+1;1;73;12;2;1;headache;1;1;5;163;106;80;18;36.8;;4;Postnasal drip syndrome;1;4;0 ;244;9,27;0 
+2;2;73;4;3;2;TMJ pain;1;1;5;110;70;82;20;36.6;98;4;Derangement of temporomandibular joint;1;4;0 ;77;2,00;0 
+1;2;74;8;3;1;abd pain;1;1;5;143;76;103;16;36.9;;3;Adenocarcinoma of prostate;1;3;0 ;253;8,75;0 
+1;2;74;6;3;1;shoulder pain, both;1;1;5;163;86;86;20;36.7;;4;Frozen shoulder;1;4;0 ;59;4,72;0 
+2;2;74;10;2;1;ant. chest pain;1;1;5;170;100;68;20;36.6;99;2;Acute myocardial infarction, unspecified;2;2;0 ;9433;1,00;0 
+1;2;75;5;3;2;shoulder pain, Rt;1;1;5;109;65;72;20;36;;4;Contusion of forearm;1;4;0 ;48;7,85;0 
+2;2;75;11;3;2;pain, chest wall;1;1;5;110;70;74;20;36.3;95;3;Multiple fracture of unspecified ribs,Closed;1;3;0 ;300;4,00;0 
+1;1;77;9;1;1;lower chest wall pain;1;1;5;202;91;88;16;36.6;;4;Abdomen pain, right upper quadrant;1;4;0 ;282;11,25;0 
+1;2;78;8;3;1;headache;1;1;5;146;63;110;20;37.4;;3;Headache;2;3;0 ;1359;4,42;0 
+1;1;79;9;3;1;pain, tooth;1;1;5;174;89;80;20;36;;4;Toothache;1;4;0 ;59;6,37;0 
+2;2;85;10;4;1;ant. chest pain;1;1;5;190;100;66;20;36.6;96;2;Unstable angina;2;2;0 ;10002;2,00;0 
+1;1;85;4;3;2;Burn, hand;1;1;5;141;61;97;20;36;;4;Burn, second degree;1;4;0 ;53;7,02;0 
+1;1;86;3;3;1;general ache;1;1;5;137;67;72;16;37.6;;4;Pain;1;4;0 ;322;4,77;0 
+2;1;88;10;4;1;abd pain;1;1;5;110;70;80;18;36.9;94;3;Gallstone(impacted) of cystic duct with acute cholecystitis, With obstruction;2;3;0 ;465;3,00;0 
+1;2;54;10;2;1;pain, chest;1;1;6;159;89;91;20;36.6;;2;Gastroesophageal reflux disease;1;2;0 ;214;4,95;0 
+1;2;79;6;1;1;pain, chest;1;1;6;113;56;110;20;36.3;;2;Chest pain;2;2;0 ;1;11,00;0 
+1;2;18;9;1;2;visual disturbance;1;1;6;157;72;103;18;36.6;;3;Injury of eye;1;3;0 ;160;16,27;0 
+2;2;21;12;3;1;scrotal pain;1;1;6;140;90;70;20;36.5;96;3;Epididymo-orchitis, without abscess;1;3;0 ;177;2,00;0 
+1;2;22;5;2;2;leg pain;1;1;6;123;70;74;18;36.5;;4;Multiple contusion;1;4;0 ;40;15,68;0 
+1;1;22;9;3;1;abd pain;1;1;6;108;71;64;20;36.6;;3;Acute gastroenteritis;1;3;0 ;140;4,90;0 
+1;2;23;9;3;2;Finger Injury;1;1;6;159;89;108;20;36.2;;4;Injury of finger;2;4;0 ;333;5,95;0 
+1;2;29;3;3;1;pain, abdominal;1;1;6;137;92;58;18;37.6;;3;Allergic reaction;1;3;0 ;116;5,97;0 
+1;1;29;3;2;1;abd pain;1;1;6;140;73;50;16;36;;3;Dysmenorrhea;4;3;0 ;34;4,12;0 
+2;1;29;8;3;2;foreign body ingestion;1;1;6;140;100;84;20;36.5;??;3;Chronic sore throat;1;3;0 ;122;5,00;0 
+2;2;29;4;2;2;Open Wound;1;1;6;120;70;88;20;36.6;97;4;Open wound of forearm, part unspecified;4;4;0 ;94;3,00;0 
+1;1;30;7;3;1;RLQ pain;1;1;6;113;67;87;20;36;;3;Acute abdomen;2;3;0 ;222;5,23;0 
+1;1;31;4;2;1;headache;1;1;6;187;120;82;20;36.9;;3;Vascular headache;1;3;0 ;124;5,38;0 
+1;2;32;11;2;2;Wrist Injury;1;1;6;167;86;80;18;36;;4;Multiple trauma;4;4;0 ;37;12,53;0 
+2;1;33;8;3;1;Vaginal Bleeding;1;1;6;160;100;74;20;37.4;100;4;Abnormal uterine and vaginal bleeding, unspecified;1;4;0 ;191;3,00;0 
+1;2;36;15;2;1;pain, flank;1;1;6;122;78;81;20;36.2;;3;Kidney and ureter stone;1;3;0 ;133;2,95;0 
+2;2;37;5;3;2;ocular injury, Lt.;1;1;6;120;80;78;18;36.1;99;4;Ocular pain;1;4;0 ;276;2,00;0 
+2;1;42;12;3;2;Open Wound;1;1;6;100;60;72;18;37.2;97;4;Open wound of other parts of head, face;1;4;0 ;37;4,00;0 
+2;1;43;8;1;1;RUQ pain;1;1;6;110;60;90;20;36.5;98;3;Calculus of gallbladder with other cholecystitis, Without mention of obstruction;2;3;0 ;8723;4,00;0 
+2;2;45;5;3;1;ant. chest pain;1;1;6;140;100;96;20;36.5;98;2;Angina pectoris, unspecified;1;2;0 ;315;3,00;0 
+2;2;45;10;3;1;headache;1;1;6;180;100;94;26;36.8;99;3;Headache;1;3;0 ;364;5,00;0 
+1;1;46;8;3;2;pain, arm;1;1;6;176;78;93;16;36;;4;Contusion of forearm;1;4;0 ;46;4,63;0 
+2;2;47;13;2;2;lower extremity paraparesis;1;1;6;110;80;78;20;36.0;94;2;Stress fracture of vertebra, Cervical region;2;2;0 ;399;4,00;0 
+2;2;47;7;3;2;Foreign Body Sense;1;1;6;120;80;76;20;36.3;96;3;Foreign body in oesophagus;1;3;0 ;314;3,00;0 
+2;2;50;12;4;1;upper back pain;1;1;6;120;60;64;20;36.5;97;2;Transmural myocardial infarction NOS;2;2;0 ;9921;3,00;0 
+2;2;51;8;3;2;ocular pain, Rt.;1;1;6;110;60;61;20;36.3;98;4;Corneal abrasion;1;4;0 ;99;4,00;0 
+1;1;51;5;3;1;pain, low back;1;1;6;153;85;75;18;36.3;;3;Herniated disc disease of lumbar spine;1;3;0 ;108;4,95;0 
+1;1;54;6;3;1;ocular pain;1;1;6;154;99;70;18;37.1;;3;Angle closure glaucoma, acute;1;3;0 ;341;7,62;0 
+1;2;55;12;1;2;bee sting;1;1;6;142;92;66;18;37.2;;4;Insect bites and stings;1;4;0 ;0;15,00;0 
+1;2;56;10;3;2;pelvic pain, Lt;1;1;6;105;75;83;20;37;;4;Fracture of hip closed;2;4;0 ;712;10,15;0 
+1;1;56;9;2;2;right elbow pain;1;1;6;141;77;78;20;36.4;;4;Contusion of elbow;1;4;0 ;64;13,07;0 
+2;1;57;5;2;1;palpitation;1;1;6;130;80;73;22;36.2;98;3;Palpitations;1;3;0 ;8065;2,00;0 
+2;2;58;12;3;1;Left chest pain;1;1;6;160;100;110;20;36.5;98;2;Angina pectoris, unspecified;2;2;0 ;10150;4,00;0 
+2;2;58;8;3;2;ocular pain, Lt.;1;1;6;160;100;84;20;36.5;97;4;;1;4;0 ;193;3,00;0 
+2;2;58;7;4;1;ant. chest pain;1;1;6;110;60;62;20;36.2;97;2;Acute transmural myocardial infarction of inferior wall;2;2;0 ;274;4,00;0 
+2;1;59;8;3;2;Open Wound;1;1;6;140;100;75;20;36.3;95;4;Open wound of other parts of head, face;1;4;0 ;223;3,00;0 
+2;2;60;3;3;1;dysuria;1;1;6;130;60;66;20;36.6;??;4;Urinary tract obstruction NOS;1;4;0 ;55;2,00;0 
+2;2;61;8;4;2;abd pain;1;1;6;??;??;??;??;??;??;1;Contusion of abdomen wall;6;1;0 ;275;5,00;0 
+2;2;62;8;1;1;Left chest pain;1;1;6;110;80;78;20;36.2;98;2;Ischaemic chest pain;2;2;0 ;504;4,00;0 
+2;2;66;6;3;1;D - Diarrhea;1;1;6;110;60;98;20;36.5;99;3;Regional colitis, unspecified;2;3;0 ;315;2,00;0 
+1;2;66;9;2;2;facial injury;1;1;6;86;44;66;20;36.3;;3;Open wound of head, other part;1;3;0 ;269;3,92;0 
+2;1;68;5;3;1;headache;1;1;6;200;110;90;20;36.8;98;3;Tension-type headache;1;3;0 ;8805;4,00;0 
+2;2;68;10;1;1;RUQ pain;1;1;6;120;80;78;20;36.8;98;3;Acute cholecystitis;2;3;0 ;197;3,00;0 
+2;1;69;8;3;1;epigastric pain;1;1;6;160;100;72;20;36.4;98;2;Unstable angina;2;2;0 ;309;1,00;0 
+2;2;69;12;2;1;chest discomfort;1;1;6;150;100;70;20;36.4;97;2;Angina pectoris, unspecified;1;2;0 ;18980;3,00;0 
+1;1;71;4;1;2;Rt. shoulder pain;1;1;6;154;73;78;20;37.1;;4;Contusion of shoulder and upper arm;1;4;0 ;375;8,03;0 
+2;2;72;5;4;2;Left chest pain;1;1;6;100;60;86;24;36.4;94;2;Contusion of abdomen wall;7;2;0 ;206;4,00;0 
+1;2;72;13;3;1;pain, flank;1;1;6;168;86;65;18;37.3;;3;Hydronephrosis;2;3;0 ;489;11,85;0 
+1;1;74;7;3;1;abd pain;1;1;6;118;78;77;16;36.9;;3;Parkinsonism;1;3;0 ;56;8,72;0 
+2;2;74;8;4;1;ant. chest pain;1;1;6;110;60;60;20;36.6;96;2;Observation for suspected myocardial infarction;5;2;0 ;10268;2,00;0 
+2;1;75;8;3;1;ant. chest pain;1;1;6;110;60;60;20;36.1;98;2;Ischaemic chest pain;2;2;0 ;19523;2,00;0 
+2;1;77;2;4;1;headache;2;1;6;190;100;84;20;36.5;97;2;Intracerebral haemorrhage in cerebellum;7;2;0 ;189;2,00;0 
+2;1;77;8;4;1;Hip joint pain;1;1;6;110;60;84;20;36.7;97;4;Abscess of fascia, buttock;1;4;0 ;9377;3,00;0 
+1;1;78;8;2;2;pain, facial;1;1;6;94;47;86;18;36.2;;4;Superficial injury of face contusion;1;4;0 ;336;4,75;0 
+2;1;78;6;4;1;ant. chest pain;1;1;6;120;60;100;20;36.3;99;2;Acute transmural myocardial infarction of unspecified site;2;2;0 ;475;2,00;0 
+2;2;78;8;1;1;RUQ pain;1;1;6;110;60;65;20;36.0;95;3;Acute cholecystitis;2;3;0 ;8695;4,00;0 
+1;1;53;4;3;1;epigastric pain;1;1;7;116;61;56;16;35.6;;3;Acute gastroenteritis;1;3;0 ;164;4,07;0 
+1;1;56;7;3;1;abd pain;1;1;7;133;72;88;18;36.5;;3;Abdominal pain;2;3;0 ;425;12,53;0 
+1;1;80;7;2;1;general weakness;1;1;7;144;94;96;20;36.8;;3;Liver cirrhosis Child-Pugh A;2;3;0 ;337;5,92;0 
+1;1;75;8;1;1;myalgia;1;1;7;150;98;84;18;36.8;;4;Functional dyspepsia;1;4;0 ;247;7,42;0 
+1;1;84;10;3;1;leg pain;1;1;7;166;71;102;20;36;;4;Spinal stenosis lumbosacral region;1;4;0 ;156;6,57;0 
+1;2;88;13;2;1;buttock pain;1;1;7;108;63;98;18;36.6;;4;Hip pain;1;4;0 ;122;10,53;0 
+1;1;20;9;3;1;abd pain;1;1;7;122;55;100;16;37.3;;3;Abdominal pain;2;3;0 ;412;7,77;0 
+1;1;21;6;3;1;abd pain;1;1;7;159;101;78;16;36.4;;3;Acute gastroenteritis;1;3;0 ;147;8,32;0 
+1;2;27;9;3;2;wrist laceration;1;1;7;182;91;93;16;36.5;;4;Laceration of wrist;1;4;0 ;156;6,00;0 
+2;2;28;7;3;1;both leg pain;1;1;7;100;60;78;20;36.6;97;4;Complex regional pain syndrome type II;1;4;0 ;8118;3,00;0 
+1;2;35;3;3;2;both shoulder pain;1;1;7;125;76;68;16;36.6;;4;Whiplash injury;1;4;0 ;149;4,82;0 
+1;1;36;8;3;1;abd pain;1;1;7;131;70;53;20;36.6;;3;Ureter stone;1;3;0 ;178;5,82;0 
+1;1;36;9;6;2;Injury, Leg;1;1;7;135;85;96;24;36.6;;4;Multiple abrasion;1;4;0 ;294;12,27;0 
+1;1;37;5;3;2;COCCYGEAL PAIN;1;1;7;129;64;106;18;36.7;;4;Injury of abdomen, lower back and pelvis;1;4;0 ;91;2,73;0 
+1;1;39;10;2;1;abd pain;1;1;7;146;81;95;20;36.5;;3;Constipation;1;3;0 ;126;2,82;0 
+1;2;39;8;3;1;Lt flank pain;1;1;7;178;108;87;16;36;;3;Ureter stone;1;3;0 ;130;12,23;0 
+1;2;43;8;3;1;Lt flank pain;1;1;7;200;105;88;16;35.6;;3;Ureter stone;1;3;0 ;98;4,52;0 
+1;2;52;6;3;1;abd pain;1;1;7;122;82;102;16;36.4;;3;Chronic pancreatitis;4;3;0 ;92;12,27;0 
+1;1;55;5;3;1;Lt flank pain;1;1;7;165;85;72;20;36.7;;3;Ureter stone;1;3;0 ;130;5,07;0 
+1;2;56;12;3;1;abd pain;1;1;7;190;116;76;22;36.8;;3;Ileus;1;3;0 ;324;5,12;0 
+1;2;56;12;3;1;LLQ pain;1;1;7;157;115;86;24;36.9;;3;Ureter stone;1;3;0 ;161;3,47;0 
+1;2;58;7;2;1;leg pain;1;1;7;150;70;89;18;37.1;;4;Herniated disc disease of lumbar spine;1;4;0 ;188;4,20;0 
+1;1;58;6;2;1;Flank pain, Rt.;1;1;7;139;63;61;24;36.1;;3;Ureter stone;1;3;0 ;0;6,00;0 
+1;2;63;9;3;1;epigastric pain;1;1;7;115;74;72;22;36;;3;Acute gastroenteritis;1;3;0 ;135;4,08;0 
+1;1;65;6;3;1;epigastric pain;1;1;7;187;103;115;16;35.5;;3;Unclassified epithelial ovarian cancer unspecified side;1;3;0 ;237;5,58;0 
+1;2;66;13;3;1;pain, low back;1;1;7;132;74;84;18;37.9;;4;Squamous cell carcinoma of lung left;1;4;0 ;46;14,38;0 
+1;1;68;4;1;1;tooth pain, Lt;1;1;7;181;92;68;16;36.2;;4;Gingivitis;1;4;0 ;159;7,90;0 
+1;2;77;7;3;1;abd pain;1;1;7;135;72;89;16;36.7;;3;Advanced gastric cancer;1;3;0 ;303;12,58;0 
+1;1;88;7;3;2;pain, shoulder;1;1;7;149;66;95;20;36;;3;Unspecified dislocation of shoulder;1;3;0 ;78;5,68;0 
+2;2;49;5;3;1;ant. chest pain;1;1;8;140;90;60;20;36.0;99;2;Myocardial infarction with non-ST elevation;2;2;0 ;10286;3,00;0 
+1;1;55;6;2;2;finger pain;1;1;8;202;102;71;18;37.3;;3;Injury of hand;2;3;0 ;596;5,25;0 
+2;2;56;7;4;1;upper back pain;1;1;8;180;100;84;22;36.0;100;2;Abdominal aortic aneurysm, ruptured;2;2;0 ;234;2,00;0 
+1;2;56;10;2;1;abdomen pain;1;1;8;114;71;112;28;38.1;;2;Alcoholic liver cirrhosis with ascites;2;2;0 ;411;6,65;0 
+1;1;58;8;3;1;HA;1;1;10;134;90;84;16;37;;2;Headache;1;2;0 ;343;6,07;0 
+1;2;37;5;2;1;pain, chest;1;1;10;75;54;95;28;36.3;;2;Chest pain;2;2;0 ;552;4,68;0 
+1;1;83;5;2;1;dyspnea;1;0;#BOÞ!;164;65;88;20;36.7;;3;Dyspnea;2;3;0 ;286;5,82;0 
+1;1;67;7;3;1;dizziness;1;0;#BOÞ!;211;105;102;18;36.8;;3;Dizziness;1;3;0 ;93;3,45;0 
+1;2;71;7;3;1;for PEG tube change;2;0;#BOÞ!;119;73;89;16;36.8;;4;Percutaneous catheter problem;2;4;0 ;537;8,17;0 
+1;1;51;3;3;1;Rt.arm weakness;2;0;#BOÞ!;179;112;90;18;36.8;;3;Borderzone infarction;2;3;0 ;574;6,67;0 
+1;1;67;9;3;1;general weakness;1;0;#BOÞ!;94;55;115;16;36.5;;4;Fever;2;4;0 ;543;6,87;0 
+1;1;69;5;3;1;high BSL;1;0;#BOÞ!;197;88;63;16;36.8;;3;Hyperglycemia;2;3;0 ;168;8,68;0 
+1;1;70;14;2;1;dyspnea;2;0;#BOÞ!;139;45;113;28;36.9;;3;Dyspnea;4;3;0 ;282;6,45;0 
+1;1;73;4;3;1;Discomfort, Chest;1;0;#BOÞ!;119;65;35;16;36.7;;2;Bradycardia;3;2;0 ;312;11,65;0 
+1;1;59;9;3;1;sezure like motion;1;0;#BOÞ!;120;81;63;16;36.8;;4;Meningioma;2;4;0 ;332;5,90;0 
+1;1;72;5;3;1;dizziness;1;0;#BOÞ!;173;98;84;16;36.5;;3;Benign paroxysmal positional vertigo;1;3;0 ;183;8,03;0 
+1;2;73;14;3;1;dizziness;1;0;#BOÞ!;128;72;64;16;37;;3;Orthostatic hypotension;1;3;0 ;160;8,17;0 
+1;2;74;9;2;1;general weakness;1;0;#BOÞ!;123;66;54;16;36.2;;3;Syncope;1;3;0 ;172;5,65;0 
+1;1;81;9;3;1;vomiting;1;0;#BOÞ!;120;74;68;16;36.3;;3;Gastroduodenitis;2;3;0 ;235;12,87;0 
+1;1;81;5;2;1;dizziness;1;0;#BOÞ!;154;96;78;18;35.7;;3;Dizziness;1;3;0 ;332;3,88;0 
+1;2;88;4;3;1;Nasal swelling;1;0;#BOÞ!;124;84;105;16;36.9;;4;Abscess of nose;1;4;0 ;159;10,67;0 
+1;2;47;5;1;1;Sudden hearing loss;1;0;#BOÞ!;156;95;91;16;36.6;;3;Tinnitus;1;3;0 ;229;7,85;0 
+1;2;52;7;3;1;for A/tapping;1;0;#BOÞ!;199;111;72;20;36.9;;5;Ascites;1;5;0 ;183;17,10;0 
+1;2;56;8;2;1;hematemesis;1;0;#BOÞ!;115;78;90;20;36;;2;Hematemesis;5;2;0 ;65;7,38;0 
+1;2;56;3;3;1;distended abdomen;1;0;#BOÞ!;121;75;83;20;36;;5;Alcoholic liver cirrhosis with ascites;1;5;0 ;195;2,90;0 
+1;2;57;15;2;1;dizziness;1;0;#BOÞ!;152;97;98;20;36.2;;5;Dizziness;1;5;0 ;140;9,67;0 
+1;2;59;13;3;1;distension, abd;1;0;#BOÞ!;91;61;100;16;36.8;;5;Alcoholic hepatitis with ascites;1;5;0 ;215;12,83;0 
+1;1;60;15;3;1;decreased activity;1;0;#BOÞ!;140;82;100;20;36.9;;3;Liver cirrhosis with hepatitis B Unspecified;2;3;0 ;1360;6,13;0 
+1;2;63;5;3;1;for ascites tapping;2;0;#BOÞ!;137;69;62;20;36.6;;5;Hepatocellular carcinoma;1;5;0 ;125;12,48;0 
+1;2;64;11;4;1;fever;3;0;#BOÞ!;100;70;100;24;36.9;;3;Nosocomial pneumonia;2;3;0 ;1229;15,02;0 
+1;2;67;6;3;1;sleeping tendency;2;0;#BOÞ!;153;64;100;20;37.8;;2;Hepatic encephalopathy without coma;2;2;0 ;1246;7,33;0 
+1;1;68;5;3;1;hematochezia;1;0;#BOÞ!;141;83;61;16;36.8;;2;Liver cirrhosis with hepatitis C Unspecified;2;2;0 ;182;6,25;0 
+1;1;77;3;4;1;distension, abd;1;0;#BOÞ!;135;81;73;22;36.3;;5;Hepatocellular carcinoma;1;5;0 ;296;7,95;0 
+1;1;68;6;2;1;vomiting;1;0;#BOÞ!;147;69;66;20;37.3;;4;Acute gastroenteritis;1;4;0 ;213;9,95;0 
+1;1;81;11;4;1;sezure like motion;1;0;#BOÞ!;??;??;118;28;37;;3;Seizure;1;3;0 ;982;8,98;0 
+1;2;47;7;4;1;fever;3;0;#BOÞ!;139;96;114;30;39.5;;2;Fever;2;2;0 ;1;8,00;0 
+1;2;52;11;3;1;rt. side weakness;1;0;#BOÞ!;193;115;86;20;36.2;;3;Stroke;2;3;0 ;226;5,87;0 
+1;2;59;7;2;1;post seizure;2;0;#BOÞ!;182;74;115;18;36;;2;Seizure;1;2;0 ;221;7,75;0 
+1;2;59;6;3;1;Retention, Bladder;1;0;#BOÞ!;143;90;97;18;37.3;;4;Urinary retension;1;4;0 ;56;4,45;0 
+1;2;59;9;1;1;Free voiding;1;0;#BOÞ!;112;80;100;18;36.5;;4;Other urinary difficulty;1;4;0 ;522;11,92;0 
+1;2;62;3;3;1;??? ??;1;0;#BOÞ!;170;100;108;20;36.5;;4;Benign prostatic hyperplasia;1;4;0 ;26;4,02;0 
+1;2;62;9;2;2;facial injury;1;0;#BOÞ!;165;89;61;20;36.2;;4;Head trauma;1;4;0 ;196;6,67;0 
+1;1;65;9;1;1;Amnesia;1;0;#BOÞ!;205;102;66;20;36.6;;3;Amnesia;1;3;0 ;479;15,92;0 
+1;1;69;5;2;1;dyspnea;1;0;#BOÞ!;165;89;66;18;36.8;;3;Edema, generalized;1;3;0 ;179;6,45;0 
+1;2;70;5;2;1;dizziness;1;0;#BOÞ!;94;54;85;18;35;;3;Anxiety disorder;1;3;0 ;451;5,30;0 
+1;2;73;7;4;1;fever;1;0;#BOÞ!;117;60;85;16;36.8;;4;Fever;2;4;0 ;620;9,75;0 
+1;1;74;13;1;1;dyspnea;1;0;#BOÞ!;168;73;75;20;36.1;;3;Anemia;2;3;0 ;498;6,27;0 
+1;2;75;14;4;1;for PEG tube change;3;0;#BOÞ!;99;57;69;16;37;;4;Percutaneous catheter problem;1;4;0 ;344;8,92;0 
+1;2;76;11;3;1;anxiety;1;0;#BOÞ!;158;85;66;16;36;;4;Dementia in Alzheimer`s disease with late onset;1;4;0 ;130;12,83;0 
+1;2;77;12;4;1;fever;2;0;#BOÞ!;80;44;65;20;37.4;;2;Fever;2;2;0 ;542;7,15;0 
+1;1;77;9;6;1;epistaxis;1;0;#BOÞ!;122;65;86;18;36.8;;3;Epistaxis;1;3;0 ;152;9,75;0 
+1;1;79;9;2;1;mental change;4;0;#BOÞ!;80;45;61;20;36;;1;Ruptured aneurysm, anterior communicating artery (AComA);2;1;0 ;431;10,83;0 
+1;2;81;13;2;2;right hip pain;1;1;#BOÞ!;90;55;53;20;36;;3;Hip pain;2;3;0 ;649;4,08;0 
+1;1;83;7;4;1;F/C, C/S;3;0;#BOÞ!;140;65;110;30;38.5;;3;Urinary tract infection;1;3;0 ;1063;8,87;0 
+1;2;84;10;3;1;for L-tube insertion;1;0;#BOÞ!;116;64;102;20;38.4;;5;Percutaneous catheter problem;1;5;0 ;167;12,08;0 
+1;1;85;13;2;2;swelling, facial;1;0;#BOÞ!;120;80;74;20;36;;5;Injury of face;1;5;0 ;70;8,30;0 
+1;2;91;12;4;1;fever;3;0;#BOÞ!;142;86;110;24;38.6;;2;Aspiration pneumonia;2;2;0 ;1;4,00;0 
+1;2;34;4;3;1;dyspnea;1;0;#BOÞ!;275;154;120;28;38.1;;2;End stage renal disease;2;2;0 ;993;7,37;0 
+1;2;39;11;3;1;Discomfort, Chest;1;0;#BOÞ!;198;101;103;20;36.5;;3;Type 2 diabetes mellitus with multiple complications;1;3;0 ;128;5,03;0 
+1;2;46;5;2;1;hypoglycemic symptom;2;0;#BOÞ!;132;89;62;18;36.7;;2;Hypoglycemia;1;2;0 ;234;11,38;0 
+1;1;58;6;3;1;epistaxis;1;0;#BOÞ!;173;97;76;20;36.9;;4;Epistaxis;1;4;0 ;23;2,50;0 
+1;1;59;6;3;1;anxiety;1;0;#BOÞ!;201;106;64;20;36.3;;3;Palpitation;1;3;0 ;127;4,70;0 
+1;1;61;2;3;1;Voice changes;1;0;#BOÞ!;137;77;80;20;36;;5;Hoarseness;1;5;0 ;74;5,20;0 
+1;1;67;10;3;1;abnormal lab.;1;0;#BOÞ!;137;72;84;16;37.2;;3;Atrial fibrillation;1;3;0 ;21;6,53;0 
+1;1;73;9;1;1;vomiting;1;0;#BOÞ!;148;81;65;20;36.5;;3;Acute gastroenteritis;2;3;0 ;761;6,02;0 
+1;2;76;9;3;1;general weakness;1;0;#BOÞ!;168;78;81;20;36.5;;3;Internal carotid artery occlusion;2;3;0 ;333;15,13;0 
+1;2;76;6;2;1;dyspnea;1;0;#BOÞ!;116;85;112;28;37;;2;Dyspnea;2;2;0 ;1030;5,10;0 
+1;2;76;3;3;1;mental change;4;0;#BOÞ!;??;??;??;??;??;;1;Cardiac arrest;5;1;0 ;150;8,90;0 
+1;1;77;9;2;1;dizziness;1;0;#BOÞ!;108;66;66;18;36.6;;3;Dizziness;1;3;0 ;405;6,17;0 
+1;1;80;7;2;1;dyspnea;1;0;#BOÞ!;??;??;87;28;36.8;;2;Dyspnea;2;2;0 ;324;2,33;0 
+1;1;82;8;2;1;dyspnea;1;0;#BOÞ!;181;74;61;22;36.3;;2;Heart failure;2;2;0 ;351;3,88;0 
+1;1;86;6;2;1;anemia w/u;1;0;#BOÞ!;110;66;100;20;37;;3;Irritability and anger;1;3;0 ;602;8,07;0 
+1;2;86;6;4;2;DZ - Dizziness;1;0;#BOÞ!;160;76;64;20;36;;3;Dizziness;2;3;0 ;356;17,37;0 
+1;1;88;5;3;1;Discomfort, Chest;1;0;#BOÞ!;119;66;75;20;36.5;;2;Dyspnea;1;2;0 ;272;6,83;0 
+1;2;16;7;2;2;forehead laceration;1;0;#BOÞ!;137;79;81;16;37.7;;4;Injury of head;1;4;0 ;87;3,08;0 
+1;1;16;6;2;1;post seizure;1;0;#BOÞ!;132;98;94;18;36.6;;3;Seizure;4;3;0 ;36;6,08;0 
+2;2;17;15;3;1;light headness;1;0;#BOÞ!;100;60;68;20;36.2;98;3;Syncope;1;3;0 ;344;2,00;0 
+2;1;17;5;1;1;H-Headache;1;0;#BOÞ!;90;60;128;24;38.1;99;3;(Seizure) Convulsive NOS;1;3;0 ;8790;2,00;0 
+1;2;18;9;4;1;altered mentality;3;0;#BOÞ!;102;65;86;20;36.3;;2;Acute ethanol intoxication;1;2;0 ;254;7,85;0 
+1;1;19;9;3;1;eye discomfort;1;0;#BOÞ!;132;78;91;20;36.5;;4;Corneal erosion;1;4;0 ;50;3,45;0 
+1;2;19;9;1;1;po medication;1;0;#BOÞ!;117;70;72;16;36;;5;Acute urticaria;1;5;0 ;26;16,68;0 
+2;2;19;7;3;1;fever;1;0;#BOÞ!;130;80;110;20;38.4;98;4;Fever, unspecified;1;4;0 ;9470;4,00;0 
+2;1;20;4;3;1;both hand numbness;1;0;#BOÞ!;120;70;78;24;36;98;4;Hyperventilation;1;4;0 ;190;2,00;0 
+1;2;20;8;3;1;??? ??? ??;1;0;#BOÞ!;163;85;100;20;36;;4;Schizophrenia;2;4;0 ;213;11,28;0 
+1;1;20;6;3;2;finger laceration;1;0;#BOÞ!;154;86;98;18;36.4;;4;Laceration of finger without nail damage;1;4;0 ;32;3,23;0 
+1;1;20;3;3;2;Sexual Abuse of Adult;1;0;#BOÞ!;150;87;115;18;36.5;;3;Sexual abuse;1;3;0 ;155;6,97;0 
+1;2;21;8;3;2;DI, drug intoxication;2;0;#BOÞ!;113;55;87;18;36.9;;2;Poisoning by benzodiazepine;4;2;0 ;183;6,33;0 
+2;2;21;6;3;1;dyspnea;1;0;#BOÞ!;130;90;108;20;36.6;92;3;Other specified interstitial pulmonary diseases;2;3;0 ;625;3,00;0 
+2;1;22;12;3;1;skin rash;1;0;#BOÞ!;100;60;84;20;37.3;98;4;Rash and other nonspecific skin eruption;1;4;0 ;698654;2,00;0 
+2;2;22;5;4;1;hematemesis;1;0;#BOÞ!;100;60;84;20;36.6;98;3;Mallory - Weiss syndrome;2;3;0 ;9484;2,00;0 
+1;1;22;10;3;1;bleeding, gingival;1;0;#BOÞ!;140;110;70;20;36.5;;4;Gingival hemorrhage;1;4;0 ;183;7,25;0 
+1;1;22;13;3;1;????;1;0;#BOÞ!;99;65;74;20;36.6;;4;Palpitation;1;4;0 ;163;5,07;0 
+2;2;22;10;2;1;mental change;3;0;#BOÞ!;100;60;98;24;37.6;85;2;Stupor;1;2;0 ;8703;4,00;0 
+1;2;23;8;3;2;laceration, scalp;1;0;#BOÞ!;167;105;78;18;36.5;;4;Laceration of scalp;1;4;0 ;184;6,02;0 
+1;2;24;11;2;2;nasal injury;1;0;#BOÞ!;132;77;65;18;36.4;;4;Fracture of nasal bone closed;1;4;0 ;192;4,15;0 
+1;1;24;3;3;1;Near syncope;1;0;#BOÞ!;139;77;70;18;36;;3;Syncope;1;3;0 ;190;4,05;0 
+1;1;24;4;3;1;po medication;1;0;#BOÞ!;129;69;89;20;36.9;;5;Prescription of emergency contraception;1;5;0 ;29;13,62;0 
+2;1;24;6;2;1;dyspnea;1;0;#BOÞ!;110;70;82;20;36.0;99;3;Anaphylaxis NOS;1;3;0 ;9582;2,00;0 
+1;2;24;2;2;1;post seizure;2;0;#BOÞ!;144;84;88;18;37.4;;2;Seizure;1;2;0 ;0;5,00;0 
+1;1;24;5;2;1;syncope;1;0;#BOÞ!;134;86;100;16;36.8;;4;Vasovagal syncope;1;4;0 ;150;4,32;0 
+1;1;24;13;3;1;vomiting;1;0;#BOÞ!;120;75;84;16;36.9;;3;Acute gastroenteritis;1;3;0 ;482;15,20;0 
+2;1;24;6;3;1;hematochezia;1;0;#BOÞ!;130;80;90;20;36.2;99;3;Crohn’s disease NOS, unspecified;2;3;0 ;275;5,00;0 
+1;1;25;5;1;2;sexual violence;1;0;#BOÞ!;103;66;80;18;37;;3;Sexual abuse of adult;1;3;0 ;95;8,58;0 
+1;2;25;10;3;2;eyelid laceration;1;0;#BOÞ!;139;80;83;18;36.5;;4;Laceration of face;1;4;0 ;32;8,85;0 
+1;1;25;12;3;1;dizziness;1;0;#BOÞ!;127;73;85;20;36.5;;5;Dizziness;1;5;0 ;129;7,77;0 
+1;2;25;12;3;2;finger laceration;1;0;#BOÞ!;183;92;117;20;37.5;;4;Injury of hand;1;4;0 ;332;3,40;0 
+1;1;25;4;2;1;vomiting;1;0;#BOÞ!;168;106;81;22;37;;4;Vasovagal syncope;4;4;0 ;0;10,00;0 
+1;1;26;12;3;2;sexual violence;1;0;#BOÞ!;117;86;83;16;36;;4;Sexual abuse of adult;1;4;0 ;199;11,32;0 
+1;2;26;6;3;1;vomiting;1;0;#BOÞ!;107;56;90;18;36.9;;4;Acute gastroenteritis;1;4;0 ;77;3,13;0 
+1;2;26;5;3;1;dizziness;1;0;#BOÞ!;119;76;72;16;36;;3;Benign paroxysmal positional vertigo;1;3;0 ;182;5,90;0 
+1;1;26;3;3;2;laceration, chin;1;0;#BOÞ!;145;91;114;16;36;;4;Fracture of mandible, condylar process closed;1;4;0 ;200;3,18;0 
+1;2;26;3;3;1;F/C, C/S;1;0;#BOÞ!;165;106;102;20;37.3;;4;Fever;1;4;0 ;92;7,90;0 
+1;2;26;10;3;1;general weakness;1;0;#BOÞ!;158;109;77;20;36.6;;4;Dyspepsia;1;4;0 ;270;4,00;0 
+1;1;27;10;3;1;cough;1;0;#BOÞ!;118;85;86;20;36;;5;Cough;1;5;0 ;51;5,38;0 
+1;1;27;12;2;1;depression;1;0;#BOÞ!;149;85;103;20;36.5;;4;Major depressive disorder;2;4;0 ;903;5,23;0 
+1;2;27;5;2;1;dizziness;1;0;#BOÞ!;177;102;80;18;36.8;;3;Dizziness;1;3;0 ;142;3,27;0 
+1;2;27;5;2;1;hematemesis;1;0;#BOÞ!;163;99;86;16;37.1;;2;Viral infection;1;2;0 ;430;3,93;0 
+1;2;27;3;3;1;fever;1;0;#BOÞ!;86;77;97;16;37.3;;2;Aspiration pneumonia;2;2;0 ;542;8,77;0 
+1;1;27;9;3;1;Suicidal Attempt;1;0;#BOÞ!;110;69;96;20;36.2;;3;Suicide tendency;2;3;0 ;442;7,42;0 
+1;2;28;5;2;1;alcohol smelling state, drunken state;3;0;#BOÞ!;122;68;96;18;35.5;;4;Acute intoxication of alcohol;1;4;0 ;423;6,53;0 
+1;1;28;10;3;1;Facial Palsy;1;0;#BOÞ!;134;76;68;20;37;;3;Bell's palsy;1;3;0 ;75;3,07;0 
+1;2;29;8;3;2;finger laceration;1;0;#BOÞ!;129;76;87;18;36.8;;4;Laceration of finger without nail damage;1;4;0 ;85;5,07;0 
+1;2;29;4;1;2;eyebrow laceration;1;0;#BOÞ!;139;78;89;18;36.6;;4;Laceration of face;1;4;0 ;38;2,90;0 
+1;1;29;7;3;1;skin rash;1;0;#BOÞ!;146;72;77;18;36.1;;5;Allergy;1;5;0 ;55;6,53;0 
+1;2;29;11;3;1;diarrhea;1;0;#BOÞ!;138;85;126;20;37.4;;3;Acute gastroenteritis;1;3;0 ;161;4,38;0 
+2;1;29;10;2;1;hallucination;1;0;#BOÞ!;110;70;80;20;36.0;98;4;Paranoid schizophrenia;2;4;0 ;510;2,00;0 
+2;1;30;6;3;1;erythematous papule;1;0;#BOÞ!;110;70;80;20;36.0;96;5;Allergic urticaria;1;5;0 ;175;3,00;0 
+2;1;30;12;3;1;fever & chill;1;0;#BOÞ!;90;50;84;20;38.7;97;4;Fever, unspecified;1;4;0 ;508;4,00;0 
+2;1;31;7;4;1;dyspnea;1;0;#BOÞ!;90;60;103;20;36.8;98;3;Cough with dyspnea;2;3;0 ;9619;5,00;0 
+1;2;31;5;5;1;Suicidal thoughts (finding);1;0;#BOÞ!;150;108;90;18;36.6;;3;Melena;2;3;0 ;142;13,52;0 
+2;1;32;7;3;1;right nasal bleeding;1;0;#BOÞ!;160;100;108;22;36.4;98;4;Epistaxis;1;4;0 ;415;3,00;0 
+1;1;32;10;3;1;fever;1;0;#BOÞ!;117;68;108;18;36.8;;3;Viral infection;1;3;0 ;98;5,92;0 
+1;2;32;14;3;1;post seizure;1;0;#BOÞ!;164;90;111;20;36;;3;Paranoid schizophrenia;1;3;0 ;204;17,25;0 
+1;2;32;6;3;1;epistaxis;1;0;#BOÞ!;136;85;100;16;36.1;;4;Epistaxis;1;4;0 ;20;10,88;0 
+1;2;33;8;3;1;seizure;4;0;#BOÞ!;??;??;??;??;??;;1;Seizure;4;1;0 ;56;7,42;0 
+1;2;33;11;3;1;eye discomfort;1;0;#BOÞ!;147;87;81;20;37.2;;5;Allergy;1;5;0 ;49;6,32;0 
+2;1;33;12;3;2;nausea;1;0;#BOÞ!;110;70;80;20;36.1;99;4;Superficial injury of other parts of head, contusion;1;4;0 ;21;3,00;0 
+1;2;34;4;2;1;Delusional Idea;1;0;#BOÞ!;156;96;123;18;36.5;;3;Sore throat;4;3;0 ;156;8,22;0 
+1;1;34;10;3;1;dyspnea;1;0;#BOÞ!;132;77;76;20;36.6;;3;Asthma;1;3;0 ;131;7,72;0 
+1;1;34;8;3;1;DZ - Dizziness;1;0;#BOÞ!;117;80;76;16;36;;3;Dizziness;1;3;0 ;117;16,95;0 
+1;1;34;7;3;2;cerebral concussion;1;0;#BOÞ!;139;83;90;20;36;;4;Injury of head;1;4;0 ;252;9,43;0 
+2;1;34;7;3;1;fever;1;0;#BOÞ!;170;100;80;20;36.0;98;4;Seasonal influenza virus identified influenzal acute upper respiratory infection;2;4;0 ;875;4,00;0 
+2;1;34;4;3;1;fever;1;0;#BOÞ!;110;70;87;20;36.3;99;4;Acute pyelonephritis;2;4;0 ;620;4,00;0 
+2;1;34;2;4;1;Convulsion;1;0;#BOÞ!;130;80;95;20;36.0;100;3;Other and unspecified convulsions;1;3;0 ;904;5,00;0 
+2;2;34;5;4;2;anterior chest discomfort;1;0;#BOÞ!;120;80;66;20;37.5;99;3;Toxic effect of carbon monoxide;1;3;0 ;9281;3,00;0 
+2;1;35;8;2;1;Vaginal Bleeding;1;0;#BOÞ!;100;60;102;20;36.5;99;3;Delayed and secondary postpartum haemorrhage;2;3;0 ;7894;1,00;0 
+1;1;35;9;1;1;anxiety;1;0;#BOÞ!;124;75;86;20;36.6;;3;Anxiety disorder;2;3;0 ;195;6,10;0 
+1;1;35;8;3;1;Vaginal Bleeding;1;0;#BOÞ!;99;64;58;20;36.4;;3;Vaginal bleeding;1;3;0 ;235;6,52;0 
+2;1;36;8;3;1;dyspnea;1;0;#BOÞ!;120;80;68;24;36.4;100;3;Dyspnoea;1;3;0 ;10070;5,00;0 
+1;1;36;9;3;2;vaginal bleeding;1;0;#BOÞ!;129;69;58;16;36.7;;3;Threatened abortion;1;3;0 ;168;5,85;0 
+1;1;36;4;4;1;abd pain;1;0;#BOÞ!;126;65;108;18;38;;3;Abdominal pain;2;3;0 ;62;5,70;0 
+1;2;36;9;3;1;????;1;0;#BOÞ!;157;100;66;22;36;;3;Dizziness;1;3;0 ;277;4,67;0 
+2;1;36;8;3;1;dizziness;1;0;#BOÞ!;140;90;78;20;36.4;99;3;Dizziness and giddiness;1;3;0 ;423;3,00;0 
+2;1;37;8;3;1;headache;1;0;#BOÞ!;110;60;68;20;36.3;??;4;Headache;1;4;0 ;210;4,00;0 
+1;1;37;4;2;2;face laceration;2;0;#BOÞ!;163;94;109;20;36;;4;Laceration of face;4;4;0 ;0;5,00;0 
+1;1;37;13;3;1;vaginal bleeding;1;0;#BOÞ!;140;90;103;20;36.2;;3;Vaginal bleeding;2;3;0 ;274;6,20;0 
+1;1;38;9;3;1;dizziness;1;0;#BOÞ!;136;88;71;20;37.1;;3;Benign paroxysmal positional vertigo;1;3;0 ;83;3,62;0 
+1;2;38;3;3;1;fever;1;0;#BOÞ!;153;84;119;16;39;;3;Liver abscess;2;3;0 ;422;7,47;0 
+2;2;39;10;4;1;Confusion state;3;0;#BOÞ!;80;50;72;20;36.8;86;2;Hepatorenal syndrome;2;2;0 ;518;5,00;0 
+1;1;39;4;3;1;Vaginal Bleeding;1;0;#BOÞ!;96;78;86;16;36.2;;2;Vaginal bleeding;1;2;0 ;228;9,18;0 
+1;1;39;5;3;1;anxiety;1;0;#BOÞ!;203;104;108;18;36.5;;4;Anxiety disorder;1;4;0 ;101;9,35;0 
+2;1;40;10;3;2;Open Wound;1;0;#BOÞ!;110;70;80;20;36.7;98;4;Contusion of other and unspecified parts of foot;1;4;0 ;27;5,00;0 
+1;1;40;5;3;1;anxiety;1;0;#BOÞ!;102;80;100;18;36.7;;4;Anxiety state;1;4;0 ;43;8,75;0 
+1;1;40;10;3;2;sexual violence;1;0;#BOÞ!;133;107;127;28;37.2;;3;Sexual abuse;1;3;0 ;256;11,15;0 
+1;2;41;9;3;2;scratch wound;1;0;#BOÞ!;194;130;102;18;36.5;;5;Superficial injury of forearm;1;5;0 ;30;4,52;0 
+1;2;41;9;2;2;facial injury;1;0;#BOÞ!;158;93;89;16;36.7;;3;Acute pain;1;3;0 ;239;9,00;0 
+1;1;41;13;3;2;scalp lac.;1;0;#BOÞ!;123;65;86;18;36.6;;4;Laceration of scalp;1;4;0 ;28;11,92;0 
+1;1;41;10;3;1;diarrhea;1;0;#BOÞ!;117;71;94;16;37.1;;4;Acute gastroenteritis;1;4;0 ;70;10,02;0 
+1;2;41;7;3;1;distension, abd;1;0;#BOÞ!;204;115;118;20;36.8;;3;Chronic cough;2;3;0 ;312;15,20;0 
+1;2;41;9;1;1;facial palsy left;1;0;#BOÞ!;150;82;70;16;36.4;;3;Paresthesia;1;3;0 ;163;14,73;0 
+1;2;41;9;1;2;FB in esophagus;1;0;#BOÞ!;126;79;75;16;36.7;;4;Foreign body in throat food;1;4;0 ;59;4,15;0 
+1;2;41;9;3;2;forehead laceration;1;0;#BOÞ!;124;78;83;20;36.2;;4;Laceration of face;1;4;0 ;67;5,10;0 
+1;1;42;4;2;1;left side weakness;1;0;#BOÞ!;??;??;??;16;37;;2;Muscle weakness other;2;2;0 ;264;6,53;0 
+1;2;42;6;2;1;epistaxis;2;0;#BOÞ!;102;64;74;20;36.5;;4;Head trauma;1;4;0 ;276;4,35;0 
+1;2;43;11;3;1;??;1;0;#BOÞ!;126;81;86;20;36.8;;4;Ureter stone;1;4;0 ;118;15,57;0 
+1;1;43;8;3;1;Facial Palsy;1;0;#BOÞ!;160;94;88;20;36.4;;3;Bell's palsy;1;3;0 ;229;11,82;0 
+2;2;44;9;3;2;right ocular pain;1;0;#BOÞ!;120;80;84;20;36.4;97;4;Corneal abrasion;1;4;0 ;91;5,00;0 
+2;2;44;5;4;1;hematemesis;1;0;#BOÞ!;150;70;84;20;36.5;96;3;Gastrointestinal haemorrhage, unspecified;5;3;0 ;9627;2,00;0 
+2;2;44;4;2;1;mental change;2;0;#BOÞ!;180;100;82;22;36.7;96;2;Intracerebral haemorrhage in thalamus;7;2;0 ;189;4,00;0 
+2;2;44;4;1;1;LOC;1;0;#BOÞ!;100;60;75;20;36.2;98;3;Syncope;2;3;0 ;514;2,00;0 
+1;2;44;4;3;1;??? ??;1;0;#BOÞ!;139;86;51;16;36.2;;3;Paresthesia;2;3;0 ;249;6,23;0 
+1;1;44;4;3;1;dizziness;1;0;#BOÞ!;170;92;70;20;37;;3;Benign paroxysmal positional vertigo;1;3;0 ;143;3,22;0 
+1;1;44;4;3;2;skin defect;1;0;#BOÞ!;162;76;102;20;36;;4;Amputation of hand and wrist, traumatic;1;4;0 ;188;12,20;0 
+2;1;44;2;3;1;skin eruption;1;0;#BOÞ!;110;60;110;20;37.5;98;4;Rash and other nonspecific skin eruption;2;4;0 ;9237;4,00;0 
+2;2;45;12;4;1;syncope;1;0;#BOÞ!;100;60;82;20;36.4;98;3;Syncope;2;3;0 ;699667;5,00;0 
+1;1;45;10;3;1;fever;1;0;#BOÞ!;105;62;93;20;38.6;;3;Breast cancer left;1;3;0 ;116;5,25;0 
+1;1;45;13;2;1;dizziness;1;0;#BOÞ!;145;83;67;20;36.7;;3;Vestibular neuronitis;1;3;0 ;184;12,88;0 
+1;2;45;10;2;1;general weakness;1;0;#BOÞ!;122;81;88;18;37.7;;3;Hypocalcemia;2;3;0 ;268;11,43;0 
+2;2;46;5;3;2;Chemical Burn;1;0;#BOÞ!;120;80;80;20;36.5;98;2;Burn of cornea and conjunctival sac;2;2;0 ;989;2,00;0 
+1;1;46;4;2;1;alcohol smelling state, drunken state;2;0;#BOÞ!;154;81;94;16;36.4;;4;Acute intoxication of alcohol;1;4;0 ;621;5,13;0 
+2;2;46;7;3;1;diarrhea;1;0;#BOÞ!;150;90;98;18;36.4;99;3;Chronic kidney disease, unspecified;2;3;0 ;9963;2,00;0 
+2;1;47;12;3;1;Urticarial rash;1;0;#BOÞ!;100;60;72;22;36.8;98;4;Allergic urticaria;1;4;0 ;74;5,00;0 
+1;1;47;7;3;1;dizziness;1;0;#BOÞ!;104;77;72;18;36.6;;3;Dizziness;1;3;0 ;161;6,72;0 
+2;2;47;6;3;1;palpitation;1;0;#BOÞ!;100;60;100;20;36.7;92;3;Other chest pain;1;3;0 ;698798;2,00;0 
+2;1;48;6;2;1;Lt. hemiparesis;1;0;#BOÞ!;160;90;66;20;36.6;98;2;Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery;2;2;0 ;7889;5,00;0 
+1;2;48;8;2;2;knee pain;2;0;#BOÞ!;121;87;71;18;36;;5;Headache;1;5;0 ;336;7,88;0 
+1;2;48;6;2;1;Suicidal ideation;1;0;#BOÞ!;132;71;114;18;36.5;;3;Acute intoxication of alcohol;4;3;0 ;106;7,98;0 
+1;2;48;14;3;2;facial injury;1;0;#BOÞ!;210;112;79;20;37.6;;4;Laceration of chin;1;4;0 ;223;6,17;0 
+1;1;48;5;3;1;dizziness;1;0;#BOÞ!;102;45;59;18;36.3;;3;Benign paroxysmal positional vertigo;1;3;0 ;46;4,57;0 
+1;2;48;5;3;1;dyspnea;2;0;#BOÞ!;79;40;125;20;36.9;;2;Dyspnea;2;2;0 ;462;2,87;0 
+2;2;49;9;4;1;hematemesis;1;0;#BOÞ!;130;80;78;18;36.2;99;2;Esophageal varices with bleeding, Idiopathic;2;2;0 ;2067;3,00;0 
+1;2;49;8;3;2;finger laceration;1;0;#BOÞ!;142;87;102;18;36.5;;4;Laceration of finger without nail damage;1;4;0 ;48;6,95;0 
+1;1;49;9;2;2;Suicidal Attempt;1;0;#BOÞ!;114;76;109;18;36.5;;2;Suicide tendency;4;2;0 ;231;8,98;0 
+1;2;49;8;3;2;DI, drug intoxication;3;0;#BOÞ!;210;131;121;24;37.5;;2;Drug intoxication;4;2;0 ;1388;13,62;0 
+2;1;49;9;3;1;nausea;1;0;#BOÞ!;140;90;64;22;36.3;99;3;Nausea alone;1;3;0 ;190;5,00;0 
+2;1;49;3;3;1;ant. chest pain;1;0;#BOÞ!;110;60;76;20;36.0;99;4;Ischaemic chest pain;1;4;0 ;601;3,00;0 
+1;2;50;7;3;2;eyelid laceration;1;0;#BOÞ!;137;76;103;16;36.3;;4;Laceration of face;1;4;0 ;161;7,08;0 
+1;1;50;5;3;1;Urticarial rash;1;0;#BOÞ!;140;73;91;22;37.4;;3;Dyspnea;2;3;0 ;740;6,73;0 
+1;1;50;7;3;1;???;1;0;#BOÞ!;140;65;60;16;37;;3;Depression;2;3;0 ;172;13,68;0 
+1;2;50;9;3;2;skin defect;1;0;#BOÞ!;151;93;74;16;36;;4;Injury of face;1;4;0 ;67;7,85;0 
+2;1;50;9;3;1;vaginal bleeding;1;0;#BOÞ!;140;100;68;20;36.2;98;3;Other specified abnormal uterine and vaginal bleeding;1;3;0 ;699303;3,00;0 
+2;2;50;7;3;1;chest palpitation;1;0;#BOÞ!;100;60;110;20;36.2;96;4;Supraventricular tachycardia;1;4;0 ;343;3,00;0 
+2;2;51;1;4;1;hemoptysis;1;0;#BOÞ!;130;90;90;20;36.3;98;3;Haemoptysis;1;3;0 ;12114;5,00;0 
+1;1;51;11;6;1;Vaginal Bleeding;1;0;#BOÞ!;118;54;111;18;36.1;;3;Vaginal bleeding;1;3;0 ;774;11,10;0 
+1;2;51;13;3;1;CT film copy;1;0;#BOÞ!;??;??;??;??;??;;5;Hepatocellular carcinoma;1;5;0 ;32;6,38;0 
+2;1;51;1;4;1;mental change;4;0;#BOÞ!;60;??;72;??;35.7;86;1;Cardiac arrest with successful resuscitation;6;1;0 ;392;5,00;0 
+2;1;51;4;3;1;whirling type vertigo;1;0;#BOÞ!;140;70;72;20;36.2;96;3;Dizziness and giddiness;1;3;0 ;287;2,00;0 
+2;2;52;12;4;1;melena;1;0;#BOÞ!;190;100;80;20;36.0;98;2;Gastrointestinal haemorrhage, unspecified;2;2;0 ;10613;4,00;0 
+2;1;52;11;4;1;fever;1;0;#BOÞ!;70;??;80;20;38.5;97;2;Acute pyelonephritis;2;2;0 ;9710;4,00;0 
+1;2;52;6;2;1;altered mentality;1;0;#BOÞ!;163;99;93;18;36;;3;Acute intoxication of alcohol;1;3;0 ;83;10,90;0 
+1;2;52;11;3;1;dizziness;1;0;#BOÞ!;169;106;70;20;37.1;;3;Dizziness;1;3;0 ;157;7,33;0 
+1;2;52;6;4;1;hematemesis;1;0;#BOÞ!;119;68;86;16;36.5;;2;Hepatocellular carcinoma;2;2;0 ;279;5,70;0 
+2;2;52;5;2;1;hematemesis;1;0;#BOÞ!;100;60;100;20;36.6;98;2;Gastrointestinal haemorrhage, unspecified;2;2;0 ;10386;3,00;0 
+2;2;53;12;3;1;hematemesis;1;0;#BOÞ!;130;90;84;20;36.0;99;3;Gastrointestinal haemorrhage, unspecified;2;3;0 ;426;5,00;0 
+2;2;53;8;3;1;hematemesis;1;0;#BOÞ!;100;60;110;20;36.1;98;3;Esophageal varices without bleeding, Sencondary;2;3;0 ;1022;3,00;0 
+2;2;53;8;3;1;Abnormality, Visual Acuity;1;0;#BOÞ!;110;60;74;20;36.6;95;2;Cerebrovascular accident NOS;2;2;0 ;9542;4,00;0 
+2;2;53;6;3;1;diarrhea;1;0;#BOÞ!;100;60;84;20;36.4;97;3;Chronic kidney disease, unspecified;2;3;0 ;10183;4,00;0 
+1;1;53;9;3;1;dizziness;1;0;#BOÞ!;221;111;62;20;36;;3;Vestibular neuritis;1;3;0 ;129;8,77;0 
+1;1;53;9;6;1;dizziness;1;0;#BOÞ!;103;67;70;18;36.5;;3;Peripheral vertigo;2;3;0 ;78;3,47;0 
+1;2;53;9;2;2;head injury;1;0;#BOÞ!;161;97;64;20;36.7;;3;Laceration of scalp;4;3;0 ;219;6,53;0 
+2;2;53;9;2;1;dizziness;1;0;#BOÞ!;100;60;68;18;36.2;99;3;Orthostatic hypotension;1;3;0 ;2040;4,00;0 
+2;2;53;5;4;1;anterior chest discomfort;1;0;#BOÞ!;130;80;104;22;36.2;98;3;Atrial fibrillation and atrial flutter, unspecified;2;3;0 ;701;3,00;0 
+2;2;53;7;4;1;whirling type vertigo;1;0;#BOÞ!;110;70;70;20;36.0;98;3;Vestibular neuronitis;1;3;0 ;484;2,00;0 
+2;1;53;5;3;2;dizziness;1;0;#BOÞ!;130;80;80;18;36.1;97;2;Ingested mushrooms, toxic effect of;2;2;0 ;522;5,00;0 
+2;1;54;12;4;2;D - Diarrhea;1;0;#BOÞ!;130;80;101;20;36.5;96;2;Pesticide, unspecified, toxic effect of;2;2;0 ;281;3,00;0 
+2;1;54;3;3;1;cough;1;0;#BOÞ!;180;100;108;24;36.6;80;3;Dyspnoea;2;3;0 ;10895;4,00;0 
+1;2;54;15;2;2;dysarthria;1;0;#BOÞ!;169;110;100;20;36.9;;3;Dysarthria;2;3;0 ;226;6,65;0 
+2;2;54;2;3;1;hemoptysis;1;0;#BOÞ!;130;90;90;20;36.2;97;3;Bronchiectasis;2;3;0 ;1045;2,00;0 
+1;1;55;8;3;1;urinary Sx.-symptom;1;0;#BOÞ!;137;78;80;20;36.4;;4;Acute cystitis;1;4;0 ;126;5,00;0 
+1;1;55;9;3;1;syncope;1;0;#BOÞ!;134;90;80;20;36.6;;3;Panic attack;1;3;0 ;120;6,95;0 
+2;1;55;5;3;1;dizziness;1;0;#BOÞ!;200;120;64;20;36.4;98;3;Headache;1;3;0 ;921;3,00;0 
+1;2;56;9;1;1;for examination;1;0;#BOÞ!;135;85;90;18;37.3;;5;Abnormal finding on abdominal and retroperitoneal imaging;1;5;0 ;222;10,68;0 
+1;1;56;10;3;1;voiding difficulty;1;0;#BOÞ!;107;65;83;20;36;;4;Acute urinary retension;1;4;0 ;52;10,02;0 
+2;1;56;9;3;1;Urticarial rash;1;0;#BOÞ!;120;70;78;20;36.6;97;4;Allergic urticaria;1;4;0 ;7800;3,00;0 
+2;2;56;3;2;1;nausea;1;0;#BOÞ!;100;60;72;20;36.5;97;3;Hepatocellular carcinoma;1;3;0 ;537;4,00;0 
+1;2;57;4;3;1;right side weakness;1;0;#BOÞ!;177;100;119;18;36.5;;3;Muscle weakness multiple site;2;3;0 ;547;7,18;0 
+1;2;57;7;4;1;desaturation;3;0;#BOÞ!;124;74;78;28;37;;2;Dyspnea;2;2;0 ;998;8,17;0 
+1;2;57;7;3;2;eyebrow laceration;1;0;#BOÞ!;133;67;89;16;36.8;;4;Laceration of face;1;4;0 ;90;10,47;0 
+1;2;57;3;3;2;eye trauma;1;0;#BOÞ!;157;97;82;20;36;;2;Hyphema, traumatic;1;2;0 ;106;6,82;0 
+2;2;57;8;3;1;palpitation;1;0;#BOÞ!;130;90;106;20;36.5;99;3;Paroxysmal atrial fibrillation;1;3;0 ;525;2,00;0 
+2;1;57;2;3;1;dysuria;1;0;#BOÞ!;130;70;74;20;36.2;98;4;Urinary tract infection, site not specified;1;4;0 ;622;4,00;0 
+2;2;58;6;2;1;fever;1;0;#BOÞ!;130;80;100;20;36.9;98;3;Hepatitis NOS;2;3;0 ;11339;2,00;0 
+2;1;58;4;2;1;D - Diarrhea;1;0;#BOÞ!;110;60;100;18;36.2;98;3;Acute watery diarrhoea;1;3;0 ;776;2,00;0 
+2;1;58;1;4;2;post-CPR state;4;0;#BOÞ!;140;80;122;??;36.0;90;1;Cardiac arrest with successful resuscitation;2;1;0 ;1010;2,00;0 
+2;2;58;5;4;2;Discomfort, Throat;1;0;#BOÞ!;100;60;104;28;36.7;94;2;Ingested mushrooms, toxic effect of;2;2;0 ;522;2,00;0 
+2;1;58;10;2;1;vomiting;1;0;#BOÞ!;160;100;94;22;36.4;98;2;Nause with vomiting;1;2;0 ;8379;5,00;0 
+2;2;58;15;4;1;post-CPR state;4;0;#BOÞ!;??;??;??;??;??;??;1;Cardiac arrest, unspecified;6;1;0 ;123;2,00;0 
+1;1;58;4;1;1;facial lesion;1;0;#BOÞ!;145;96;93;18;36.6;;5;Dermatitis;1;5;0 ;46;6,27;0 
+2;2;58;7;3;1;Rt. side motor weakness;1;0;#BOÞ!;100;60;106;20;36.3;97;3;Secondary malignant neoplasm of brain;1;3;0 ;8064;5,00;0 
+2;2;58;9;3;1;dizziness;1;0;#BOÞ!;130;90;72;20;36.4;98;2;Atrial fibrillation and atrial flutter, unspecified;5;2;0 ;9299;3,00;0 
+2;1;58;3;4;1;right motor weakness;1;0;#BOÞ!;160;100;84;20;36.7;98;2;Cerebral infarction due to thrombosis of unspecified cerebral arteries;2;2;0 ;262;2,00;0 
+2;2;58;3;2;1;Fever, Unspecified;1;0;#BOÞ!;140;90;88;20;37.8;99;4;Viral infection, unspecified;1;4;0 ;742;2,00;0 
+2;1;58;8;4;1;melena;1;0;#BOÞ!;110;60;70;20;36.5;98;3;Gastrointestinal haemorrhage, unspecified;2;3;0 ;10175;3,00;0 
+2;2;59;11;2;2;mental change;2;0;#BOÞ!;160;100;66;20;36.5;99;2;Traumatic subdural hemorrhage without open intracranial wound;7;2;0 ;107;3,00;0 
+1;2;59;5;2;1;palpitation;1;0;#BOÞ!;179;98;70;18;36;;4;Palpitation;1;4;0 ;179;7,45;0 
+1;2;59;9;3;1;dysarthria;1;0;#BOÞ!;196;108;66;16;36;;3;Stroke;4;3;0 ;304;5,45;0 
+1;2;59;11;1;1;itching;1;0;#BOÞ!;149;100;97;18;36.4;;5;Acute urticaria;1;5;0 ;18;4,37;0 
+1;2;59;9;3;2;copy;1;0;#BOÞ!;??;??;??;??;??;;5;Stroke;1;5;0 ;21;6,88;0 
+2;1;60;8;3;1;hemoptysis;1;0;#BOÞ!;120;80;76;20;36.3;98;3;Haemoptysis;1;3;0 ;334;4,00;0 
+1;1;60;7;3;1;facial palsy left;1;0;#BOÞ!;149;75;85;20;36.4;;3;Bell's palsy;1;3;0 ;133;6,13;0 
+1;2;60;8;2;1;DZ - Dizziness;1;0;#BOÞ!;146;80;81;20;36;;3;Vestibular neuritis;1;3;0 ;199;13,67;0 
+2;2;60;5;3;1;Rt. side motor weakness;1;0;#BOÞ!;120;60;110;20;36.8;95;4;Cerebrovascular accident NOS;1;4;0 ;194;5,00;0 
+2;1;60;6;3;1;fever;1;0;#BOÞ!;140;80;82;20;36.0;98;4;Choledocholithiasis with cholangitis, With obstruction;2;4;0 ;651;4,00;0 
+2;2;60;8;3;1;dyspnea;1;0;#BOÞ!;130;80;98;20;36.4;99;3;Dilated cardiomyopathy;2;3;0 ;700092;2,00;0 
+1;2;61;4;2;1;dyspnea;1;0;#BOÞ!;143;61;73;16;36.7;;3;Dyspnea;2;3;0 ;444;7,13;0 
+1;2;61;12;2;2;Dental Problem;1;0;#BOÞ!;136;71;81;20;37.1;;2;Avulsion of tooth;1;2;0 ;51;8,30;0 
+1;1;61;12;1;1;skin rash;1;0;#BOÞ!;122;68;67;16;36.2;;5;Urticaria;1;5;0 ;0;5,00;0 
+1;2;61;9;1;1;PTBD malfunction;1;0;#BOÞ!;101;73;93;16;36.4;;4;Percutaneous catheter problem;1;4;0 ;286;6,77;0 
+1;2;61;9;1;1;PTBD malfunction;1;0;#BOÞ!;101;73;93;16;36.4;;4;Cholangiocarcinoma, extrahepatic;1;4;0 ;0;6,00;0 
+2;2;61;9;3;1;dizziness;1;0;#BOÞ!;120;80;42;20;36.6;98;3;Other acute renal failure;2;3;0 ;363;2,00;0 
+2;2;61;12;3;1;dizziness;1;0;#BOÞ!;100;60;54;20;36.2;97;3;Dizziness and giddiness;1;3;0 ;351;3,00;0 
+2;1;62;5;2;1;dizziness;1;0;#BOÞ!;100;60;68;20;36.3;99;3;Vestibular neuronitis;2;3;0 ;524;2,00;0 
+1;1;62;9;2;1;Lt. side weakness;1;0;#BOÞ!;233;136;86;20;37;;3;Intracerebral hemorrhage;3;3;0 ;139;5,50;0 
+2;1;62;10;3;1;mood depression;1;0;#BOÞ!;120;80;80;20;36.0;99;3;Illness NOS;1;3;0 ;227;5,00;0 
+2;2;62;12;2;1;dizziness;1;0;#BOÞ!;110;70;64;20;36.0;98;3;Dizziness and giddiness;2;3;0 ;255;1,00;0 
+2;2;63;4;3;1;Rt. side motor weakness;1;0;#BOÞ!;160;100;90;20;36.4;98;2;Cerebrovascular accident NOS;5;2;0 ;321;5,00;0 
+1;1;63;7;2;1;arrest;4;0;#BOÞ!;??;??;??;??;??;;1;Cardiac arrest;6;1;0 ;72;5,42;0 
+2;2;63;4;3;1;dyspnea;1;0;#BOÞ!;140;100;88;24;36.3;94;3;Chronic obstructive pulmonary disease, unspecified, unspecified;2;3;0 ;891;2,00;0 
+1;2;64;8;3;1;distension, abd;1;0;#BOÞ!;120;79;86;16;36.7;;5;Adenocarcinoma of colon, sigmoid;1;5;0 ;174;4,63;0 
+1;2;64;9;1;1;hiccup;1;0;#BOÞ!;131;63;77;18;36.3;;5;Hiccup;1;5;0 ;141;13,65;0 
+1;1;64;9;1;1;rigth side weakness;1;0;#BOÞ!;155;106;100;18;36.6;;2;Seizure;1;2;0 ;330;6,35;0 
+2;2;64;7;3;1;dysarthria;1;0;#BOÞ!;130;70;98;20;36.4;98;3;Cerebral infarction due to thrombosis of middle cerebral artery;2;3;0 ;356;2,00;0 
+2;1;64;8;3;1;hematochezia;1;0;#BOÞ!;120;80;80;20;36.4;94;3;Gastrointestinal haemorrhage, unspecified;2;3;0 ;30715;3,00;0 
+2;2;64;8;4;1;Convulsion;1;0;#BOÞ!;120;70;72;20;36.4;97;3;Type 2 diabetes mellitus, without complications;5;3;0 ;952;4,00;0 
+1;2;65;9;3;1;distension, abd;1;0;#BOÞ!;131;72;89;16;37;;5;Small cell lung cancer right;1;5;0 ;165;6,27;0 
+1;2;65;10;2;1;confuse mentality;3;0;#BOÞ!;165;66;80;22;41;;2;Acute pyelonephritis;1;2;0 ;278;5,72;0 
+1;2;65;6;3;1;dyspnea;1;0;#BOÞ!;206;96;102;24;36.7;;3;Chronic obstructive pulmonary disease severe;1;3;0 ;134;12,88;0 
+1;1;65;7;3;1;palpitation;1;0;#BOÞ!;143;87;131;20;36;;3;Palpitation;1;3;0 ;110;9,53;0 
+1;1;65;11;3;1;cough;1;0;#BOÞ!;161;81;89;23;36.9;;3;Heart failure;1;3;0 ;219;5,92;0 
+2;2;65;5;3;1;hematochezia;1;0;#BOÞ!;130;100;74;20;36.3;99;3;Cirrhosis (of liver) NOS, unspecified;2;3;0 ;1209;4,00;0 
+2;2;65;7;2;1;mental change;1;0;#BOÞ!;120;60;70;20;36.0;98;2;Cerebral infarction due to embolism of middle cerebral artery;2;2;0 ;237;4,00;0 
+2;2;65;12;2;1;loss of consciousness;1;0;#BOÞ!;60;??;68;20;36.3;91;2;Anaphylaxis NOS;1;2;0 ;407;1,00;0 
+2;1;65;5;4;1;hematemesis;1;0;#BOÞ!;130;80;90;22;36.9;97;2;Gastrointestinal haemorrhage, unspecified;5;2;0 ;9091;1,00;0 
+2;2;66;8;2;1;Lt. side weakness;1;0;#BOÞ!;120;80;90;20;36.2;98;2;Cerebral infarction due to thrombosis of middle cerebral artery;2;2;0 ;93;1,00;0 
+1;2;66;5;3;1;Motor weakness;1;0;#BOÞ!;156;73;82;18;36.9;;3;Stroke;2;3;0 ;696;7,48;0 
+1;2;66;8;3;1;hematemesis;1;0;#BOÞ!;162;97;81;20;36.8;;2;Hematemesis;4;2;0 ;490;5,00;0 
+1;2;66;4;3;1;myalgia;1;0;#BOÞ!;97;57;85;20;37.3;;4;Liver abscess;2;4;0 ;644;3,93;0 
+1;2;66;12;3;1;general weakness;1;0;#BOÞ!;101;64;93;20;37.6;;4;Dizziness;1;4;0 ;152;11,65;0 
+2;1;67;8;1;1;left diplopia;1;0;#BOÞ!;140;90;84;20;36.4;98;3;Diplopia;1;3;0 ;563;3,00;0 
+2;1;67;9;3;1;fever;1;0;#BOÞ!;160;100;87;20;36.3;99;4;Fever, unspecified;1;4;0 ;303;4,00;0 
+1;1;67;14;3;1;rotatory vertigo;1;0;#BOÞ!;191;97;62;16;36.9;;3;Cerebral atherosclerosis;1;3;0 ;598;4,25;0 
+1;1;67;7;3;1;dysarthria;1;0;#BOÞ!;194;87;70;18;36.9;;3;Transient ischemia attack;2;3;0 ;207;9,08;0 
+1;2;67;5;2;1;dizziness;1;0;#BOÞ!;152;56;61;16;36.3;;3;Benign paroxysmal positional vertigo;1;3;0 ;160;4,95;0 
+1;2;67;7;3;1;dysarthria;1;0;#BOÞ!;160;82;84;20;37.3;;3;Stroke;2;3;0 ;271;16,02;0 
+1;1;67;6;2;1;vomiting;1;0;#BOÞ!;119;94;112;16;37.1;;4;Vomiting;1;4;0 ;109;4,27;0 
+1;2;67;9;3;1;Urticarial rash;1;0;#BOÞ!;97;69;84;20;36.5;;5;Acute urticaria;1;5;0 ;105;6,65;0 
+1;2;67;6;1;1;AVF malfunction;1;0;#BOÞ!;124;81;96;16;36.5;;4;End stage renal disease;1;4;0 ;0;14,00;0 
+1;2;67;9;2;1;general weakness;1;0;#BOÞ!;97;71;103;24;37.3;;3;Squamous cell carcinoma of lung unspecified side;1;3;0 ;283;8,90;0 
+2;2;67;13;7;1;dizziness;1;0;#BOÞ!;150;80;110;24;36.5;98;3;Other syncope and collapse;1;3;0 ;273;2,00;0 
+2;2;68;5;2;1;dyspnea;1;0;#BOÞ!;110;70;100;20;36.5;96;3;Other bacterial pneumonia;2;3;0 ;10491;3,00;0 
+2;1;68;8;4;1;mental change;4;0;#BOÞ!;??;??;114;??;35.8;95;1;Cardiac arrest with successful resuscitation;2;1;0 ;408;4,00;0 
+1;1;68;9;2;1;drowsy mentality;3;0;#BOÞ!;166;71;48;16;36.3;;2;Hypertension;2;2;0 ;841;4,95;0 
+1;1;68;10;3;1;post seizure;3;0;#BOÞ!;111;63;76;20;36;;2;Confusion;1;2;0 ;430;3,23;0 
+1;1;68;5;2;1;Motor weakness;1;0;#BOÞ!;163;90;100;18;36.6;;3;Transient ischemia attack;2;3;0 ;347;3,83;0 
+1;2;68;7;3;1;hematochezia;1;0;#BOÞ!;101;77;97;20;36.7;;3;Complete blood count abnormality;2;3;0 ;234;11,20;0 
+1;2;68;7;2;1;altered mental change;4;0;#BOÞ!;??;??;??;??;37.3;;1;Intracerebral hemorrhage;3;1;0 ;135;5,62;0 
+1;2;68;9;2;1;hypoglycemic;2;0;#BOÞ!;80;31;59;20;36.2;;2;Hypoglycemia;5;2;0 ;50;3,88;0 
+2;1;68;10;3;1;Whole body, skin rash;1;0;#BOÞ!;160;80;96;20;36.6;98;5;drug eruption;1;5;0 ;398;3,00;0 
+2;1;69;9;4;1;fever;1;0;#BOÞ!;140;80;98;20;36.6;98;4;Fever, unspecified;2;4;0 ;10535;5,00;0 
+2;2;69;5;4;1;dyspnea;1;0;#BOÞ!;160;100;76;20;36.3;88;2;Dyspnoea;2;2;0 ;363;2,00;0 
+2;2;69;9;4;1;dyspnea;1;0;#BOÞ!;130;80;94;20;36.4;92;3;Cirrhosis (of liver) NOS, unspecified;6;3;0 ;9226;2,00;0 
+1;2;69;13;1;1;dyspnea;1;0;#BOÞ!;137;88;115;20;36.2;;3;Pleural effusion;1;3;0 ;336;14,45;0 
+1;2;69;10;1;1;Catheter removal;1;0;#BOÞ!;99;78;89;16;37.1;;5;Percutaneous catheter problem;1;5;0 ;298;16,50;0 
+1;1;69;12;2;1;hematochezia;1;0;#BOÞ!;153;84;98;18;36.5;;3;Hematochezia;2;3;0 ;358;16,02;0 
+1;1;69;10;2;1;dizziness;1;0;#BOÞ!;156;85;72;20;36.6;;3;Dizziness;2;3;0 ;257;3,05;0 
+2;2;69;3;4;1;general weakness;1;0;#BOÞ!;110;70;120;20;36.4;99;2;Dentoalveolar abscess NOS;2;2;0 ;840;2,00;0 
+2;2;69;5;3;1;Facial Palsy;1;0;#BOÞ!;110;70;66;20;36.2;98;3;Facial palsy;1;3;0 ;312;3,00;0 
+2;2;69;7;3;1;dyspnea;1;0;#BOÞ!;100;70;88;20;36.7;99;3;Pleural effusion, NEC;2;3;0 ;415;4,00;0 
+2;1;69;3;3;1;Urinary frequency;1;0;#BOÞ!;150;90;78;20;36.8;98;4;Dysuria;1;4;0 ;268;4,00;0 
+2;1;70;15;4;1;melena;1;0;#BOÞ!;130;90;94;20;36.6;99;3;Gastrointestinal haemorrhage, unspecified;1;3;0 ;829;4,00;0 
+2;2;70;11;3;1;C - Coughing;1;0;#BOÞ!;130;80;100;22;36.4;90;3;Pneumonia, unspecified;2;3;0 ;9027;5,00;0 
+2;2;70;6;2;1;dizziness;1;0;#BOÞ!;150;90;100;20;36.0;97;3;Posterior canal benign positional vertigo;1;3;0 ;7917;1,00;0 
+2;1;70;2;3;1;DZ - Dizziness;1;0;#BOÞ!;180;100;80;20;36.0;98;2;Vestibular neuronitis;1;2;0 ;456;4,00;0 
+1;1;70;9;1;1;rotatory vertigo;1;0;#BOÞ!;161;96;79;20;36.9;;3;Vestibular neuronitis;1;3;0 ;454;5,38;0 
+2;2;70;8;1;1;chest palpitation;1;0;#BOÞ!;120;80;84;20;36.4;94;3;Palpitations;1;3;0 ;229;2,00;0 
+2;2;70;5;2;1;mental change;1;0;#BOÞ!;170;100;88;20;36.5;99;2;Other specified diabetes mellitus, with hypoglycemia;2;2;0 ;508;3,00;0 
+1;2;71;5;3;1;hematuria;1;0;#BOÞ!;181;85;117;16;36.7;;3;Hematuria;1;3;0 ;386;6,13;0 
+1;1;71;10;3;1;dyspnea;1;0;#BOÞ!;102;58;108;28;36.6;;2;Acute respiratory failure;1;2;0 ;168;16,97;0 
+1;1;71;11;3;1;L side weakness;1;0;#BOÞ!;220;123;102;20;36;;2;Stroke;2;2;0 ;168;8,57;0 
+1;2;71;6;2;1;palpitation;1;0;#BOÞ!;165;97;86;16;36.9;;3;Variant angina;1;3;0 ;256;6,80;0 
+1;2;71;12;1;1;voiding difficulty;1;0;#BOÞ!;152;105;101;18;36.6;;4;Benign prostatic hyperplasia with obstruction;1;4;0 ;47;8,12;0 
+2;1;71;6;3;1;dizziness;1;0;#BOÞ!;180;90;81;20;36.6;98;3;Dizziness and giddiness;1;3;0 ;226;2,00;0 
+2;2;72;3;3;1;fever;1;0;#BOÞ!;120;80;94;20;38.4;98;3;Fever, unspecified;2;3;0 ;278;2,00;0 
+2;2;72;6;4;1;LOC;1;0;#BOÞ!;140;100;60;22;36.0;94;2;Syncope;1;2;0 ;9774;3,00;0 
+2;1;72;6;4;1;Lt. hemiparesis;1;0;#BOÞ!;140;90;76;20;36.5;96;2;Cerebrovascular accident NOS;2;2;0 ;419;3,00;0 
+1;2;72;14;2;1;rigth side weakness;1;0;#BOÞ!;204;98;137;18;38;;3;Metastatic cancer to the brain;2;3;0 ;1437;11,02;0 
+1;2;72;7;3;1;PTBD leaukage;1;0;#BOÞ!;159;85;80;16;37.5;;4;Klatskin tumor;2;4;0 ;555;7,68;0 
+1;2;72;4;3;1;dyspnea;1;0;#BOÞ!;140;87;83;22;36.7;;3;Observation for suspected malignant neoplasm;2;3;0 ;349;8,65;0 
+1;2;72;13;3;1;BST high;1;0;#BOÞ!;123;87;64;20;36.8;;2;Hyperosmolar hyperglycemic syndrome;2;2;0 ;566;6,02;0 
+2;1;72;7;4;1;melena;1;0;#BOÞ!;120;70;60;20;36.3;99;3;Gastrointestinal haemorrhage, unspecified;2;3;0 ;10007;1,00;0 
+2;1;73;6;3;1;DZ - Dizziness;1;0;#BOÞ!;120;70;90;20;36.4;97;3;Dizziness and giddiness;1;3;0 ;409;2,00;0 
+1;1;73;11;2;1;epistaxis;1;0;#BOÞ!;200;100;96;20;36;;3;Epistaxis;1;3;0 ;87;4,98;0 
+1;1;73;4;3;1;numbness;1;0;#BOÞ!;171;80;76;16;36.7;;3;Numbness;1;3;0 ;132;10,40;0 
+1;1;73;8;6;1;dizziness;1;0;#BOÞ!;136;69;61;24;36.5;;3;Psychogenic headache;1;3;0 ;183;11,55;0 
+1;2;73;11;3;1;dyspnea;1;0;#BOÞ!;95;70;122;23;36.6;;3;Colon cancer, descending;2;3;0 ;617;5,35;0 
+2;2;73;6;4;1;right motor weakness;1;0;#BOÞ!;130;90;96;20;36.7;96;5;Transient cerebral ischaemic attack, unspecified;1;5;0 ;770;2,00;0 
+2;1;73;8;4;1;fever;1;0;#BOÞ!;100;60;70;20;37.4;98;4;Fever, unspecified;1;4;0 ;9785;2,00;0 
+2;2;74;12;3;1;itching sensation;1;0;#BOÞ!;120;80;80;20;36.4;98;5;Eczema NOS;1;5;0 ;234;3,00;0 
+2;1;74;10;2;1;Aphasia, Motor;1;0;#BOÞ!;160;90;80;20;36.2;98;2;Cerebrovascular accident NOS;1;2;0 ;7731;4,00;0 
+2;2;74;3;2;1;nasal bleeding;1;0;#BOÞ!;190;100;100;22;36.6;99;3;Epistaxis;1;3;0 ;986;5,00;0 
+1;1;74;8;2;1;Seizure Like Activity;1;0;#BOÞ!;161;97;63;14;36.3;;3;Vasovagal syncope;1;3;0 ;173;4,28;0 
+1;2;74;10;3;1;dizziness;1;0;#BOÞ!;147;74;63;18;36.3;;4;Anemia;1;4;0 ;545;3,40;0 
+1;2;74;7;3;1;fever;1;0;#BOÞ!;147;84;109;16;37.1;;4;Alcoholic liver cirrhosis without ascites;2;4;0 ;385;8,57;0 
+1;1;74;15;2;1;dizziness;1;0;#BOÞ!;86;64;80;20;37.4;;2;Hypoglycemia;2;2;0 ;1070;13,28;0 
+2;1;74;10;2;1;confused mental status;2;0;#BOÞ!;170;100;74;20;36.5;97;2;Cirrhosis (of liver) NOS, Child-Pugh C;2;2;0 ;10355;4,00;0 
+2;2;74;6;4;1;mental change;3;0;#BOÞ!;100;60;80;20;36.0;98;2;Shock, unspecified;1;2;0 ;613;5,00;0 
+2;1;74;4;3;1;dyspnea;1;0;#BOÞ!;130;80;84;24;36.3;100;3;Ischaemic cardiomyopathy;2;3;0 ;10086;2,00;0 
+2;1;75;2;3;1;dysarthria;1;0;#BOÞ!;120;80;68;20;36.4;99;3;Cerebrovascular accident NOS;2;3;0 ;278;2,00;0 
+1;1;75;5;2;1;mental change;2;0;#BOÞ!;70;40;68;20;36.6;;2;Dyspnea;2;2;0 ;603;7,77;0 
+1;2;75;5;2;2;mental change;4;0;#BOÞ!;99;75;100;24;36;;1;Multiple trauma;6;1;0 ;311;6,62;0 
+1;1;75;5;3;1;acute dyspnea;1;0;#BOÞ!;203;105;124;20;37.5;;3;Pulmonary thromboembolism;2;3;0 ;323;7,45;0 
+1;1;75;5;2;2;altered mentality;3;0;#BOÞ!;??;??;??;??;??;;2;Subarachnoid hemorrhage, traumatic without open wound;2;2;0 ;504;6,32;0 
+2;1;75;10;3;1;dizziness;1;0;#BOÞ!;180;100;72;20;36.4;99;3;Dizziness and giddiness;1;3;0 ;208;3,00;0 
+2;2;75;3;3;1;diffuse abdominal discomfort;1;0;#BOÞ!;110;60;74;20;36.0;98;5;Liver cell carcinoma;1;5;0 ;330;4,00;0 
+2;2;75;6;4;1;syncope;1;0;#BOÞ!;160;100;60;20;36.6;96;3;Ischaemic chest pain;2;3;0 ;303;4,00;0 
+2;2;76;4;2;1;Rt. side motor weakness;1;0;#BOÞ!;120;70;60;20;36.3;98;2;Cerebral infarction due to embolism of middle cerebral artery;2;2;0 ;559;4,00;0 
+2;1;76;5;3;1;Rt. side motor weakness;1;0;#BOÞ!;120;80;78;20;36.3;100;3;Cerebrovascular accident NOS;5;3;0 ;8697;2,00;0 
+2;2;76;3;3;1;dysuria;1;0;#BOÞ!;220;110;66;20;36.5;99;4;Dysuria;1;4;0 ;20;2,00;0 
+2;2;76;9;3;1;blurred vision;1;0;#BOÞ!;120;80;88;20;36.0;97;4;Optic neuritis;2;4;0 ;699861;4,00;0 
+2;1;76;7;4;1;fever;1;0;#BOÞ!;100;60;65;20;36.5;99;3;Unspecified abdominal pain;7;3;0 ;1008;2,00;0 
+2;1;76;9;4;1;post-CPR state;4;0;#BOÞ!;??;??;??;??;??;??;1;Cardiac arrest, unspecified;6;1;0 ;35;4,00;0 
+1;2;76;5;2;1;hematemesis;1;0;#BOÞ!;186;102;100;18;36.5;;3;Hemoptysis;1;3;0 ;318;15,02;0 
+2;2;76;10;3;1;dizziness;1;0;#BOÞ!;100;70;110;20;36.5;97;3;Dizziness and giddiness;1;3;0 ;340;1,00;0 
+2;1;76;7;3;1;dizziness;1;0;#BOÞ!;140;90;70;20;36.1;98;3;Cerebral infarction due to thrombosis of posterior cerebral artery;1;3;0 ;9267;5,00;0 
+2;2;77;8;2;1;dyspnea;1;0;#BOÞ!;120;80;106;20;36.5;93;3;Bacterial pneumonia, unspecified;2;3;0 ;423;2,00;0 
+2;2;77;7;2;1;dizziness;1;0;#BOÞ!;130;80;56;20;36.2;20;3;Horizontal canal benign positional vertigo;1;3;0 ;8258;1,00;0 
+2;1;77;7;4;1;Lt. motor weakness;1;0;#BOÞ!;130;70;80;18;36.4;99;2;Cerebral infarction due to thrombosis of middle cerebral artery;2;2;0 ;7859;1,00;0 
+2;1;77;6;2;1;dizziness;1;0;#BOÞ!;190;100;88;20;36.4;98;3;Hypertension(arterial, essential, primary, systemic);2;3;0 ;20087;1,00;0 
+1;2;77;9;2;1;dizziness;1;0;#BOÞ!;123;77;75;20;36.3;;3;Sudden sensory neural hearing loss unilateral;1;3;0 ;83;3,40;0 
+2;1;77;6;3;1;dyspnea;1;0;#BOÞ!;100;60;108;22;36.8;98;3;Persistent atrial fibrillation;2;3;0 ;10118;3,00;0 
+2;2;77;12;3;1;mental confusion;1;0;#BOÞ!;180;100;75;20;36.4;97;3;Cerebral infarction due to thrombosis of middle cerebral artery;2;3;0 ;627;5,00;0 
+2;1;78;11;2;1;dyspnea;1;0;#BOÞ!;130;90;88;20;36.2;99;3;Heart failure, unspecified;2;3;0 ;9516;3,00;0 
+1;2;78;8;3;1;dizziness;1;0;#BOÞ!;132;63;101;16;36.8;;3;Dizziness;1;3;0 ;129;5,38;0 
+1;2;78;8;3;1;dizziness;1;0;#BOÞ!;132;63;101;16;36.8;;3;Gallbladder cancer;1;3;0 ;129;5,38;0 
+1;2;78;5;3;1;general weakness;1;0;#BOÞ!;144;75;81;16;36.8;;4;End stage renal disease;2;4;0 ;794;9,72;0 
+1;2;78;11;3;1;cold;1;0;#BOÞ!;197;102;95;20;37.3;;5;Cough;1;5;0 ;191;5,72;0 
+2;1;78;12;4;1;confusion mentality;2;0;#BOÞ!;140;100;74;20;36.5;95;2;Cerebrovascular accident NOS;2;2;0 ;9035;2,00;0 
+2;1;79;6;4;1;dyspnea;1;0;#BOÞ!;100;70;62;20;36.0;97;3;Ischaemic chest pain;2;3;0 ;10607;4,00;0 
+2;1;79;5;3;1;Lt hemiparesis;1;0;#BOÞ!;110;70;72;20;36.;99;3;Cerebral infarction due to thrombosis of middle cerebral artery;2;3;0 ;316;4,00;0 
+2;2;79;7;3;1;Difficulty in voiding;1;0;#BOÞ!;120;70;86;20;36.4;99;4;Anuria and oliguria;1;4;0 ;238;3,00;0 
+1;2;79;9;3;1;abnormal lab.;1;0;#BOÞ!;166;69;59;16;36.9;;5;Leukocytosis;1;5;0 ;157;10,35;0 
+1;2;79;5;3;1;fever;1;0;#BOÞ!;140;64;87;20;37.5;;4;Fever;2;4;0 ;606;3,80;0 
+1;1;79;3;4;1;tachycardia;1;0;#BOÞ!;111;58;90;22;37.5;;3;Paroxysmal supraventricular tachycardia;1;3;0 ;414;7,35;0 
+2;1;79;8;3;1;loss of consciousness;1;0;#BOÞ!;90;60;60;20;36.2;96;3;Syncope;1;3;0 ;9961;4,00;0 
+2;1;79;8;4;1;blood tinged sputum;1;0;#BOÞ!;130;80;60;24;36.4;74;2;Haemoptysis;6;2;0 ;9378;5,00;0 
+2;2;79;8;2;1;dysarthria;1;0;#BOÞ!;140;80;82;20;36.7;90;2;Intracerebral haemorrhage, intraventricular;5;2;0 ;129;4,00;0 
+2;1;80;8;3;1;dyspnea;1;0;#BOÞ!;110;70;110;26;37.8;93;3;Gastroenteritis and colitis of unspecified origin;2;3;0 ;9577;4,00;0 
+2;1;80;13;3;1;fever;1;0;#BOÞ!;120;70;102;20;37.5;97;4;Urinary tract infection, site not specified;2;4;0 ;9063;4,00;0 
+1;2;80;9;2;1;acute dyspnea;3;0;#BOÞ!;??;??;??;??;??;;1;Acute exacerbation of idiopathic pulmonary fibrosis;2;1;0 ;257;3,92;0 
+1;2;80;6;2;1;general weakness;2;0;#BOÞ!;116;77;64;20;36;;3;Muscle weakness other;1;3;0 ;327;17,37;0 
+2;2;80;10;4;1;mental change;1;0;#BOÞ!;150;90;64;20;36.4;92;2;Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery;2;2;0 ;401;3,00;0 
+2;2;80;3;2;2;mental change;3;0;#BOÞ!;140;100;110;24;36.6;95;2;Traumatic subdural hemorrhage without open intracranial wound;2;2;0 ;228;2,00;0 
+2;1;80;8;2;1;general weakness;1;0;#BOÞ!;130;80;79;20;36.0;98;3;Type 2 diabetes mellitus, with hypoglycemia;2;3;0 ;200;4,00;0 
+2;1;80;4;4;1;Convulsion;1;0;#BOÞ!;130;100;63;20;36.0;98;3;Cerebrovascular accident NOS;2;3;0 ;8746;4,00;0 
+2;1;81;5;4;1;left motor weakness;1;0;#BOÞ!;180;100;90;20;36.0;99;2;Other intracerebral haemorrhage;5;2;0 ;176;2,00;0 
+1;2;81;1;3;1;Numbness, Arm;1;0;#BOÞ!;121;68;95;20;38.4;;3;Fever;1;3;0 ;319;6,58;0 
+1;2;81;7;2;1;syncope;1;0;#BOÞ!;156;76;75;16;36.3;;2;Syncope;1;2;0 ;269;4,27;0 
+1;1;81;6;2;1;hypoglycemic symptom;1;0;#BOÞ!;205;100;76;20;36;;2;Hypoglycemia;1;2;0 ;253;5,85;0 
+1;2;81;4;2;1;epistaxis;1;0;#BOÞ!;130;76;60;20;36.5;;3;Epistaxis;1;3;0 ;110;8,38;0 
+2;1;81;2;4;1;dyspnea;3;0;#BOÞ!;100;60;100;24;36.4;94;3;Dyspnoea;2;3;0 ;9541;4,00;0 
+2;2;81;6;3;1;Low abd. pain;1;0;#BOÞ!;130;80;96;20;36.6;97;4;Hyperplasia of prostate with obstruction;1;4;0 ;7955;4,00;0 
+2;1;82;5;2;1;nasal bleeding;1;0;#BOÞ!;120;80;72;20;36.0;97;4;Epistaxis;1;4;0 ;398;1,00;0 
+1;1;82;8;3;1;?? ???;1;0;#BOÞ!;127;62;79;16;36;;2;Atherosclerosis obliterans, limb;2;2;0 ;242;9,27;0 
+1;1;82;6;6;1;perm cath. malfunction;1;0;#BOÞ!;130;60;67;18;36.2;;4;Percutaneous catheter problem;1;4;0 ;0;5,00;0 
+2;2;82;12;2;2;syncope;1;0;#BOÞ!;100;60;64;20;36.4;99;3;Communicationg hydrocephalus;1;3;0 ;394;3,00;0 
+2;1;83;7;4;1;fever;1;0;#BOÞ!;140;90;92;20;37.6;96;4;Fever, unspecified;2;4;0 ;9963;2,00;0 
+2;2;83;6;4;1;dyspnea;1;0;#BOÞ!;120;70;72;20;36.4;96;3;Pneumonia, unspecified;1;3;0 ;9488;1,00;0 
+1;2;83;11;2;1;dyspnea;1;0;#BOÞ!;124;75;100;24;36;;3;Small cell lung cancer unspecified side;1;3;0 ;504;5,97;0 
+1;1;83;10;3;1;acute dyspnea;1;0;#BOÞ!;146;66;64;22;37;;3;Influenza;1;3;0 ;337;11,73;0 
+2;1;83;5;2;1;mental change;1;0;#BOÞ!;150;100;84;20;36.8;97;1;Hypo-osmolality and hyponatraemia;2;1;0 ;10728;2,00;0 
+2;2;84;7;2;1;dyspnea;1;0;#BOÞ!;180;80;72;20;36.0;99;3;Cough with dyspnea;1;3;0 ;698919;2,00;0 
+2;1;84;10;2;1;hematemesis;1;0;#BOÞ!;150;100;100;20;36.6;96;3;Gastrointestinal haemorrhage, unspecified;2;3;0 ;488;2,00;0 
+2;1;86;8;3;1;fever;1;0;#BOÞ!;140;80;50;20;36.3;95;4;fever of unknown origin;2;4;0 ;73;4,00;0 
+2;1;86;9;3;1;dysarthria;2;0;#BOÞ!;90;60;78;20;36.4;90;3;Hypokalaemia;2;3;0 ;491;4,00;0 
+1;1;86;13;6;1;dyspnea;1;0;#BOÞ!;124;60;77;24;36.4;;3;Pneumonia;2;3;0 ;382;6,88;0 
+1;1;86;7;3;1;dizziness;1;0;#BOÞ!;213;91;78;16;37.1;;3;Dizziness;1;3;0 ;436;8,38;0 
+1;2;86;6;2;1;dizziness;1;0;#BOÞ!;149;64;50;16;37.2;;3;Dizziness;1;3;0 ;141;4,40;0 
+2;1;86;11;3;1;watery diarrhea;1;0;#BOÞ!;110;70;80;20;36.2;99;3;Infectious diarrhoea NOS;2;3;0 ;528;4,00;0 
+1;2;87;7;3;2;hand laceration;1;0;#BOÞ!;146;86;71;16;36.5;;4;Laceration of hand;1;4;0 ;50;5,75;0 
+2;2;88;8;4;1;dyspnea;1;0;#BOÞ!;130;80;88;24;36.5;95;3;Other acute renal failure;2;3;0 ;989;3,00;0 
+2;2;88;6;4;1;Convulsion;2;0;#BOÞ!;150;90;95;20;36.2;98;3;(Seizure) Convulsive NOS;2;3;0 ;889;1,00;0 
+1;1;88;8;2;1;dysarthria;1;0;#BOÞ!;150;66;68;16;36.7;;3;Dysarthria;7;3;0 ;418;10,52;0 
+2;1;89;10;4;1;melena;1;0;#BOÞ!;70;40;82;20;36.3;97;2;Gastrointestinal haemorrhage, unspecified;2;2;0 ;9485;2,00;0 
+1;2;91;11;6;1;medication;1;0;#BOÞ!;131;76;62;18;36.5;;5;Benign prostatic hyperplasia with obstruction;1;5;0 ;80;6,30;0 
+1;2;93;12;1;1;dizziness;1;0;#BOÞ!;121;70;76;18;36.6;;3;Dizziness;1;3;0 ;0;15,00;0 
+1;1;95;9;7;1;Hyperkalemia (disorder);1;0;#BOÞ!;137;71;58;18;36.8;;3;Ascites;1;3;0 ;0;16,00;0 
+2;2;96;7;4;1;general weakness;1;0;#BOÞ!;90;60;68;20;36.2;91;2;Pericardial effusion (noninflammatory);2;2;0 ;20076;4,00;0 
+2;1;16;6;3;1;nausea;1;1;3;110;60;102;22;36.8;97;4;Unspecified abdominal pain;2;4;0 ;8961;2,00;0 
+2;1;41;5;3;2;Open Wound;1;1;3;120;80;74;20;36.3;98;3;Superficial injury of face NOS, contusion;1;3;0 ;117;4,00;0 
+2;2;50;3;3;1;upper abdominal pain;1;1;3;120;80;84;20;36.4;97;4;Unspecified abdominal pain;1;4;0 ;410;3,00;0 
+2;1;67;10;4;1;ant. chest pain;1;1;3;100;60;80;20;36.0;94;2;Unstable angina;1;2;0 ;802;3,00;0 
+2;1;80;6;3;1;ant. chest pain;1;1;3;150;90;108;24;36.2;98;2;Unstable angina;1;2;0 ;578;1,00;0 
+1;1;47;15;3;1;Drug Allergy;1;0;#BOÞ!;122;70;90;20;37.6;;5;Angioedema;1;5;0 ;120;11,42;0 
+2;1;64;8;3;1;dyspnea;1;0;#BOÞ!;110;80;75;20;36.3;98;3;Asthma, unspecified;2;3;0 ;9959;4,00;0 
+2;2;35;12;3;2;Open Wound;1;1;2;120;80;80;20;36.2;98;4;Open wound of finger(s), NOS;5;4;0 ;223;3,00;0 
+2;2;40;8;3;1;For  IV injection;1;1;2;110;70;99;20;36.0;98;5;Polyneuropathy in neoplastic disease (C00-D48+);1;5;0 ;54;2,00;0 
+2;2;49;6;2;1;ant. chest pain;1;1;2;150;90;92;20;36.2;98;2;Ischaemic chest pain;2;2;0 ;1591;2,00;0 
+2;2;70;3;1;2;Open Wound;1;1;2;110;70;80;18;36.6;98;4;Open wound of other parts of head, face;1;4;0 ;274;3,00;0 
+2;2;24;12;3;1;ant. chest pain;1;1;3;140;90;102;20;36.3;96;4;Ischaemic chest pain;1;4;0 ;526;2,00;0 
+2;2;25;10;3;2;lip laceration;1;1;3;110;70;84;20;36.0;97;5;Open wound of lip;1;5;0 ;98;2,00;0 
+2;1;27;11;3;2;ocular pain, Rt.;1;1;3;120;70;78;20;36.2;96;4;Corneal abrasion;1;4;0 ;72;2,00;0 
+2;1;29;12;3;1;right lower abdominal pain;1;1;3;110;70;80;20;36.1;98;4;Unspecified abdominal pain;1;4;0 ;755;5,00;0 
+2;1;32;12;3;1;abd pain;1;1;3;110;36.;100;24;36.5;100;4;Maternal care for cervical incompetence, less than 22 weeks pregnant;1;4;0 ;182;3,00;0 
+2;1;36;8;3;1;Vaginal Bleeding;1;1;3;120;80;80;20;36.4;98;4;Ectopic pregnancy, unspecified;1;4;0 ;477;4,00;0 
+2;2;48;5;3;2;eye pain left eye;1;1;3;110;70;66;20;36.1;100;4;Open wound of other parts of head, face;1;4;0 ;8100;2,00;0 
+2;2;50;6;2;1;Rt. flank pain;1;1;3;150;100;72;20;36.3;98;4;Ureteric stone;1;4;0 ;766;3,00;0 
+2;2;51;17;3;1;ant. chest pain;1;1;3;140;100;80;20;36.4;98;2;Unstable angina;2;2;0 ;362;3,00;0 
+2;1;52;12;3;1;headache;1;1;3;120;80;80;20;36.1;98;4;Cerebral infarction, unspecified;2;4;0 ;789;4,00;0 
+2;1;69;11;3;1;dyspnea;1;1;3;140;80;98;20;36.7;96;3;Adrenocortical insufficiency NOS;1;3;0 ;20821;5,00;0 
+2;2;74;12;3;1;ant. chest pain;1;1;3;140;90;80;20;36.0;98;2;Unstable angina;2;2;0 ;301;2,00;0 
+2;2;77;12;3;1;dyspnea;1;1;3;110;70;65;20;36.5;95;4;Heart failure, unspecified;2;4;0 ;10254;4,00;0 
+2;1;82;7;3;1;epigastric pain;1;1;3;150;90;94;20;36.5;99;4;Unspecified abdominal pain;1;4;0 ;8109;3,00;0 
+2;1;86;11;3;1;Pain, Abdomen;1;1;3;100;60;76;20;36.4;100;4;Upper abdominal pain, unspecified;2;4;0 ;10010;2,00;0 
+2;1;30;10;4;1;Vaginal Bleeding;1;1;4;120;80;80;20;36.0;98;3;Spontaneous preterm labour, 22 weeks or more and less than 34weeks pregnagnt;2;3;0 ;59;4,00;0 
+2;1;31;7;4;1;Abdominal pain (finding);1;1;4;100;60;100;20;36.3;98;3;Preterm labour without delivery, 22 weeks or more and less than 34weeks pregnant;2;3;0 ;123;4,00;0 
+2;2;49;4;3;2;oral bleeding;1;1;4;120;70;78;20;36.6;98;4;Traumatic secondary and recurrent haemorrhage;1;4;0 ;188;3,00;0 
+2;1;55;6;4;2;post neck pain;1;1;4;130;80;86;20;36.2;96;2;Closed fracture of second cervical vertebra;2;2;0 ;399;3,00;0 
+2;1;69;8;3;1;Lt flank pain;1;1;4;120;80;80;20;36.0;98;3;Unspecified abdominal pain;1;3;0 ;343;4,00;0 
+2;1;78;6;3;1;ocular pain, both;1;1;4;130;80;96;20;36.4;98;4;Ocular pain;1;4;0 ;107;2,00;0 
+2;2;82;13;3;2;ocular pain, Lt.;1;1;4;130;80;82;20;36.3;96;4;Burn of cornea and conjunctival sac;1;4;0 ;180;3,00;0 
+2;2;21;4;3;2;lip laceration;1;1;5;110;70;76;20;36.6;98;4;Open wound of lip and oral cavity, part unspecified;1;4;0 ;747;2,00;0 
+2;2;36;8;3;2;decerased visual acuity;1;1;6;130;80;64;20;36.3;99;4;Traumatic hyphaema;1;4;0 ;182;3,00;0 
+2;2;66;17;4;2;ant. chest pain;1;1;6;??;??;114;24;36.2;96;2;Contusion of abdomen wall;7;2;0 ;36;3,00;0 
+2;1;19;6;3;2;Foreign body in throat;1;0;#BOÞ!;120;80;68;20;36.4;98;5;Swallowed foreign body NOS;1;5;0 ;187;2,00;0 
+2;1;22;9;3;1;swelling;1;0;#BOÞ!;110;80;90;20;36.1;99;4;Submandibular abscess;2;4;0 ;709510;3,00;0 
+2;1;28;11;3;1;Vaginal Bleeding;1;0;#BOÞ!;100;60;110;20;36.1;100;3;Threatened abortion;1;3;0 ;375;5,00;0 
+2;2;35;4;4;1;fever;1;0;#BOÞ!;110;60;76;20;37.3;98;4;Viral infection, unspecified;2;4;0 ;9520;2,00;0 
+2;1;36;1;3;1;vaginal discharge;1;0;#BOÞ!;100;70;69;20;36.3;99;3;Premature rupture of membranes, onset of labor within 24 hours, Unspecified;2;3;0 ;23;2,00;0 
+2;1;48;6;1;1;dizziness;1;0;#BOÞ!;120;80;76;20;36.5;98;3;Dizziness and giddiness;1;3;0 ;461;1,00;0 
+2;2;49;5;3;1;abdomen distension;1;0;#BOÞ!;100;60;102;20;36.4;97;5;Cirrhosis (of liver) NOS, unspecified;1;5;0 ;8056;2,00;0 
+2;1;54;10;2;1;dizziness;1;0;#BOÞ!;120;80;80;20;36.0;98;3;Dizziness and giddiness;1;3;0 ;10302;2,00;0 
+2;2;54;5;3;1;behavior change;2;0;#BOÞ!;110;70;77;20;36.1;96;2;Alcoholic encephalopathy;1;2;0 ;996;3,00;0 
+2;2;58;7;3;1;LOC - Loss of consciousness;1;0;#BOÞ!;130;100;63;20;36.4;98;3;Other syncope and collapse;2;3;0 ;700875;2,00;0 
+2;1;67;7;2;1;general weakness;1;0;#BOÞ!;110;70;80;20;36.0;98;3;Spondylopathy in other infectious and parasitic diseases classified elsewhere, lumbar region;2;3;0 ;10575;2,00;0 
+2;1;68;12;3;1;Amnesia;1;0;#BOÞ!;130;90;64;20;36.0;96;3;Transient global amnesia;1;3;0 ;9169;3,00;0 
+2;2;69;12;2;1;epistaxis;1;0;#BOÞ!;140;100;96;20;36.1;96;3;Epistaxis;1;3;0 ;196;5,00;0 
+2;2;69;5;2;1;dizziness;1;0;#BOÞ!;150;90;68;20;36.8;98;3;Cerebrovascular accident NOS;2;3;0 ;596;3,00;0 
+2;1;76;8;2;1;syncope;1;0;#BOÞ!;130;80;71;20;36.3;100;2;Cerebral infarction, unspecified;2;2;0 ;481;2,00;0 
+2;2;78;8;4;1;G/W-General weakness;1;0;#BOÞ!;80;50;74;20;36.5;95;2;Ventricular tachycardia;2;2;0 ;589;3,00;0 
+2;2;79;5;2;1;mental change;1;0;#BOÞ!;120;80;86;22;36.4;95;2;Cerebral infarction due to unspecified occlusion or stenosis of middle cerebral artery;2;2;0 ;1995;3,00;0 
+2;2;81;2;3;1;dysuria;1;0;#BOÞ!;120;80;94;20;36.4;97;4;Dysuria;1;4;0 ;1000;2,00;0 
+2;2;81;17;2;1;dizziness;1;0;#BOÞ!;130;90;80;20;36.2;99;3;Dizziness and giddiness;1;3;0 ;310;4,00;0 
+2;1;81;2;2;2;Sensory, Decreased;1;0;#BOÞ!;170;100;78;20;36.6;98;3;Cord compression, unspecified;7;3;0 ;475;5,00;0 
+2;2;87;8;4;1;orthopnea;1;0;#BOÞ!;150;80;62;20;36.2;98;3;Dyspnoea;2;3;0 ;887;2,00;0 

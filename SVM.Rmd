@@ -1,0 +1,213 @@
+---
+title: "SVM"
+author: "enes altun"
+date: "9/5/2021"
+output: html_document
+---
+
+I will try to predict PAIN which is a very subjective term in the med and psychology with variables that I think "maybe" relevant. You can access data and my kaggle code from here:
+
+[Data](https://www.kaggle.com/enesaltun/this-data-is-pain-svm-r?select=data.csv)
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+df <- read_delim("SVMdata.csv",";", escape_double = FALSE, trim_ws = TRUE)
+```
+
+```{r}
+t <- table(df$Pain)
+t <- as.data.frame(t)
+colnames(t) <- c("Pain","count")
+ggplot(t, aes(x=Pain, y=count, fill=Pain)) +
+geom_bar(stat="identity", color="black") +
+theme_minimal() +
+geom_text(aes(label=count), vjust=-0.6, size=6) +
+scale_fill_brewer(palette="Set1")
+```
+
+Another painful part of this dataset is missing values. First, I would like to look at the total missing values for each column.
+
+```{r}
+names(df)
+apply(is.na(df), 2, sum)
+```
+
+```{r}
+# Plot missing values.
+library(naniar)
+gg_miss_var(df)
+```
+
+This is obivious there are plenty of missing variables in the Saturation. But the more weird thing is in the data, there are some values called "??". I seen it when I convert the values that I am interested in to numeric.
+
+The simputation package in R (van der Loo, 2019) implements a variety of imputation strategies, such as group-wise median imputation, linear regression etc... The following code uses the method to impute the missing values in the Saturation column using linear regression.
+
+
+
+```{r}
+library(simputation)
+df$Saturation<-as.numeric(df$Saturation)
+
+df[11:15] <- sapply(df[11:15],as.numeric)
+```
+
+```{r}
+# This part is purely improvisational. There are too many missings in this column and I'm not a fan of the mean imputation if there are many.
+imp_df <- impute_lm(df[,-c(1)],Saturation~Age+DBP+SBP+HR+RR+BT)
+```
+
+```{r}
+library(imputeTS)
+imp_df<-na_mean(imp_df)
+```
+
+```{r}
+#sanity check
+apply(is.na(imp_df), 2, sum)
+imp_df<-na.omit(imp_df)
+gg_miss_var(imp_df)
+```
+
+One Hot Encoding for Chief_complain
+
+```{r}
+imp_df<-imp_df %>% mutate(value = 1)  %>% spread(Chief_complain, value,  fill = 0 )
+
+```
+
+```{r}
+# In Chief_complain there were values called "??". Selecting variables that I am interested in:
+norm<-imp_df%>%select(c(1,2,10:15,32:439))
+norm
+```
+
+SVM Support vector machines (SVMs) offer a direct approach to binary classification (so it's applicable to only two classes). In the Pain which we are interested in, we have two classes: -the patient has pain (𝑌 = +1) and patients that do not have pain (𝑌 = −1).
+
+```{r}
+normalize <- function(x) {
+    return((x - min(x)) / (max(x) - min(x)))
+}
+
+norm<-apply(norm,2,normalize)
+```
+
+```{r}
+library(caTools)
+set.seed(123)
+norm<-as.data.frame(norm)
+norm$Pain<-as.factor(imp_df$Pain)
+sample<-sample.split(norm,SplitRatio = 0.8)
+train<-subset(norm,sample==T)
+test<-subset(norm,sample==F)
+```
+
+```{r}
+library(caret)
+set.seed(1854) # for reproducibility
+first_churn_svm <- train(
+Pain ~ .,
+data = train,
+method = "svmRadial",
+trControl = trainControl(method = "cv", number = 5),
+tuneLength = 8
+)
+```
+
+```{r}
+confusionMatrix(first_churn_svm)
+
+```
+
+Plotting the results, we see that smaller values of the cost parameter provide better cross-validated accuracy scores for these training data:
+
+```{r}
+ggplot(first_churn_svm) + theme_light()
+
+```
+
+```{r}
+ctrl <- trainControl(
+method = "cv",
+number = 15,
+classProbs = TRUE,
+summaryFunction = twoClassSummary # also needed for AUC/ROC
+)
+```
+
+```{r}
+levels(train$Pain) <- c("No", "Yes")
+
+```
+
+```{r}
+table(train$Pain)
+
+```
+
+SVMs classify new data by identifying which side of the decision boundary they fall on; as a result, they do not provide class probabilities automatically. Predicted class probabilities are more useful than predicted class labels in most scenarios.
+
+```{r}
+# Tune an SVM
+set.seed(123) # for reproducibility
+Pain_svm_auc <- train(
+Pain ~ .,
+data = train,
+method = "svmRadial",
+metric = "ROC", # area under ROC curve (AUC)
+trControl = ctrl,
+tuneLength = 15)
+```
+
+Similar to before, we see that smaller values of the cost parameter provide better cross-validated AUC scores on the training data:
+
+```{r}
+Pain_svm_auc$results
+confusionMatrix(Pain_svm_auc)
+```
+
+Like many other Machine Learning algorithms, support v.m do not emit any natural measures of feature importance but, we can use the VIP package to get importance results for each variable using the permutation approach
+
+```{r}
+prob_yes <- function(object, newdata) {
+predict(object, newdata = newdata, type = "prob")[, "Yes"]
+}
+```
+
+```{r}
+# Variable importance plot
+library(vip)
+set.seed(2827) # for reproducibility
+vip(Pain_svm_auc, method = "permute", nsim = 5, train = train,
+target = "Pain", metric = "auc", reference_class = "Yes",
+pred_wrapper = prob_yes)
+```
+
+The results indicate that sex and dizziness is the most important feature in predicting pain in this model.
+
+```{r}
+# construct PDPs forthe top four features according to the permutation-based variable importance scores 
+library(pdp)
+features <- c("Sex", "dizziness",
+"dyspnea","fever","Age")
+pdps <- lapply(features, function(x) {
+partial(Pain_svm_auc, pred.var = x, which.class = 2,
+prob = TRUE, plot = TRUE, plot.engine = "ggplot2") +
+coord_flip()
+})
+grid.arrange(grobs = pdps, ncol = 2)
+```
+
+```{r}
+levels(test$Pain) <- c("No", "Yes")
+y_pred = predict(Pain_svm_auc, test)
+```
+
+```{r}
+caret::confusionMatrix(table(y_pred,test$Pain))
+
+```
+
+%80. SVM is flexible enough to adapt to complex nonlinear decision boundaries. It directly attempts to maximize generalizability accuracy and is robust for outliers. But even with a very low tune length, it's very slow to train data.
